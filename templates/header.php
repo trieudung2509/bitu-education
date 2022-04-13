@@ -1,6 +1,14 @@
 <header class="main-header">
-	<div class="container">
-		header
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col col-logo">
+				<a href="#" class="logo">
+					<img src="images/logo.png" alt="Bitu">
+				</a>
+			</div>
+
+			<div class="col col-nav"></div>
+		</div>
 	</div>
 </header>
 <!-- /.main-header -->
