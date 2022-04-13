@@ -172,6 +172,9 @@ button,
 .main-header .main-nav li a:hover, .main-header .main-nav li a.active {
   color: #ff6d03;
 }
+.main-header .main-nav li a:before {
+  content: "";
+}
 /* -----------------------------------------------------------
 	.footer
 ----------------------------------------------------------- */
