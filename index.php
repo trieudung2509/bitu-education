@@ -150,6 +150,70 @@
 		</div>
 		<!-- /.con-benefit -->
 
+		<div class="con_newsbitu">
+			<div class="container">
+				<h3 class="title-lg">Báo chí nói về Bitu</h3>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="images/img_new_vnexpress.png" alt="">
+							</div>
+							<div class="col-md-6">
+								<h4 class="title-sm">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h4>
+								<p class="txt">Ứng dụng Bitu giúp người học kết nối với người nước ngoài,
+									 tạo chủ đề thảo luận gần gũi với đời sống để cải thiện kỹ năng giao tiếp tiếng Anh.</p>
+							</div>
+							<div class="col-md-3">
+								<img src="images/logo_vnexpress.svg" alt="">
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="images/img_new_vietnamnet.png" alt="">
+							</div>
+							<div class="col-md-6">
+								<h4 class="title-sm">Học tiếng Anh trực tuyến, môi trường và thực hành là quan trọng</h4>
+								<p class="txt">Phát triển theo hướng đi riêng biệt, ứng dụng học kỹ năng nghe -
+									nói tiếng Anh Bitu đã ghi dấu ấn với người dùng khi đạt 50.727 lượt tải trên CH Play (Android)
+									và 29.150 lượt tải trên App Store (IOS) chỉ sau gần 1 năm ra mắt.</p>
+							</div>
+							<div class="col-md-3">
+								<img src="images/logo_vietnamnet.svg" alt="">
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /END .con_newsbitu -->
+
+		<div class="con_marketing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="box-text row">
+							<p class="icon col-4"><img src="images/ic_status-up.png" alt=""></p>
+							<p class="txt col-8">Cam kết tăng trình độ sau 36 buổi</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box-text row">
+							<p class="icon col-4"><img src="images/ic_friends.png" alt=""></p>
+							<p class="txt col-8">100% Moderator người nước ngoài</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box-text row">
+							<p class="icon col-4"><img src="images/ic_paper.png" alt=""></p>
+							<p class="txt col-8">Nội dung topic được biên soạn bởi đội ngũ IELTS 7.5 trở lên</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /END .con_marketing -->
+
 	</div>
 
 

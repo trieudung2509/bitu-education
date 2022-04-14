@@ -6,5 +6,95 @@
 	.footer
 ----------------------------------------------------------- */
 .footer {
-
+	background: #272423;
+	color: white;
+	a {
+		color: white;
+		&:hover,
+		&.active {
+			color: $primary;
+		}
+	}
+	&-logo {
+		display: block;
+		@include mq(max_sm){
+			margin: 0 0 20px;
+		}
+	}
+	.nav {
+		&-link {
+			padding: 0.85rem 1rem;
+		}
+	}
+	&-main {
+		border-top: 1px solid rgba(255,255,255, 0.1);
+		padding: 30px 0;
+	}
+	.fas {
+		margin-right: 10px;
+		width: 20px;
+		@include mq(sm){
+			color: $primary;
+		}
+	}
+	.fa-facebook-f {
+		color: white;
+    background-color: #1877F2;
+    border-radius: 100%;
+    font-size: 30px;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    padding-top: 12px;
+    vertical-align: middle;
+		margin-left: 15px;
+		@include mq(max_sm) {
+			margin: 0 15px 0 0;
+		}
+	}
+	&-contact {
+		&__address {
+			p {
+				position: relative;
+				padding-left: 30px;
+				.fas {
+					position: absolute;
+					left: 0;
+				}
+			}
+		}
+		&__social {
+			text-align: right;
+			span {
+				display: inline-block;
+				vertical-align: text-top;
+			}
+			p {
+					@include mq(max_sm){
+					display: flex;
+					flex-flow: row-reverse;
+					justify-content: left;
+					align-items: center;
+				}
+			}
+		}
+	}
+	&-bottom {
+		margin-top: -30px;
+		@include mq(max_sm){
+			margin-top: 0px;
+		}
+	}
+	&-copyright {
+		@include mq(max_sm){
+			text-align: center;
+		}
+	}
+	&-dowload {
+		.nav-item {
+			@include mq(max_sm){
+				max-width: 50%;
+			}
+		}
+	}
 }

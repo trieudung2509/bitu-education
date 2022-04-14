@@ -46,6 +46,30 @@
   }
 }
 
+@mixin transition($transition, $transition2: '') {
+  -webkit-transition: $transition, $transition2;
+     -moz-transition: $transition, $transition2;
+      -ms-transition: $transition, $transition2;
+       -o-transition: $transition, $transition2;
+          transition: $transition, $transition2;
+}
+
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+
+@mixin linear-gradient($direction, $left-color, $right-color) {
+  $legacy-direction: if($direction == left, right, left);
+  background: $left-color; // For browsers that do not support gradients
+  background: -webkit-linear-gradient($legacy-direction, $left-color, $right-color); // Safari 5.1-6 note direction is opposite
+  background: -o-linear-gradient($legacy-direction, $left-color, $right-color); // Opera 11.1-12
+  background: -moz-linear-gradient($legacy-direction, $left-color, $right-color); // Fx 3.6-15
+  background: linear-gradient(to $direction, $left-color, $right-color); // Standard
+}
+
 // Example 1:
 // @include mq(sm) {} // <= 576
 // @include mq(md) {} // <= 768

@@ -184,3 +184,66 @@
 		}
 	}
 }
+
+/* -----------------------------------------------------------
+	.con_newsbitu
+----------------------------------------------------------- */
+.con_newsbitu {
+	.title-lg {
+		text-align: left;
+	}
+}
+
+/* -----------------------------------------------------------
+	.con_marketing
+----------------------------------------------------------- */
+.con_marketing {
+	background: #F7FAFC;
+	padding: 60px 0;
+	.box-text {
+		display: flex;
+    flex-direction: row;
+    align-items: center;
+		justify-content: center;
+		p {
+			margin: 0;
+		}
+		.icon {
+			width: 80px;
+			height: 80px;
+			text-align: center;
+			border-radius: 100%;
+			position: relative;
+			@include linear-gradient(left, #FF9A03, #FF6D03);
+			img {
+				max-width: 60%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				@include transform(translate(-50%,-50%))
+			}
+			@include mq(max_w, $lg){
+				width: 44px;
+				height: 44px;
+			}
+		}
+		.txt {
+			font-size: 20px;
+			font-weight: 500;
+			@include mq(max_w, $lg){
+				font-size: 18px;
+			}
+			@include mq(max_w, $sm){
+				font-size: 16px;
+			}
+		}
+		@include mq(max_w, $sm){
+			& {
+				margin-top: 18px;
+			}
+		}
+	}
+	@include mq(max_w, $sm){
+		padding: 12px 0 30px;
+	}
+}
