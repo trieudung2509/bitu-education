@@ -22,36 +22,6 @@
 		@include mq(max_lg) {
 			max-width: 100%;
 		}
-		.img-big {
-		}
-		// .img-left {
-		// 	position: absolute;
-		// 	bottom: 61%;
-    // 	right: 75%;
-		// 	@include mq(max_lg) {
-		// 		max-width: 250px;
-		// 	}
-		// 	@include mq(max_md) {
-		// 		max-width: 198px;
-		// 	}
-		// 	@include mq(max_sm) {
-		// 		max-width: 26vw;
-		// 	}
-		// }
-		// .img-right {
-		// 	position: absolute;
-		// 	left: 82%;
-		// 	bottom: 49%;
-		// 	@include mq(max_lg) {
-		// 		max-width: 270px;
-		// 	}
-		// 	@include mq(max_md) {
-		// 		max-width: 223px;
-		// 	}
-		// 	@include mq(max_sm) {
-		// 		max-width: 26vw;
-		// 	}
-		// }
 	}
 }
 
@@ -200,11 +170,17 @@
 .con_marketing {
 	background: #F7FAFC;
 	padding: 60px 0;
+	@include mq(max_xs) {
+		padding: 12px 0 30px;
+	}
 	.box-text {
 		display: flex;
     flex-direction: row;
     align-items: center;
 		justify-content: center;
+		@include mq(max_xs) {
+			margin-top: 18px;
+		}
 		p {
 			margin: 0;
 		}
@@ -215,35 +191,26 @@
 			border-radius: 100%;
 			position: relative;
 			@include linear-gradient(left, #FF9A03, #FF6D03);
-			img {
-				max-width: 60%;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				@include transform(translate(-50%,-50%))
-			}
-			@include mq(max_w, $lg){
+			@include mq(max_md) {
 				width: 44px;
 				height: 44px;
+			}
+			svg {
+				position: absolute;
+				top: 56%;
+				left: 50%;
+				@include transform(translate(-50%,-50%))
 			}
 		}
 		.txt {
 			font-size: 20px;
 			font-weight: 500;
-			@include mq(max_w, $lg){
+			@include mq(max_md) {
 				font-size: 18px;
 			}
-			@include mq(max_w, $sm){
+			@include mq(max_xs) {
 				font-size: 16px;
 			}
 		}
-		@include mq(max_w, $sm){
-			& {
-				margin-top: 18px;
-			}
-		}
-	}
-	@include mq(max_w, $sm){
-		padding: 12px 0 30px;
 	}
 }

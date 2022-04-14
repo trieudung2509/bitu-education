@@ -29,7 +29,7 @@
 	common
 ----------------------------------------------------------- */
 body {
-  font-family: "Circular Std";
+  font-family: "Circular Std", "Times New Roman", serif;
   color: #1A202C;
 }
 
@@ -432,6 +432,7 @@ button,
     max-width: 100%;
   }
 }
+
 /* -----------------------------------------------------------
 	.con-reason-reflex
 ----------------------------------------------------------- */
@@ -561,6 +562,11 @@ button,
   background: #F7FAFC;
   padding: 60px 0;
 }
+@media only screen and (max-width: 575px) {
+  .con_marketing {
+    padding: 12px 0 30px;
+  }
+}
 .con_marketing .box-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,6 +582,11 @@ button,
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media only screen and (max-width: 575px) {
+  .con_marketing .box-text {
+    margin-top: 18px;
+  }
+}
 .con_marketing .box-text p {
   margin: 0;
 }
@@ -589,41 +600,30 @@ button,
   background: -webkit-gradient(linear, right top, left top, from(#FF9A03), to(#FF6D03));
   background: linear-gradient(to left, #FF9A03, #FF6D03);
 }
-.con_marketing .box-text .icon img {
-  max-width: 60%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .con_marketing .box-text .icon {
     width: 44px;
     height: 44px;
   }
 }
+.con_marketing .box-text .icon svg {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .con_marketing .box-text .txt {
   font-size: 20px;
   font-weight: 500;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .con_marketing .box-text .txt {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .con_marketing .box-text .txt {
     font-size: 16px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .con_marketing .box-text {
-    margin-top: 18px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .con_marketing {
-    padding: 12px 0 30px;
   }
 }

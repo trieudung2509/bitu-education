@@ -13,7 +13,7 @@
 		<div class="footer-main row">
 			<div class="col-12 col-md-2">
 				<a href="#" class="footer-logo">
-					<img src="images/footer_logo.png" alt="Bitu">
+					<img src="images/footer_logo.svg" alt="Bitu">
 				</a>
 			</div>
 			<div class="col-12 col-md-10">

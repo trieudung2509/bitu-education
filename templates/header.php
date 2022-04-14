@@ -3,8 +3,8 @@
 		<div class="row g-0 justify-content-between align-items-center">
 			<div class="col-auto col-logo">
 				<a href="#" class="logo">
-					<img src="images/logo.png" alt="Bitu" class=" d-none d-md-block">
-					<img src="images/logo_sp.png" alt="Bitu" class=" d-block d-md-none">
+					<img src="images/logo.svg" alt="Bitu" class=" d-none d-md-block">
+					<img src="images/logo_sp.svg" alt="Bitu" class=" d-block d-md-none">
 				</a>
 			</div>
 
@@ -34,7 +34,7 @@
 
 <div class="offcanvas">
 	<div class="offcanvas-header">
-		<a href="" class="logo"><img src="images/logo_sp.png" alt="Bitu"></a>
+		<a href="" class="logo"><img src="images/logo_sp.svg" alt="Bitu"></a>
 		<button type="button" class="btn-close toggle-offcanvas"></button>
 	</div>
 
