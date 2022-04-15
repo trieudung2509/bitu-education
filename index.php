@@ -16,7 +16,11 @@
 
 		<div class="con-reason-reflex">
 			<div class="container">
-				<h3 class="title-lg">Vì bạn chưa có <span class="text-primary">phản xạ tiếng Anh</span></h3>
+				<h3 class="title-lg">
+					<svg class="align-baseline me-1 me-md-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_741_10585)"><path d="M14.814 21.4998L23.61 12.7078C23.7917 12.5169 23.8931 12.2634 23.8931 11.9998C23.8931 11.7362 23.7917 11.4828 23.61 11.2918L14.814 2.49982C14.6742 2.36001 14.496 2.2648 14.3021 2.22623C14.1081 2.18767 13.9071 2.20747 13.7244 2.28314C13.5417 2.35881 13.3855 2.48695 13.2756 2.65136C13.1657 2.81577 13.1071 3.00907 13.107 3.20682L13.107 8.24982C13.1072 8.28269 13.1008 8.31525 13.0883 8.34564C13.0757 8.37604 13.0573 8.40365 13.0341 8.42689C13.0108 8.45013 12.9832 8.46854 12.9528 8.48106C12.9225 8.49357 12.8899 8.49995 12.857 8.49982L1.10702 8.49982C0.841802 8.49982 0.587448 8.60517 0.399912 8.79271C0.212375 8.98025 0.107019 9.2346 0.107019 9.49982L0.107019 14.4998C0.107019 14.765 0.212375 15.0194 0.399911 15.2069C0.587448 15.3945 0.841802 15.4998 1.10702 15.4998L12.857 15.4998C12.9233 15.4998 12.9869 15.5262 13.0338 15.573C13.0807 15.6199 13.107 15.6835 13.107 15.7498L13.107 20.7928C13.1071 20.9906 13.1657 21.1839 13.2756 21.3483C13.3855 21.5127 13.5417 21.6408 13.7244 21.7165C13.9071 21.7922 14.1081 21.812 14.302 21.7734C14.496 21.7348 14.6742 21.6396 14.814 21.4998Z" fill="#FF6D03"/></g><defs><clipPath id="clip0_741_10585"><rect width="24" height="24" fill="white" transform="translate(24) rotate(90)"/></clipPath></defs></svg>
+					Vì bạn chưa có
+					<span class="text-primary d-block d-md-inline">&nbsp;phản xạ tiếng Anh</span>
+				</h3>
 
 				<div class="box-list">
 					<div class="item">
@@ -36,7 +40,7 @@
 									</div>
 									<div class="box-highlight">
 										<div class="txt-md">Và bí quyết duy nhất dành cho bạn là</div>
-										<div class="txt-lg text-primary">“open your mouth and say something”.</div>
+										<div class="txt-lg text-primary">“open your mouth <br class="d-block d-xl-none" /> and say something”.</div>
 										<img src="images/ic-bitu-like.png" alt="open your mouth and say something" class="img-ic">
 									</div>
 								</div>
@@ -61,7 +65,9 @@
 									</div>
 									<div class="box-highlight">
 										<div class="txt-md">Chỉ có một cách để khắc phục</div>
-										<div class="txt-lg text-primary">Bạn phải nói tiếng Anh nhiều hơn. Chấm hết.</div>
+										<div class="txt-lg text-primary">
+											Bạn phải nói tiếng Anh nhiều hơn. <br class="d-block d-xl-none" /> Chấm hết.
+										</div>
 										<img src="images/ic-bitu-fire.png" alt="Bạn phải nói tiếng Anh nhiều hơn. Chấm hết." class="img-ic">
 									</div>
 								</div>

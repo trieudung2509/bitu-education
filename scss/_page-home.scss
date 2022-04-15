@@ -30,23 +30,59 @@
 ----------------------------------------------------------- */
 .con-reason-reflex {
 	padding-top: 180px;
+	@include mq(max_sm) {
+		padding-top: 50px;
+	}
 	.title-lg {
 		margin-bottom: 24px;
+		svg {
+			@include mq(max_xs) {
+				margin-bottom: -3px;
+			}
+		}
 	}
 	.box-list {
 		margin-bottom: 40px;
+		@include mq(max_sm) {
+			margin-bottom: 25px;
+		}
 		.item {
 			background: #f7fafc;
 			border-radius: 60px;
 			padding: 64px;
 			margin-bottom: 90px;
+			@include mq(max_lg) {
+				padding: 50px;
+				margin-bottom: 50px;
+			}
+			@include mq(max_sm) {
+				padding: 20px;
+				border-radius: 8px;
+				margin-bottom: 30px;
+				&:first-child {
+					border: 1px solid #000;
+					box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+				}
+			}
 		}
 		.col-title {
+			@include mq(max_md) {
+				margin-bottom: 20px;
+			}
 			.txt-title {
 				max-width: 400px;
 				font-weight: 500;
 				font-size: 36px;
 				line-height: (46 / 36);
+				@include mq(max_lg) {
+					font-size: 34px;
+				}
+				@include mq(max_md) {
+					font-size: 30px;
+				}
+				@include mq(max_sm) {
+					font-size: 20px;
+				}
 				span {
 					text-decoration: underline;
 				}
@@ -54,13 +90,16 @@
 		}
 		.col-detail {
 			.box-detail {
-				max-width: 630px;
+				max-width: 650px;
 			}
 			.txt {
 				font-size: 20px;
 				line-height: (28 / 20);
 				color: #4A5568;
 				margin-bottom: 24px;
+				@include mq(max_sm) {
+					font-size: 16px;
+				}
 			}
 			.box-highlight {
 				position: relative;
@@ -69,7 +108,13 @@
 				background: #fff;
 				border-radius: 16px;
 				border: 1px solid $primary;
-				padding: 16px 150px 16px 20px;
+				padding: 16px 110px 16px 20px;
+				@include mq(max_sm) {
+					font-size: 18px;
+				}
+				@include mq(max_xs) {
+					font-size: 16px;
+				}
 				.txt-md {
 					margin-bottom: 6px;
 				}
@@ -80,7 +125,7 @@
 				.img-ic {
 					position: absolute;
 					top: -20px;
-					right: 16px;
+					right: 0;
 					z-index: 2;
 				}
 			}
@@ -105,6 +150,10 @@
 			border-radius: 60px;
 			padding: 56px 0 56px 64px;
 			margin-bottom: 90px;
+			@include mq(max_lg) {
+				padding: 50px 0 50px 50px;
+				margin-bottom: 50px;
+			}
 		}
 		.item-press-talk {
 			background: transparent url(../images/bg-press-talk.png) no-repeat left top;
@@ -130,6 +179,7 @@
 				max-width: 652px;
 			}
 			.title-lg {
+				text-align: left;
 				margin: 0 0 20px;
 			}
 			.txt {

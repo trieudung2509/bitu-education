@@ -29,7 +29,7 @@
 	common
 ----------------------------------------------------------- */
 body {
-  font-family: "Circular Std", "Times New Roman", serif;
+  font-family: "Circular Std", serif;
   color: #1A202C;
 }
 
@@ -88,6 +88,13 @@ button,
           box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3) !important;
   padding: 12px 15px;
 }
+@media only screen and (max-width: 767px) {
+  .btn-orange {
+    height: 52px;
+    font-size: 18px;
+    padding: 11px 15px;
+  }
+}
 .btn-orange:hover:before {
   opacity: 1;
 }
@@ -135,7 +142,7 @@ button,
 }
 @media only screen and (max-width: 767px) {
   .title-lg {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -365,11 +372,26 @@ button,
 .con-reason-reflex {
   padding-top: 180px;
 }
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex {
+    padding-top: 50px;
+  }
+}
 .con-reason-reflex .title-lg {
   margin-bottom: 24px;
 }
+@media only screen and (max-width: 575px) {
+  .con-reason-reflex .title-lg svg {
+    margin-bottom: -3px;
+  }
+}
 .con-reason-reflex .box-list {
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex .box-list {
+    margin-bottom: 25px;
+  }
 }
 .con-reason-reflex .box-list .item {
   background: #f7fafc;
@@ -377,23 +399,66 @@ button,
   padding: 64px;
   margin-bottom: 90px;
 }
+@media only screen and (max-width: 1199px) {
+  .con-reason-reflex .box-list .item {
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex .box-list .item {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .con-reason-reflex .box-list .item:first-child {
+    border: 1px solid #000;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .con-reason-reflex .box-list .col-title {
+    margin-bottom: 20px;
+  }
+}
 .con-reason-reflex .box-list .col-title .txt-title {
   max-width: 400px;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.2777777778;
 }
+@media only screen and (max-width: 1199px) {
+  .con-reason-reflex .box-list .col-title .txt-title {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .con-reason-reflex .box-list .col-title .txt-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex .box-list .col-title .txt-title {
+    font-size: 20px;
+  }
+}
 .con-reason-reflex .box-list .col-title .txt-title span {
   text-decoration: underline;
 }
 .con-reason-reflex .box-list .col-detail .box-detail {
-  max-width: 630px;
+  max-width: 650px;
 }
 .con-reason-reflex .box-list .col-detail .txt {
   font-size: 20px;
   line-height: 1.4;
   color: #4A5568;
   margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex .box-list .col-detail .txt {
+    font-size: 16px;
+  }
 }
 .con-reason-reflex .box-list .col-detail .box-highlight {
   position: relative;
@@ -402,7 +467,17 @@ button,
   background: #fff;
   border-radius: 16px;
   border: 1px solid #ff6d03;
-  padding: 16px 150px 16px 20px;
+  padding: 16px 110px 16px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .con-reason-reflex .box-list .col-detail .box-highlight {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .con-reason-reflex .box-list .col-detail .box-highlight {
+    font-size: 16px;
+  }
 }
 .con-reason-reflex .box-list .col-detail .box-highlight .txt-md {
   margin-bottom: 6px;
@@ -414,7 +489,7 @@ button,
 .con-reason-reflex .box-list .col-detail .box-highlight .img-ic {
   position: absolute;
   top: -20px;
-  right: 16px;
+  right: 0;
   z-index: 2;
 }
 .con-reason-reflex .box-btn .btn {
@@ -433,6 +508,12 @@ button,
   border-radius: 60px;
   padding: 56px 0 56px 64px;
   margin-bottom: 90px;
+}
+@media only screen and (max-width: 1199px) {
+  .con-benefit .box-list .item {
+    padding: 50px 0 50px 50px;
+    margin-bottom: 50px;
+  }
 }
 .con-benefit .box-list .item-press-talk {
   background: transparent url(../images/bg-press-talk.png) no-repeat left top;
@@ -455,6 +536,7 @@ button,
   max-width: 652px;
 }
 .con-benefit .box-list .col-detail .title-lg {
+  text-align: left;
   margin: 0 0 20px;
 }
 .con-benefit .box-list .col-detail .txt {
