@@ -105,7 +105,7 @@
 
 								<div class="col-12 col-md-5 col-image">
 									<img class="d-none d-md-inline-block" src="images/press-talk.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
-									<img class="d-inline-block d-md-inline-none" src="images/press-talk-sp.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
+									<img class="d-inline-block d-md-none" src="images/press-talk-sp.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
 								</div>
 							</div>
 						</div>
