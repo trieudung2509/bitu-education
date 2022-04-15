@@ -1,0 +1,234 @@
+@mixin font-recruiment($size, $color) {
+  font-size: $size;
+  font-weight: 400;
+  color: $color;
+}
+
+@mixin background-button($background, $fontSize, $color) {
+  background: $background;
+  border-radius: 16px;
+  @include font-recruiment($fontSize, $color);
+  border: none;
+}
+.mission-title {
+  h2 {
+    @include font-recruiment(48px, #1A202C);
+    margin-bottom: 55px;
+  }
+}
+
+// block: block-recruitment
+.block-recruitment-1 {
+  position: relative;
+  .block1-recruitment-left {
+    h5 {
+      @include font-recruiment(48px, $primary);
+    }
+    p {
+      @include font-recruiment(48px, $black);
+    }
+    .btn-contact {
+      @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff);
+      padding: 16px 27px;
+    }
+  }
+  .block1-recruitment-right {
+    position: absolute;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// block: block-mission
+.block-mission {
+  padding: 130px 0px;
+  .block-mission-left {
+    ul.ul-mission {
+      list-style: none;
+      li.li-mission {
+        margin-bottom: 40px;
+        .item-mission {
+          display: flex;
+          img {
+            width: 100%;
+            height: auto;
+          }
+          p {
+            @include font-recruiment(18px, #1A202C);
+          }
+        }
+      }
+    }
+  }
+  .mission-right {
+    h2 {
+      @include font-recruiment(48px, #2D3748);
+      span {
+        color: $primary;
+        display: block;
+      }
+    }
+  }
+}
+
+// block : block-suitable
+.block-suitable {
+  .suitable-left {
+    button.btn {
+      margin-bottom: 16px;
+      &.btn-ambitious {
+        @include background-button(#FFB700,32px, #000000);
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+      }
+      &.btn-experiment {
+        @include background-button(#FF6D03,32px, #fff);
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+      }
+      &.btn-handle {
+        @include background-button(#2971F0,32px, #fff);
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+      }
+    }
+    p {
+      @include font-recruiment(20px, #4A5568);
+    }
+  }
+}
+// block : block-recruit
+.block-recruit {
+  background: #FF6D03;
+  .mission-title {
+    p {
+      @include font-recruiment(20px, #4A5568);
+    }
+  }
+  .recruit-top {
+    .item-recruit {
+      background: #FFFFFF;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+      border-radius: 16px;
+      padding: 32px;
+      h4 {
+        @include font-recruiment(20px, #1A202C);
+        min-height: 75px;
+      }
+      p {
+        @include font-recruiment(20px, #FF6D03);
+      }
+      .btn-apply {
+        @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%),18px, #fff);
+      }
+    }
+  }
+}
+// block-interest
+.block-interest {
+  .item-interest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h5 {
+      @include font-recruiment(24px, #1A202C);
+    }
+    img {
+      height: auto;
+    }
+  }
+}
+
+// block-progress
+.block-progress {
+  .block-container-progress {
+    .item-progress {
+      position: relative;
+      padding-top: 10px;
+      .block-item-step {
+          min-height: 272px;
+          padding: 24px 16px;
+      }
+      &:last-child {
+         &:after {
+            display: none !important;
+        }
+      }
+      &:nth-child(1) {
+        .block-item-step {
+          background: linear-gradient(176.95deg, #FF6D03 4.42%, #FF9604 94%);
+        }
+      }
+      &:nth-child(3) {
+        .block-item-step {
+          background: linear-gradient(180deg, #FFB700 0%, #FFC700 100%);
+        }
+      }
+      &:nth-child(5) {
+        &:before {
+          background-image: url(../images/step-blue.svg) !important;
+        }
+        .block-item-step {
+          background: linear-gradient(180deg, #2971F0 0%, #2990F0 100%);
+        }
+      }
+      &:nth-child(odd) {
+        &:before {
+          content: "";
+          position: absolute;
+          top: -25px;
+          left: 50%;
+          background-image: url(../images/step-icon.svg);
+          display: block;
+          z-index: 9;
+          width: 100%;
+          height: 74px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .block-item-step {
+          border-radius: 16px;
+          margin-top: 50px;
+          h4 {
+            @include font-recruiment(40px, #fff);
+          }
+          h5 {
+            @include font-recruiment(20px, #fff);
+          }
+          p {
+            @include font-recruiment(18px, #fff);
+          }
+        }
+      }
+      &:nth-child(even) {
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -25px;
+          left: 50%;
+          background-image: url(../images/step-icon2.svg);
+          display: block;
+          z-index: 9;
+          width: 100%;
+          height: 74px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .block-item-step {
+          border-radius: 16px;
+          border: 1px solid #FF6D03;
+          h4 {
+            @include font-recruiment(40px, #1A202C);
+          }
+          h5 {
+            @include font-recruiment(20px, #1A202C);
+          }
+          p {
+            @include font-recruiment(18px, #1A202C);
+          }
+        }
+      }
+    }
+  }
+}
