@@ -156,6 +156,107 @@
 }
 
 /* -----------------------------------------------------------
+	.con-classroom-model
+----------------------------------------------------------- */
+.con-classroom-model {
+	padding: 120px 0;
+	.box-table {
+		border-radius: 64px;
+		background: #fff0e6;
+		padding: 64px 24px;
+	}
+	table {
+		width: 100%;
+		border: 0;
+		border-collapse: separate;
+		border-spacing: 40px 0;
+		tr {
+			&:first-child {
+				td {
+					&:not(:first-child) {
+						border-top-left-radius: 32px;
+						border-top-right-radius: 32px;
+					}
+				}
+			}
+			&:last-child {
+				td {
+					&:not(:first-child) {
+						border-bottom-left-radius: 32px;
+						border-bottom-right-radius: 32px;
+						padding-bottom: 26px;
+					}
+				}
+			}
+			td {
+				vertical-align: top;
+				font-size: 18px;
+				line-height: (23 / 18);
+				&:nth-child(1) {
+					width: 21%;
+				}
+				&:nth-child(2),
+				&:nth-child(3) {
+					width: (100% - 21%) / 2;
+					background: #fff;
+					text-align: center;
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+			}
+		}
+		.title-lg {
+			text-align: left;
+		}
+		.border-top-gray {
+			border-top: 2px solid #718096;
+		}
+		.border-top-orange {
+			border-top: 2px solid $primary;
+		}
+		.cell-title-class {
+			padding-top: 26px;
+			.txt {
+				padding-top: 0;
+			}
+		}
+		.title-class {
+			display: flex;
+			justify-content: center;
+			font-size: 36px;
+			font-weight: 500;
+			&.class-11 {
+				color: $primary;
+			}
+			&.class-12 {
+				color: #2971f0;
+			}
+			.txt-class,
+			.ic-class .number {
+				padding-top: 2px;
+			}
+			.ic-class {
+				position: relative;
+				svg {
+				}
+				.number {
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					text-align: center;
+					color: #fff;
+				}
+			}
+		}
+		.txt {
+			border-bottom: 1px solid #edf2f7;
+			padding: 16.5px 0;
+		}
+	}
+}
+
+/* -----------------------------------------------------------
 	.con_newsbitu
 ----------------------------------------------------------- */
 .con_newsbitu {

@@ -549,6 +549,98 @@ button,
   text-align: right;
 }
 /* -----------------------------------------------------------
+	.con-classroom-model
+----------------------------------------------------------- */
+.con-classroom-model {
+  padding: 120px 0;
+}
+.con-classroom-model .box-table {
+  border-radius: 64px;
+  background: #fff0e6;
+  padding: 64px 24px;
+}
+.con-classroom-model table {
+  width: 100%;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 40px 0;
+}
+.con-classroom-model table tr:first-child td:not(:first-child) {
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+.con-classroom-model table tr:last-child td:not(:first-child) {
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  padding-bottom: 26px;
+}
+.con-classroom-model table tr td {
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 1.2777777778;
+}
+.con-classroom-model table tr td:nth-child(1) {
+  width: 21%;
+}
+.con-classroom-model table tr td:nth-child(2), .con-classroom-model table tr td:nth-child(3) {
+  width: 39.5%;
+  background: #fff;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.con-classroom-model table .title-lg {
+  text-align: left;
+}
+.con-classroom-model table .border-top-gray {
+  border-top: 2px solid #718096;
+}
+.con-classroom-model table .border-top-orange {
+  border-top: 2px solid #ff6d03;
+}
+.con-classroom-model table .cell-title-class {
+  padding-top: 26px;
+}
+.con-classroom-model table .cell-title-class .txt {
+  padding-top: 0;
+}
+.con-classroom-model table .title-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+.con-classroom-model table .title-class.class-11 {
+  color: #ff6d03;
+}
+.con-classroom-model table .title-class.class-12 {
+  color: #2971f0;
+}
+.con-classroom-model table .title-class .txt-class,
+.con-classroom-model table .title-class .ic-class .number {
+  padding-top: 2px;
+}
+.con-classroom-model table .title-class .ic-class {
+  position: relative;
+}
+.con-classroom-model table .title-class .ic-class .number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.con-classroom-model table .txt {
+  border-bottom: 1px solid #edf2f7;
+  padding: 16.5px 0;
+}
+
+/* -----------------------------------------------------------
 	.con_newsbitu
 ----------------------------------------------------------- */
 .con_newsbitu .title-lg {

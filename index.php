@@ -150,6 +150,65 @@
 		</div>
 		<!-- /.con-benefit -->
 
+		<div class="con-classroom-model">
+			<div class="container">
+				<div class="box-table">
+					<table>
+						<tr>
+							<td class="cell-title-lg"><h3 class="title-lg">Mô hình lớp học</h3></td>
+
+							<td class="cell-title-class">
+								<div class="title-class class-11">
+									<div class="txt-class">Lớp</div>
+									<div class="ic-class">
+										<svg width="95" height="78" viewBox="0 0 95 78" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_741_10645)"><path d="M60.4128 0.586828C60.4128 0.590556 60.4097 0.593578 60.406 0.593578H34.5872C27.7182 0.593578 21.1305 3.32229 16.2734 8.17944C11.4162 13.0366 8.6875 19.6243 8.6875 26.4933C8.6875 33.3624 11.4162 39.9501 16.2734 44.8072C21.1305 49.6644 27.7182 52.3931 34.5872 52.3931C36.1269 52.3931 37.375 53.6412 37.375 55.1808V59.7186C37.3749 60.0563 37.4761 60.3862 37.6656 60.6658C37.855 60.9453 38.124 61.1616 38.4377 61.2866C38.7513 61.4117 39.0953 61.4397 39.4251 61.3672C40.0778 61.2236 40.5685 60.6927 41.1248 60.3225L49.0352 55.059C51.6611 53.3117 54.7447 52.3796 57.8987 52.3796H60.4128C67.2818 52.3796 73.8695 49.6509 78.7266 44.7937C83.5838 39.9366 86.3125 33.3489 86.3125 26.4798C86.3125 19.6108 83.5838 13.0231 78.7266 8.16594C73.8711 3.31039 67.2861 0.581868 60.4195 0.580079C60.4158 0.580078 60.4128 0.5831 60.4128 0.586828Z" fill="url(#paint0_linear_741_10645)"/></g><defs><filter id="filter0_d_741_10645" x="0.6875" y="0.580078" width="93.625" height="76.8262" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="8"/><feGaussianBlur stdDeviation="4"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.686275 0 0 0 0 0.439216 0 0 0 0.4 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_741_10645"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_741_10645" result="shape"/></filter><linearGradient id="paint0_linear_741_10645" x1="8.6875" y1="0.580078" x2="93.8547" y2="17.9054" gradientUnits="userSpaceOnUse"><stop stop-color="#FF6D03"/><stop offset="1" stop-color="#FF9A03"/></linearGradient></defs></svg>
+										<span class="number">1:1</span>
+									</div>
+								</div>
+								<div class="txt">Phù hợp với nhóm KH muốn luyện nói</div>
+							</td>
+
+							<td class="cell-title-class">
+								<div class="title-class class-12">
+									<div class="txt-class">Lớp</div>
+									<div class="ic-class">
+										<svg width="95" height="78" viewBox="0 0 95 78" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_741_10669)"><path d="M60.4128 0.586828C60.4128 0.590556 60.4097 0.593578 60.406 0.593578H34.5872C27.7182 0.593578 21.1305 3.32229 16.2734 8.17944C11.4162 13.0366 8.6875 19.6243 8.6875 26.4933C8.6875 33.3624 11.4162 39.9501 16.2734 44.8072C21.1305 49.6644 27.7182 52.3931 34.5872 52.3931V52.3931C36.1269 52.3931 37.375 53.6412 37.375 55.1808V59.7186C37.3749 60.0563 37.4761 60.3862 37.6656 60.6658C37.855 60.9453 38.124 61.1616 38.4377 61.2866C38.7513 61.4117 39.0953 61.4397 39.4251 61.3672V61.3672C40.0778 61.2236 40.5685 60.6927 41.1248 60.3225L49.0352 55.059C51.6611 53.3117 54.7447 52.3796 57.8987 52.3796H60.4128C67.2818 52.3796 73.8695 49.6509 78.7266 44.7937C83.5838 39.9366 86.3125 33.3489 86.3125 26.4798C86.3125 19.6108 83.5838 13.0231 78.7266 8.16594C73.8711 3.31039 67.2861 0.581868 60.4195 0.580079C60.4158 0.580078 60.4128 0.5831 60.4128 0.586828V0.586828Z" fill="url(#paint0_linear_741_10669)"/></g><defs><filter id="filter0_d_741_10669" x="0.6875" y="0.580078" width="93.625" height="76.8262" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="8"/><feGaussianBlur stdDeviation="4"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0.164706 0 0 0 0 0.490196 0 0 0 0 0.945098 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_741_10669"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_741_10669" result="shape"/></filter><linearGradient id="paint0_linear_741_10669" x1="8.6875" y1="0.580078" x2="93.8547" y2="17.9054" gradientUnits="userSpaceOnUse"><stop stop-color="#2971F0"/><stop offset="1" stop-color="#29A8F0"/></linearGradient></defs></svg>
+										<span class="number">1:2</span>
+									</div>
+								</div>
+								<div class="txt">Trò chuyện với người nước ngoài</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td><div class="txt border-top-gray">Mô hình</div></td>
+							<td><div class="txt border-top-orange">1 mod, 1 học viên</div></td>
+							<td><div class="txt border-top-orange">1 mod, 2 học viên</div></td>
+						</tr>
+
+						<tr>
+							<td><div class="txt">Thời lượng lớp</div></td>
+							<td><div class="txt">30 phút</div></td>
+							<td><div class="txt">25 phút</div></td>
+						</tr>
+
+
+
+						<tr>
+							<td><div class="txt">Sửa từ vựng, diễn đạt</div></td>
+							<td>
+								<div class="txt">
+									<svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_741_10797)"><rect x="4.16675" y="1.16602" width="25.6667" height="25.6667" rx="12.8333" fill="#48BB78"/><g clip-path="url(#clip0_741_10797)"><path d="M11.5557 14.0002L15.4446 17.8891L23.2223 10.1113" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><defs><filter id="filter0_d_741_10797" x="-1" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="4"/><feGaussianBlur stdDeviation="2"/><feColorMatrix type="matrix" values="0 0 0 0 0.282353 0 0 0 0 0.733333 0 0 0 0 0.470588 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_741_10797"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_741_10797" result="shape"/></filter><clipPath id="clip0_741_10797"><rect width="18.6667" height="18.6667" fill="white" transform="translate(7.66675 4.66602)"/></clipPath></defs></svg>
+								</div>
+							</td>
+							<td><div class="txt">-</div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- /.con-classroom-model -->
+
 		<div class="con_newsbitu">
 			<div class="container">
 				<h3 class="title-lg">Báo chí nói về Bitu</h3>
