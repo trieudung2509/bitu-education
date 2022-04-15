@@ -260,8 +260,43 @@
 	.con_newsbitu
 ----------------------------------------------------------- */
 .con_newsbitu {
+	padding: 120px 0;
 	.title-lg {
 		text-align: left;
+		padding: 0 0 30px;
+	}
+	.list-group {
+		&-item {
+			padding: 25px 0;
+			border-color: #EDF2F7;
+			&:last-child {
+				border-bottom: 1px solid #EDF2F7;
+			}
+			.box-photo {
+				@include mq(md){
+					width: 20%;
+				}
+			}
+			.box-logo {
+				@include mq(md){
+					text-align: right;
+					width: 30%;
+				}
+			}
+			.box-details {
+				h4 {
+					color: #1A202C;
+					@include mq(max_w, $md - 1){
+						padding-top: 10px;
+						font-size: 18px;
+					}
+				}
+				p {
+					color: #4A5568;
+					font-size: 18px;
+				}
+			}
+		}
 	}
 }
 
@@ -271,7 +306,7 @@
 .con_marketing {
 	background: #F7FAFC;
 	padding: 60px 0;
-	@include mq(max_xs) {
+	@include mq(max_sm) {
 		padding: 12px 0 30px;
 	}
 	.box-text {
@@ -279,7 +314,7 @@
     flex-direction: row;
     align-items: center;
 		justify-content: center;
-		@include mq(max_xs) {
+		@include mq(max_sm) {
 			margin-top: 18px;
 		}
 		p {
@@ -300,6 +335,7 @@
 				position: absolute;
 				top: 56%;
 				left: 50%;
+				max-width: 60%;
 				@include transform(translate(-50%,-50%))
 			}
 		}

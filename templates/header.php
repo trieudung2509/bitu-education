@@ -1,4 +1,4 @@
-<header class="main-header">
+<header class="main-header fixed-top">
 	<div class="container-fluid">
 		<div class="row g-0 justify-content-between align-items-center">
 			<div class="col-auto col-logo">
@@ -21,26 +21,27 @@
 				</ul>
 
 				<div class="box-language">
+					<a href=""><img src="images/lang_en.png" alt="English"></a>
 				</div>
 
-				<div class="d-block d-md-none">
-				<button class="dropdown-toggle toggle-offcanvas "><i class="fas fa-bars"></i></button>
-				</div>
+
+				<button class="btn border-0 d-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+					<i class="fas fa-bars"></i>
+				</button>
 			</div>
 		</div>
 	</div>
 </header>
 <!-- /.main-header -->
-
-<div class="offcanvas">
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
 	<div class="offcanvas-header">
-		<a href="" class="logo"><img src="images/logo_sp.svg" alt="Bitu"></a>
-		<button type="button" class="btn-close toggle-offcanvas"></button>
-	</div>
-
+    <h5 class="offcanvas-title" id="offcanvasLabel">
+			<a href="./" class="logo"><img src="images/logo_sp.svg" alt="Bitu"></a>
+		</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
   <div class="offcanvas-body">
-		<div class="box-nav">
-			<ul class="main-nav">
+		<ul class="main-nav">
 			<li><a href="#">Trang chủ</a></li>
 					<li><a href="#">Về chúng tôi</a></li>
 					<li><a href="#">Blog</a></li>
@@ -50,7 +51,6 @@
 					<li><a href="#">Tuyển dụng</a></li>
 					<li><a href="#">Liên hệ</a></li>
 			</ul>
-		</div>
   </div>
 </div>
-<!-- /.offcanvas -->
+

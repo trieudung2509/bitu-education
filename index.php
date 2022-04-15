@@ -215,32 +215,32 @@
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-auto box-photo">
 								<img src="images/img_new_vnexpress.png" alt="">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 box-details">
 								<h4 class="title-sm">Ứng dụng luyện nói tiếng Anh cùng người nước ngoài</h4>
-								<p class="txt">Ứng dụng Bitu giúp người học kết nối với người nước ngoài,
+								<p class="txt d-none d-md-block">Ứng dụng Bitu giúp người học kết nối với người nước ngoài,
 									 tạo chủ đề thảo luận gần gũi với đời sống để cải thiện kỹ năng giao tiếp tiếng Anh.</p>
 							</div>
-							<div class="col-md-3">
-								<img src="images/logo_vnexpress.svg" alt="">
+							<div class="col-md-3 box-logo">
+								<img src="images/logo_vnexpress.png" alt="">
 							</div>
 						</div>
 					</li>
 					<li class="list-group-item">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-auto box-photo">
 								<img src="images/img_new_vietnamnet.png" alt="">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 box-details">
 								<h4 class="title-sm">Học tiếng Anh trực tuyến, môi trường và thực hành là quan trọng</h4>
-								<p class="txt">Phát triển theo hướng đi riêng biệt, ứng dụng học kỹ năng nghe -
+								<p class="txt d-none d-md-block">Phát triển theo hướng đi riêng biệt, ứng dụng học kỹ năng nghe -
 									nói tiếng Anh Bitu đã ghi dấu ấn với người dùng khi đạt 50.727 lượt tải trên CH Play (Android)
 									và 29.150 lượt tải trên App Store (IOS) chỉ sau gần 1 năm ra mắt.</p>
 							</div>
-							<div class="col-md-3">
-								<img src="images/logo_vietnamnet.svg" alt="">
+							<div class="col-md-3 box-logo">
+								<img src="images/logo_vietnamnet.png" alt="">
 							</div>
 						</div>
 					</li>
