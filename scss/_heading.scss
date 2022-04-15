@@ -18,4 +18,7 @@
 	@include mq(max_md) {
 		font-size: 38px;
 	}
+	@include mq(max_sm) {
+		font-size: 32px;
+	}
 }
