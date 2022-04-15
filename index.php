@@ -84,74 +84,85 @@
 		<!-- /.con-reason-reflex -->
 
 		<div class="con-benefit">
-			<div class="container">
-				<div class="box-list">
-					<div class="item item-press-talk">
-						<div class="row align-items-center">
-							<div class="col-12 col-md-7 col-detail">
-								<div class="box-detail">
-									<h3 class="title-lg">
-										Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào
-									</h3>
-									<p class="txt">
-										Tại Bitu, bạn có thể tìm người nói chuyện tiếng Anh cực kì đơn giản <br />
-										<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Không cần đặt lịch trước <br />
-										<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Tự lựa chọn chủ đề nói <br />
-										<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Giúp bạn sửa phát âm như người bản xứ và gợi ý cách diễn đạt hay hơn
-									</p>
+			<div class="box-list">
+				<div class="item item-press-talk">
+					<div class="container">
+						<div class="box-item">
+							<div class="row align-items-center">
+								<div class="col-12 col-md-7 col-detail">
+									<div class="box-detail">
+										<h3 class="title-lg">
+											Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào
+										</h3>
+										<p class="txt">
+											Tại Bitu, bạn có thể tìm người nói chuyện tiếng Anh cực kì đơn giản <br />
+											<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Không cần đặt lịch trước <br />
+											<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Tự lựa chọn chủ đề nói <br />
+											<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Giúp bạn sửa phát âm như người bản xứ và gợi ý cách diễn đạt hay hơn
+										</p>
+									</div>
 								</div>
-							</div>
 
-							<div class="col-12 col-md-5 col-image">
-								<img src="images/press-talk.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
+								<div class="col-12 col-md-5 col-image">
+									<img class="d-none d-md-inline-block" src="images/press-talk.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
+									<img class="d-inline-block d-md-inline-none" src="images/press-talk-sp.png" alt="Bitu là ứng dụng giúp bạn tìm và nói chuyện với người nước ngoài bất kì lúc nào">
+								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="item item-trend">
-						<div class="row align-items-center">
-							<div class="col-12 col-md-6 col-detail">
-								<div class="box-detail">
-									<h3 class="title-lg">
-										Chủ đề nói chuyện theo trend
-									</h3>
-									<p class="txt">
-										Bitu cung cấp các chủ đề luyện nói đa dạng: <br />
-										<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Chủ đề phục vụ những mục đích học tiếng Anh cụ thể như : Luyện thi IELTS, TOEIC, tình huống công sở, phỏng vấn xin việc<br />
-										<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Chủ đề "top trend" đang được bàn luận sôi nổi trên mạng xã hội.<br />
-										Ngoài những chủ đề được thay đổi mỗi ngày, bạn có thể chọn chủ đề trong thư viện theo hashtag
-									</p>
-								</div>
-							</div>
-
-							<div class="col-12 col-md-6 col-image">
-								<img src="images/trend.png" alt="Chủ đề nói chuyện theo trend">
-							</div>
-						</div>
-					</div>
-
-					<div class="item item-suggest">
-						<div class="row align-items-center">
-							<div class="col-12 col-md-7 col-detail">
-								<div class="box-detail">
-									<h3 class="title-lg">
-										Gợi ý câu trả lời <br />
-										Giúp bạn chỉnh sửa phát âm
-									</h3>
-									<p class="txt">
-										Chúng tôi có gợi ý trả lời chi tiết cùng những mẫu câu mà người bản xứ hay dùng. Ngay cả với trình độ Beginner, bạn vẫn có thể tự tin giao tiếp với những người bạn nước ngoài <br />
-										Moderator giúp bạn diễn đạt được mọi thứ trong đầu bằng tiếng Anh. Không những thế, những người bạn “khó tính” này sẽ nắn chỉnh cho đến khi bạn phát âm chuẩn thì thôi.
-									</p>
-								</div>
-							</div>
-
-							<div class="col-12 col-md-5 col-image">
-								<img src="images/suggest.png" alt="Gợi ý câu trả lời">
-							</div>
-						</div>
-					</div>
-
 				</div>
+
+				<div class="item item-trend">
+					<div class="container">
+						<div class="box-item">
+							<div class="row align-items-center">
+								<div class="col-12 col-md-6 col-detail">
+									<div class="box-detail">
+										<h3 class="title-lg">
+											Chủ đề nói chuyện theo trend
+										</h3>
+										<p class="txt">
+											Bitu cung cấp các chủ đề luyện nói đa dạng: <br />
+											<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Chủ đề phục vụ những mục đích học tiếng Anh cụ thể như : Luyện thi IELTS, TOEIC, tình huống công sở, phỏng vấn xin việc<br />
+											<svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" rx="2" fill="#4A5568"/></svg> Chủ đề "top trend" đang được bàn luận sôi nổi trên mạng xã hội.<br />
+											Ngoài những chủ đề được thay đổi mỗi ngày, bạn có thể chọn chủ đề trong thư viện theo hashtag
+										</p>
+									</div>
+								</div>
+
+								<div class="col-12 col-md-6 col-image">
+									<img src="images/trend.png" alt="Chủ đề nói chuyện theo trend">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item item-suggest">
+					<div class="container">
+						<div class="box-item">
+							<div class="row align-items-center">
+								<div class="col-12 col-md-7 col-detail">
+									<div class="box-detail">
+										<h3 class="title-lg">
+											Gợi ý câu trả lời <br />
+											Giúp bạn chỉnh sửa phát âm
+										</h3>
+										<p class="txt">
+											Chúng tôi có gợi ý trả lời chi tiết cùng những mẫu câu mà người bản xứ hay dùng. Ngay cả với trình độ Beginner, bạn vẫn có thể tự tin giao tiếp với những người bạn nước ngoài <br />
+											Moderator giúp bạn diễn đạt được mọi thứ trong đầu bằng tiếng Anh. Không những thế, những người bạn “khó tính” này sẽ nắn chỉnh cho đến khi bạn phát âm chuẩn thì thôi.
+										</p>
+									</div>
+								</div>
+
+								<div class="col-12 col-md-5 col-image">
+									<img src="images/suggest.png" alt="Gợi ý câu trả lời">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 		<!-- /.con-benefit -->
@@ -166,6 +177,7 @@
 			<div class="box-list-wrapper">
 				<div class="container">
 					<div class="box-list">
+
 						<div class="row g-0 list d-none d-lg-flex">
 							<div class="col-4 item">
 								<h3 class="title-lg d-none d-lg-flex">Mô hình lớp học</h3>
@@ -465,7 +477,6 @@
 							<div class="col-4 item last-item-11"><div class="txt"></div></div>
 							<div class="col-4 item last-item-12"><div class="txt"></div></div>
 							<!-- /row -->
-
 						</div>
 						<!-- /Mobile -->
 					</div>
@@ -473,6 +484,26 @@
 			</div>
 		</div>
 		<!-- /.con-classroom-model -->
+
+		<div class="con-effective">
+			<div class="container">
+				<h3 class="title-lg">Hiệu quả đã được chứng minh</h3>
+
+				<div class="box-slider-wrapper">
+					<div class="box-slider">
+						<div class="slide-item"><img src="images/evidence-01.jpg" alt="evidence-01" class="w-100"></div>
+						<div class="slide-item"><img src="images/evidence-02.jpg" alt="evidence-02" class="w-100"></div>
+						<div class="slide-item"><img src="images/evidence-03.jpg" alt="evidence-03" class="w-100"></div>
+						<div class="slide-item"><img src="images/evidence-04.jpg" alt="evidence-04" class="w-100"></div>
+						<div class="slide-item"><img src="images/evidence-05.jpg" alt="evidence-05" class="w-100"></div>
+					</div>
+
+					<button type="button" class="slick-prev slick-arrow" role="button"></button>
+					<button type="button" class="slick-next slick-arrow" role="button"></button>
+				</div>
+			</div>
+		</div>
+		<!-- /.con-effective -->
 
 		<div class="con_newsbitu">
 			<div class="container">
@@ -552,42 +583,36 @@
 
 	<script>
 		$(function() {
-			// ======================> benefit <======================
-			// $(function() {
-			// 	var benafitSlider= $('.con-benefit .box-slider').slick({
-			// 		speed: 600,
-			// 		autoplaySpeed: 6000,
-			// 		autoplay: true,
-			// 		infinite: true,
-			// 		swipe: true,
-			// 		fade: false,
-			// 		dots: false,
-			// 		arrows: false,
-			// 		slidesToShow: 3,
-			// 		slidesToScroll: 1,
-			// 		responsive: [
-			// 			{
-			// 				breakpoint: 992,
-			// 				settings: {
-			// 					slidesToShow: 2
-			// 				}
-			// 			},
-			// 			{
-			// 				breakpoint: 768,
-			// 				settings: {
-			// 					slidesToShow: 1
-			// 				}
-			// 			}
-			// 		]
-			// 	});
+			// ======================> effective <======================
+			$(function() {
+				var effectiveSlider= $('.con-effective .box-slider').slick({
+					speed: 600,
+					autoplaySpeed: 6000,
+					autoplay: true,
+					infinite: true,
+					swipe: true,
+					fade: false,
+					dots: false,
+					arrows: false,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					responsive: [
+						{
+							breakpoint: 768,
+							settings: {
+								slidesToShow: 2
+							}
+						}
+					]
+				});
 
-			// 	$('.con-benefit .slick-prev').on('click', function() {
-			// 		benafitSlider.slick('prev');
-			// 	});
-			// 	$('.con-benefit .slick-next').on('click', function() {
-			// 		benafitSlider.slick('next');
-			// 	});
-			// });
+				$('.con-effective .slick-prev').on('click', function() {
+					effectiveSlider.slick('prev');
+				});
+				$('.con-effective .slick-next').on('click', function() {
+					effectiveSlider.slick('next');
+				});
+			});
 		});
 
 	</script>

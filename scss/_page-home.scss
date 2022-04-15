@@ -30,6 +30,9 @@
 ----------------------------------------------------------- */
 .con-reason-reflex {
 	padding-top: 180px;
+	@include mq(max_lg) {
+		padding-top: 80px;
+	}
 	@include mq(max_sm) {
 		padding-top: 50px;
 	}
@@ -56,10 +59,15 @@
 				margin-bottom: 50px;
 			}
 			@include mq(max_sm) {
-				padding: 20px;
-				border-radius: 8px;
+				padding: 30px;
 				margin-bottom: 30px;
-				&:first-child {
+			}
+			@include mq(max_xs) {
+				border-radius: 8px;
+				padding: 20px;
+			}
+			&:first-child {
+				@include mq(max_xs) {
 					border: 1px solid #000;
 					box-shadow: 0 4px 4px rgba(0,0,0,0.25);
 				}
@@ -144,48 +152,118 @@
 .con-benefit {
 	overflow: hidden;
 	padding-top: 128px;
+	@include mq(max_lg) {
+		padding-top: 110px;
+	}
+	@include mq(max_sm) {
+		padding-top: 80px;
+	}
 	.box-list {
 		.item {
-			background: #f7fafc;
-			border-radius: 60px;
-			padding: 56px 0 56px 64px;
 			margin-bottom: 90px;
 			@include mq(max_lg) {
-				padding: 50px 0 50px 50px;
 				margin-bottom: 50px;
+			}
+			.box-item {
+				border-radius: 60px;
+				padding: 56px 0 56px 64px;
+				@include mq(max_lg) {
+					padding: 50px 0 50px 50px;
+				}
+				@include mq(max_sm) {
+					padding: 30px;
+				}
+				@include mq(max_xs) {
+					border-radius: 0;
+					background: none !important;
+					border-radius: 0;
+					padding: 30px 0;
+				}
 			}
 		}
 		.item-press-talk {
-			background: transparent url(../images/bg-press-talk.png) no-repeat left top;
-			background-size: 100% 100%;
+			@include mq(max_xs) {
+				background: transparent url(../images/bg-press-talk-sp.png) no-repeat left top;
+				background-size: 100% 100%;
+			}
+			.box-item {
+				background: transparent url(../images/bg-press-talk.png) no-repeat left top;
+				background-size: 100% 100%;
+			}
 		}
 		.item-trend {
-			background: transparent url(../images/bg-trend.png) no-repeat left top;
-			background-size: 100% 100%;
-			.col-image {
-				img {
-					width: 120%;
-					max-width: none;
+			@include mq(max_xs) {
+				background: transparent url(../images/bg-trend-sp.png) no-repeat left top;
+				background-size: 100% 100%;
+				margin-bottom: 90px;
+			}
+			.box-item {
+				background: transparent url(../images/bg-trend.png) no-repeat left top;
+				background-size: 100% 100%;
+				.col-image {
+					img {
+						width: 120%;
+						max-width: none;
+						@include mq(max_xl) {
+							max-width: 110%;
+						}
+						@include mq(max_sm) {
+							max-width: 100%;
+						}
+						@include mq(max_xs) {
+							margin-bottom: -100px;
+						}
+					}
 				}
 			}
 		}
 		.item-suggest {
-			background: transparent url(../images/bg-suggest.png) no-repeat left top;
-			background-size: 100% 100%;
-			padding-right: 64px;
+			@include mq(max_xs) {
+				background: transparent url(../images/bg-suggest-sp.png) no-repeat left top;
+				background-size: 100% 100%;
+				margin-bottom: 90px;
+			}
+			.box-item {
+				background: transparent url(../images/bg-suggest.png) no-repeat left top;
+				background-size: 100% 100%;
+				padding-right: 64px;
+				@include mq(max_lg) {
+					padding-right: 20px;
+				}
+				.col-image {
+					img {
+						@include mq(max_xs) {
+							margin-bottom: -90px;
+						}
+					}
+				}
+			}
 		}
 		.col-detail {
 			.box-detail {
 				max-width: 652px;
+				@include mq(max_xl) {
+					max-width: 100%;
+				}
 			}
 			.title-lg {
 				text-align: left;
 				margin: 0 0 20px;
+				@include mq(max_md) {
+					font-size: 34px;
+				}
+				@include mq(max_sm) {
+					font-size: 24px;
+					margin-bottom: 10px;
+				}
 			}
 			.txt {
 				font-size: 20px;
 				line-height: 1.8;
 				color: #4A5568;
+				@include mq(max_sm) {
+					font-size: 18px;
+				}
 			}
 			svg {
 				vertical-align: middle;
@@ -195,6 +273,9 @@
 		}
 		.col-image {
 			text-align: right;
+			@include mq(max_sm) {
+				text-align: center;
+			}
 			img {
 			}
 		}
@@ -206,6 +287,12 @@
 ----------------------------------------------------------- */
 .con-classroom-model {
 	padding: 120px 0;
+	@include mq(max_lg) {
+		padding: 110px 0 80px;
+	}
+	@include mq(max_sm) {
+		padding-top: 80px 0 50px;
+	}
 	.title-lg {
 		display: flex;
 		justify-content: flex-start;
@@ -435,6 +522,47 @@
 					border-bottom-left-radius: 8px;
 					border-bottom-right-radius: 8px;
 				}
+			}
+		}
+	}
+}
+
+/* -----------------------------------------------------------
+	.con-effective
+----------------------------------------------------------- */
+.con-effective {
+	background: #f8f6f3;
+	padding-top: 92px;
+	.title-lg {
+		margin-bottom: 40px;
+		@include mq(max_sm) {
+			margin-bottom: 30px;
+		}
+	}
+	.box-slider-wrapper {
+		position: relative;
+		margin-bottom: 70px;
+		@include mq(max_sm) {
+			margin-bottom: 50px;
+		}
+	}
+	.box-slider {
+		.slick-list {
+			margin: 0 -30px;
+			@include mq(max_lg) {
+				margin: 0 -15px;
+			}
+			@include mq(max_xs) {
+				margin: 0 -8px;
+			}
+		}
+		.slide-item {
+			padding: 0 30px;
+			@include mq(max_lg) {
+				padding: 0 15px;
+			}
+			@include mq(max_xs) {
+				padding: 0 8px;
 			}
 		}
 	}
