@@ -6,7 +6,6 @@
 	button
 ----------------------------------------------------------- */
 .btn-orange {
-	background: darken($primary, 8%);
 	position: relative;
 	height: 56px;
 	font-weight: 500;
@@ -52,5 +51,22 @@
 	span {
 		position: relative;
 		z-index: 2;
+	}
+}
+.btn-outline-orange {
+	position: relative;
+	height: 44px;
+	font-size: 18px;
+	color: $primary !important;
+	background: #fff;
+	border: 1px solid $primary;
+	text-decoration: none;
+	outline: 0;
+	border-radius: 12px;
+	box-shadow: none;
+	padding: 7.5px 15px;
+	&:hover {
+		color: #fff !important;
+		background: $primary;
 	}
 }
