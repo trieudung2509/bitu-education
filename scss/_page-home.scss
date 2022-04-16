@@ -541,7 +541,7 @@
 	background: #f8f6f3;
 	padding-top: 92px;
 	@include mq(max_sm) {
-		padding-top: 50px;
+		padding: 50px 0;
 	}
 	&:before {
 		display: block;
@@ -649,6 +649,8 @@
 	}
 
 	.box-progress {
+		position: relative;
+		z-index: 2;
 		margin: 0 auto -64px;
 		@include mq(max_sm) {
 			margin-bottom: 0;
@@ -785,8 +787,12 @@
 	@include mq(max_lg) {
 		padding: 120px 0 90px;
 	}
+	@include mq(max_md) {
+		padding-bottom: 70px;
+	}
 	@include mq(max_sm) {
-		padding: 80px 0 50px;
+		background: none;
+		padding: 50px 0 0;
 	}
 	&:before {
 		display: block;
@@ -806,12 +812,29 @@
 	}
 	.box-register {
 		padding-right: 24px;
+		@include mq(max_lg) {
+			padding-right: 0;
+			margin-bottom: 30px;
+		}
 	}
 	.register-form {
 		background: #fff;
 		border-radius: 24px;
 		padding: 64px;
+		@include mq(max_lg) {
+			padding: 40px;
+		}
+		@include mq(max_md) {
+			padding: 40px;
+		}
+		@include mq(max_sm) {
+			padding: 30px;
+		}
 		.title-register {
+			font-weight: 500;
+			font-size: 32px;
+			line-height: (41 / 32);
+			margin-bottom: 24px;
 		}
 		.form-group {
 		}
@@ -821,11 +844,15 @@
 			.ic {
 			}
 		}
-		.btn-submit {
-			min-width: 259px;
-			@include mq(max_xs) {
-				min-width: 0;
-			}
+	}
+	.box-btn-advisory {
+		text-align: center;
+		margin-bottom: 55px;
+	}
+	.btn-advisory {
+		min-width: 259px;
+		@include mq(max_xs) {
+			min-width: 0;
 		}
 	}
 	.box-play {
@@ -848,6 +875,10 @@
 			height: 80px;
 			border-radius: 50%;
 			background: rgba(#1a202c, 0.68);
+			@include mq(max_lg) {
+				width: 60px;
+				height: 60px;
+			}
 			&:hover {
 				background: rgba(#1a202c, 0.9);
 			}
@@ -856,6 +887,28 @@
 		}
 	}
 }
+.advisory-modal {
+	position: relative;
+  width: 100%;
+  max-width: 950px;
+  margin: 50px auto;
+	.box-iframe {
+		text-align: center;
+    position: relative;
+    width: 100%;
+		max-width: 80vw;
+    padding-top: 56.25%;
+		margin: auto;
+    iframe {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+	}
+}
+
 
 /* -----------------------------------------------------------
 	.con_newsbitu

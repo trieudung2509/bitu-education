@@ -570,9 +570,8 @@
     <div class="con-register-advisory">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6 d-none d-md-block">
             <div class="box-register">
-
               <form class="register-form">
                 <div class="title-register">Đăng ký lên trình tiếng Anh cùng Bitu</div>
 
@@ -598,16 +597,25 @@
                 </div>
 
                 <div class="text-center">
-                  <button type="submit" class="btn btn-orange btn-submit"><span>Nhận tư vấn miễn phí</span></button>
+                  <button type="submit" class="btn btn-orange btn-advisory"><span>Nhận tư vấn miễn phí</span></button>
                 </div>
               </form>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-play">
+          <div class="col-12 col-lg-6 col-play">
+            <div class="box-btn-advisory d-block d-md-none">
+              <a href="#" class="btn btn-orange btn-advisory"><span>Nhận tư vấn miễn phí</span></a>
+            </div>
+
             <div class="box-play">
               <img src="images/register-advisory.jpg" alt="Đăng ký lên trình tiếng Anh cùng Bitu" class="img w-100">
-              <button type="button" class="btn-play">
+              <button
+                type="button"
+                class="btn-play"
+                data-modal="#advisoryModal"
+                data-iframe='<iframe width="950" height="540" src="https://www.youtube.com/embed/GrwaHvbr6ns?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+              >
                 <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_741_17719)"><path d="M17.355 10.6089L1.68975 0.164944C1.51166 0.0468954 1.31392 -0.0086308 1.11524 0.00361706C0.916569 0.0158649 0.72352 0.095482 0.554355 0.234939C0.38519 0.374395 0.2455 0.569082 0.148497 0.800586C0.0514942 1.03209 0.000383863 1.29276 0 1.55794L0 22.4449C0.000305713 22.7101 0.0513787 22.9709 0.148382 23.2024C0.245386 23.4339 0.385109 23.6286 0.554319 23.768C0.72353 23.9074 0.916626 23.9869 1.11532 23.9989C1.31402 24.011 1.51173 23.9552 1.68975 23.8369L17.355 13.3939C17.5489 13.2646 17.712 13.0658 17.826 12.8199C17.94 12.5739 18.0003 12.2906 18.0003 12.0014C18.0003 11.7123 17.94 11.4289 17.826 11.183C17.712 10.9371 17.5489 10.7383 17.355 10.6089Z" fill="white"/></g><defs><clipPath id="clip0_741_17719"><rect width="18" height="24" fill="white"/></clipPath></defs></svg>
               </button>
             </div>
@@ -691,10 +699,13 @@
 
   </div>
 
+  <div id="advisoryModal" class="mfp-hide advisory-modal">
+    <div class="box-iframe text-center"></div>
+  </div>
+
   <?php include "templates/footer.php"; ?>
 
   <script>
-    $(function() {
       /* -----------------------------------------------------------
         Effective slider
       ----------------------------------------------------------- */
@@ -750,7 +761,39 @@
 
       });
 
-    });
+      /* -----------------------------------------------------------
+        Effective slider
+      ----------------------------------------------------------- */
+      $(function() {
+        $('.con-register-advisory .btn-play').on('click', function(e) {
+          e.preventDefault();
+
+          var modal = $(this).data('modal');
+          var iframe = $(this).data('iframe');
+
+          // Reset
+          $(modal).find('.box-iframe').html('');
+
+          $.magnificPopup.open({
+            items: {
+              src: modal
+            },
+            type: 'inline',
+            mainClass: 'mfp-fade',
+            removalDelay: 200,
+            closeBtnInside: false,
+            callbacks: {
+              open: function() {
+                $(modal).find('.box-iframe').html(iframe);
+              },
+              close: function() {
+                $(modal).find('.box-iframe').html('');
+              }
+            }
+          });
+        });
+
+      });
 
   </script>
 
