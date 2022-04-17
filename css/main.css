@@ -1688,6 +1688,9 @@ img.mfp-img {
     padding-top: 0;
   }
 }
+.con-moderators .box-moderator-wrapper {
+  overflow: hidden;
+}
 @media only screen and (max-width: 575px) {
   .con-moderators .box-moderator-wrapper {
     background: rgba(72, 187, 120, 0.1);
@@ -1777,9 +1780,6 @@ img.mfp-img {
   .con-moderators .box-des {
     font-size: 18px;
   }
-}
-.con-moderators .box-slider-wrapper {
-  overflow: hidden;
 }
 .con-moderators .box-slider-pc {
   position: relative;
