@@ -72,7 +72,7 @@
                   type="button"
                   class="btn-play"
                   data-modal="#youtubeModal"
-                  data-iframe='<iframe width="950" height="540" src="https://www.youtube.com/embed/GrwaHvbr6ns?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                  data-iframe='<iframe width="950" height="540" src="https://www.youtube.com/embed/DNskFBVtIyo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
                 >
                   <span class="ic"><svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_796_3589)"><path d="M17.355 10.608L1.68975 0.163968C1.51166 0.0459189 1.31392 -0.00960736 1.11524 0.00264049C0.916569 0.0148883 0.72352 0.0945054 0.554355 0.233962C0.38519 0.373419 0.2455 0.568105 0.148497 0.79961C0.0514942 1.03111 0.000383863 1.29178 0 1.55697L0 22.444C0.000305713 22.7092 0.0513787 22.9699 0.148382 23.2014C0.245386 23.4329 0.385109 23.6276 0.554319 23.767C0.72353 23.9064 0.916626 23.9859 1.11532 23.998C1.31402 24.01 1.51173 23.9543 1.68975 23.836L17.355 13.393C17.5489 13.2636 17.712 13.0649 17.826 12.8189C17.94 12.573 18.0003 12.2896 18.0003 12.0005C18.0003 11.7114 17.94 11.428 17.826 11.182C17.712 10.9361 17.5489 10.7373 17.355 10.608V10.608Z" fill="#FF6D03"/></g><defs><clipPath id="clip0_796_3589"><rect width="18" height="24" fill="white"/></clipPath></defs></svg></span>
                   <span class="text">Giới thiệu về Bitu</span>
@@ -1085,7 +1085,7 @@
               type="button"
               class="btn-play"
               data-modal="#youtubeModal"
-              data-iframe='<iframe width="950" height="540" src="https://www.youtube.com/embed/GrwaHvbr6ns?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+              data-iframe='<iframe width="950" height="540" src="https://www.youtube.com/embed/DNskFBVtIyo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             >
               <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_741_17719)"><path d="M17.355 10.6089L1.68975 0.164944C1.51166 0.0468954 1.31392 -0.0086308 1.11524 0.00361706C0.916569 0.0158649 0.72352 0.095482 0.554355 0.234939C0.38519 0.374395 0.2455 0.569082 0.148497 0.800586C0.0514942 1.03209 0.000383863 1.29276 0 1.55794L0 22.4449C0.000305713 22.7101 0.0513787 22.9709 0.148382 23.2024C0.245386 23.4339 0.385109 23.6286 0.554319 23.768C0.72353 23.9074 0.916626 23.9869 1.11532 23.9989C1.31402 24.011 1.51173 23.9552 1.68975 23.8369L17.355 13.3939C17.5489 13.2646 17.712 13.0658 17.826 12.8199C17.94 12.5739 18.0003 12.2906 18.0003 12.0014C18.0003 11.7123 17.94 11.4289 17.826 11.183C17.712 10.9371 17.5489 10.7383 17.355 10.6089Z" fill="white"/></g><defs><clipPath id="clip0_741_17719"><rect width="18" height="24" fill="white"/></clipPath></defs></svg>
             </button>
