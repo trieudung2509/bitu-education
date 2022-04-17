@@ -1168,6 +1168,9 @@ img.mfp-img {
     background: linear-gradient(to right, #ff6d03 0%, #ff9604 100%);
   }
 }
+.con-intro .register-form-common .btn-advisory {
+  min-width: 259px;
+}
 @media only screen and (max-width: 1199px) {
   .con-intro .register-form-common .btn-advisory {
     -webkit-box-shadow: 0 7px 16px 0px rgba(255, 109, 3, 0.3) !important;
@@ -1270,7 +1273,10 @@ img.mfp-img {
           box-shadow: none;
 }
 .con-intro .box-rating .btn-play:hover .ic {
-  background: rgba(255, 109, 3, 0.2);
+  background: rgba(255, 109, 3, 0.3);
+}
+.con-intro .box-rating .btn-play:hover .text {
+  color: #ff6d03;
 }
 .con-intro .box-rating .btn-play .ic {
   display: -webkit-box;
@@ -1303,6 +1309,8 @@ img.mfp-img {
 }
 .con-intro .box-rating .btn-play .text {
   font-size: 18px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 @media only screen and (max-width: 767px) {
   .con-intro .box-rating .btn-play .text {
@@ -2684,13 +2692,13 @@ img.mfp-img {
 .con-register-advisory .box-play .btn-play:hover {
   background: rgba(26, 32, 44, 0.9);
 }
-.advisory-modal {
+.youtube-modal {
   position: relative;
   width: 100%;
   max-width: 1300px;
   margin: 50px auto;
 }
-.advisory-modal .box-iframe {
+.youtube-modal .box-iframe {
   text-align: center;
   position: relative;
   width: 100%;
@@ -2698,7 +2706,7 @@ img.mfp-img {
   padding-top: 56.25%;
   margin: auto;
 }
-.advisory-modal .box-iframe iframe {
+.youtube-modal .box-iframe iframe {
   position: absolute;
   top: 0;
   right: 0;

@@ -117,6 +117,7 @@
 			}
 		}
 		.btn-advisory {
+			min-width: 259px;
 			@include mq(max_lg) {
 				box-shadow: 0 7px 16px 0px rgba($primary, 0.3) !important;
 			}
@@ -209,7 +210,10 @@
 			box-shadow: none;
 			&:hover {
 				.ic {
-					background: rgba($primary, 0.2);
+					background: rgba($primary, 0.3);
+				}
+				.text {
+					color: $primary;
 				}
 			}
 			.ic {
@@ -232,6 +236,7 @@
 			}
 			.text {
 				font-size: 18px;
+				transition: all 0.4s ease;
 				@include mq(max_sm) {
 					font-size: 16px;
 				}
@@ -1378,7 +1383,7 @@
 		}
 	}
 }
-.advisory-modal {
+.youtube-modal {
 	position: relative;
   width: 100%;
   max-width: 1300px;
