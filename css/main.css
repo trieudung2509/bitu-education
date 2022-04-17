@@ -904,6 +904,56 @@ img.mfp-img {
 }
 
 /* -----------------------------------------------------------
+	.con-intro
+----------------------------------------------------------- */
+.con-intro {
+  position: relative;
+  padding: 50px 0 200px;
+}
+.con-intro:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48.9583333333vw;
+  height: 53.6458333333vw;
+  background: transparent url(../images/bg-intro.png) no-repeat right top;
+  background-size: contain;
+}
+.con-intro > * {
+  position: relative;
+}
+.con-intro .container {
+  position: relative;
+}
+.con-intro .ic-cute-person {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+}
+.con-intro .title-lg {
+  text-align: left;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .con-intro .title-lg {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .con-intro .title-lg {
+    margin-bottom: 20px;
+  }
+}
+.con-intro .register-form-common {
+  -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+  max-width: 594px;
+}
+
+/* -----------------------------------------------------------
 	.con-reason-speaking
 ----------------------------------------------------------- */
 .con-reason-speaking {

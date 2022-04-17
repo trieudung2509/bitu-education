@@ -2,6 +2,55 @@
 @import "variables";
 @import "mixins";
 
+/* -----------------------------------------------------------
+	.con-intro
+----------------------------------------------------------- */
+.con-intro {
+	position: relative;
+	padding: 50px 0 200px;
+	&:before {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: (940 / 1920) * 100vw;
+		height: (1030 / 1920) * 100vw;
+		background: transparent url(../images/bg-intro.png) no-repeat right top;
+		background-size: contain;
+		// @include mq(max_xs) {
+		// 	right: 0;
+		// 	left: auto;
+		// 	width: 60%;
+		// 	height: 25%;
+		// }
+	}
+	> * {
+		position: relative;
+	}
+	.container {
+		position: relative;
+	}
+	.ic-cute-person {
+		position: absolute;
+		left: 0;
+		top: 30%;
+		transform: translate(-100%, 0);
+	}
+	.title-lg {
+		text-align: left;
+		margin-bottom: 40px;
+		@include mq(max_sm) {
+			margin-bottom: 30px;
+		}
+		@include mq(max_xs) {
+			margin-bottom: 20px;
+		}
+	}
+	.register-form-common {
+		box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.10);
+		max-width: 594px;
+	}
+}
 
 /* -----------------------------------------------------------
 	.con-reason-speaking

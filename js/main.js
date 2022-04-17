@@ -51,6 +51,6 @@ $(function() {
 		Header fixed
 	----------------------------------------------------------- */
 	$(window).on('scroll', function() {
-		$(window).scrollTop() > 0 ? $('.main-header').addClass('fixed') : $('.header').removeClass('fixed');
+		$(window).scrollTop() > 0 ? $('.main-header').addClass('fixed') : $('.main-header').removeClass('fixed');
 	});
 });
