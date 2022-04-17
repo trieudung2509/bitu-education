@@ -2536,17 +2536,21 @@ img.mfp-img {
   }
 }
 .block-recruitment-1 .block1-recruitment-left .btn-contact {
-  background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
+  background: -webkit-gradient(linear, left top, right top, from(#d95b00), to(#ff8303));
+  background: linear-gradient(to right, #d95b00 0%, #ff8303 100%);
   border-radius: 16px;
   font-size: 20px;
   font-weight: 400;
   color: #fff;
   border: none;
+  -webkit-box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
+          box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
   padding: 16px 27px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruitment-1 .block1-recruitment-left .btn-contact {
-    background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
+    background: -webkit-gradient(linear, left top, right top, from(#d95b00), to(#ff8303));
+    background: linear-gradient(to right, #d95b00 0%, #ff8303 100%);
     border-radius: 16px;
     font-size: 18px;
     font-weight: 400;
@@ -3000,4 +3004,77 @@ img.mfp-img {
   font-weight: 400;
   color: #1A202C;
   margin-bottom: 0;
+}
+
+.block-recruiment-top {
+  background-image: url("../images/recruitment-top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 41px 0px;
+  text-align: center;
+}
+.block-recruiment-top h2 {
+  font-size: 52px;
+  font-weight: 400;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .block-recruiment-top h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+.block-recruiment-top .description-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.block-recruiment-top .description-top span.time-des {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8px;
+}
+@media only screen and (max-width: 767px) {
+  .block-recruiment-top .description-top span.time-des {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+.list-recruiment {
+  padding: 50px 0px 251px;
+}
+.list-recruiment .block-item-recruitment {
+  margin-bottom: 50px;
+}
+.list-recruiment .block-item-recruitment h2.title-recruiment {
+  font-size: 32px;
+  font-weight: 400;
+  color: #212529;
+  margin-bottom: 16px;
+}
+.list-recruiment .block-item-recruitment ul.ul-rules li.item-rules p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1A202C;
+}
+.list-recruiment .block-button button.btn-apply {
+  background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
+          box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
+  padding: 15px 48px;
 }
