@@ -16,7 +16,7 @@
 					<li><a href="./" class="<?php if ($activePage=="index") echo "active"; ?>">Trang chủ</a></li>
 					<li><a href="./about-us.php" class="<?php if ($activePage=="about-us") echo "active"; ?>">Về chúng tôi</a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="#">Pricing</a></li>
+					<li><a href="../page-pricing.php">Pricing</a></li>
 					<li><a href="#">Roadmap</a></li>
 					<li><a href="#">FAQs</a></li>
 					<li><a href="#">Tuyển dụng</a></li>
