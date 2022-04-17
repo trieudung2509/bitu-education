@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+/* -----------------------------------------------------------
+	.register-form-common
+----------------------------------------------------------- */
+.register-form-common {
+	background: #fff;
+	border-radius: 24px;
+	padding: 64px;
+	@include mq(max_lg) {
+		padding: 40px;
+	}
+	@include mq(max_md) {
+		padding: 40px;
+	}
+	@include mq(max_sm) {
+		padding: 30px;
+	}
+	.title-register {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: (41 / 32);
+		margin-bottom: 24px;
+	}
+}

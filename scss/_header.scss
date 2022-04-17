@@ -8,6 +8,10 @@
 .main-header {
 	padding: 10px;
 	position: relative;
+	@include mq(max_md) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	&.fixed {
 		position: fixed;
 		top: 0;left: 0;
@@ -16,28 +20,68 @@
 		z-index: 1000;
 	}
 	.col-logo {
+		@include mq(max_md) {
+			width: 18%;
+		}
 		.logo {
 		}
 	}
 	.col-nav {
 		padding-right: 90px;
+		@include mq(max_md) {
+			padding-right: 64px;
+		}
 		@include mq(max_sm){
 			padding-right: 0;
+		}
+		.main-nav {
+			li {
+				@include mq(max_md) {
+					margin-left: 4px;
+				}
+				a {
+					@include mq(max_lg) {
+						font-size: 16px;
+					}
+				}
+			}
 		}
 	}
 	.box-language {
 		position: absolute;
-		right: 30px;
+		right: 25px;
 		top: 50%;
 		transform: translateY(-50%);
+		background: none;
+		background: #EDF2F7;
+		border-radius: 20px;
+		@include mq(max_lg) {
+			right: 15px;
+		}
 		@include mq(max_sm){
 			display: none;
+		}
+		a {
+			color: #1A202C;
+			text-decoration: none;
+			font-size: 16px;
+			display: flex;
+			padding: 5px 12px 5px 7px;
+			justify-content: center;
+			align-items: center;
+			font-weight: 500;
+			@include mq(max_md) {
+				font-size: 14px;
+				padding: 3px 10px 3px 5px;;
+			}
+			span {
+				padding-left: 5px;
+			}
 		}
 	}
 
 	.dropdown-toggle {
 		border: 0;
-		background: none;
 		&:after {
 			display: none;
 		}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+/* -----------------------------------------------------------
+	Form
+----------------------------------------------------------- */
+.form-group {
+	margin-bottom: 24px;
+}
+.form-control {
+	height: 52px;
+	background: #fff;
+	border-radius: 12px;
+	border: 1px solid #a0aec0;
+}
+.form-control-with-pre-icon {
+	position: relative;
+	.form-control {
+		padding-left: 42px;
+	}
+	.ic {
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+}

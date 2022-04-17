@@ -30,16 +30,16 @@
       padding: 10px 0px;
     }
     h5 {
-      @include font-recruiment(48px, $primary);
+      @include font-recruiment(48px, $body-color);
       @include mq(max_md) {
-        @include font-recruiment(32px, $primary);
+        @include font-recruiment(32px, $body-color);
       }
     }
 
     p {
-      @include font-recruiment(48px, $black);
+      @include font-recruiment(48px, $body-color);
       @include mq(max_sm) {
-        @include font-recruiment(32px, $black);
+        @include font-recruiment(32px, $body-color);
       }
     }
     .btn-contact {
