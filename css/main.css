@@ -1315,12 +1315,7 @@ img.mfp-img {
   }
 }
 .con-reason-speaking .title-lg {
-  margin-bottom: 86px;
-}
-@media only screen and (max-width: 1399px) {
-  .con-reason-speaking .title-lg {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 991px) {
   .con-reason-speaking .title-lg {
