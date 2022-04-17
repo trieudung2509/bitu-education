@@ -6,36 +6,52 @@
 	.main-header
 ----------------------------------------------------------- */
 .main-header {
-	padding: 10px;
 	position: relative;
-	@include mq(max_md) {
+	transition: all 0.4s ease;
+	padding: 10px 45px;
+	@include mq(max_lg) {
 		padding-left: 0;
 		padding-right: 0;
 	}
 	&.fixed {
 		position: fixed;
-		top: 0;left: 0;
+		top: 0;
+		left: 0;
 		width: 100%;
 		background: white;
+		box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.10);
 		z-index: 1000;
 	}
-	.col-logo {
-		@include mq(max_md) {
-			width: 18%;
+	.btn-menu {
+		outline: 0;
+		line-height: 1;
+		box-shadow: none;
+		margin-left: 5px;
+		&:hover {
+			path {
+				stroke: $primary;
+			}
 		}
+		path {
+			transition: all 0.4s ease;
+		}
+	}
+	.col-logo {
 		.logo {
 		}
 	}
 	.col-nav {
-		padding-right: 90px;
-		@include mq(max_md) {
-			padding-right: 64px;
-		}
-		@include mq(max_sm){
-			padding-right: 0;
-		}
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 		.main-nav {
 			li {
+				&:first-child {
+					margin-left: 0 !important;
+				}
+				@include mq(max_lg) {
+					margin-left: 18px;
+				}
 				@include mq(max_md) {
 					margin-left: 4px;
 				}
@@ -43,47 +59,36 @@
 					@include mq(max_lg) {
 						font-size: 16px;
 					}
+					@include mq(max_md) {
+						font-size: 15px;
+					}
 				}
 			}
 		}
 	}
 	.box-language {
-		position: absolute;
-		right: 25px;
-		top: 50%;
-		transform: translateY(-50%);
-		background: none;
-		background: #EDF2F7;
-		border-radius: 20px;
-		@include mq(max_lg) {
-			right: 15px;
-		}
-		@include mq(max_sm){
-			display: none;
-		}
+		margin-left: 24px;
 		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #EDF2F7;
+			border-radius: 20px;
 			color: #1A202C;
 			text-decoration: none;
 			font-size: 16px;
-			display: flex;
 			padding: 5px 12px 5px 7px;
-			justify-content: center;
-			align-items: center;
 			font-weight: 500;
 			@include mq(max_md) {
 				font-size: 14px;
 				padding: 3px 10px 3px 5px;;
 			}
+			&:hover {
+				background: darken(#EDF2F7, 5%);
+			}
 			span {
 				padding-left: 5px;
 			}
-		}
-	}
-
-	.dropdown-toggle {
-		border: 0;
-		&:after {
-			display: none;
 		}
 	}
 }
@@ -107,9 +112,22 @@
 			&:hover,
 			&.active {
 				color: $primary;
+				&:before {
+					opacity: 1;
+					width: 100%;
+				}
 			}
 			&:before {
+				opacity: 0;
 				content: '';
+				position: absolute;
+				left: 50%;
+				bottom: -8px;
+				transform: translate(-50%, 0);
+				height: 3px;
+				width: 0;
+				background: $primary;
+				transition: all 0.4s ease;
 			}
 		}
 	}
@@ -127,9 +145,7 @@
 		text-align: center;
 		li {
 			display: block;
-			a {
-				padding: 1rem;
-			}
+			margin-bottom: 40px;
 		}
 	}
 }

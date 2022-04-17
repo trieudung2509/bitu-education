@@ -27,7 +27,7 @@
 		font-size: 18px;
 		padding: 11px 15px;
 	}
-	@include mq(max_xs) {
+	@include mq(max_sm) {
 		box-shadow: 0 7px 16px 0px rgba($primary, 0.3) !important;
 	}
 	&:hover {
