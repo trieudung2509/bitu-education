@@ -1,4 +1,4 @@
-<header class="main-header fixed-top">
+<header class="main-header">
 	<div class="container-fluid">
 		<div class="row g-0 justify-content-between align-items-center">
 			<div class="col-auto col-logo">
