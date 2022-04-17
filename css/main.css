@@ -2680,7 +2680,7 @@ img.mfp-img {
 .advisory-modal {
   position: relative;
   width: 100%;
-  max-width: 950px;
+  max-width: 1300px;
   margin: 50px auto;
 }
 .advisory-modal .box-iframe {
