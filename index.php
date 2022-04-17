@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <!-- /.con-reason-speaking -->
+    <!-- /END .con-reason-speaking -->
 
     <div class="con-reason-reflex">
       <div class="container">
@@ -81,7 +81,7 @@
         </div>
       </div>
     </div>
-    <!-- /.con-reason-reflex -->
+    <!-- /END .con-reason-reflex -->
 
     <div class="con-benefit">
       <div class="box-list">
@@ -165,7 +165,7 @@
 
       </div>
     </div>
-    <!-- /.con-benefit -->
+    <!-- /END .con-benefit -->
 
     <div class="con-moderators">
       <div class="container">
@@ -485,8 +485,8 @@
           </div>
         </div>
       </div>
-    </div><!-- /.END con-moderators -->
-
+    </div>
+    <!-- /END .con-moderators -->
 
     <div class="con-classroom-model">
       <div class="box-title">
@@ -804,7 +804,7 @@
         </div>
       </div>
     </div>
-    <!-- /.con-classroom-model -->
+    <!-- /END .con-classroom-model -->
 
     <div class="con-effective">
       <div class="box-title-top">
@@ -886,7 +886,7 @@
         </div>
       </div>
     </div>
-    <!-- /.con-effective -->
+    <!-- /END .con-effective -->
 
     <div class="con-register-advisory">
       <div class="container">
@@ -944,7 +944,7 @@
         </div>
       </div>
     </div>
-    <!-- /.con-register-advisory -->
+    <!-- /END .con-register-advisory -->
 
     <div class="con_newsbitu">
       <div class="container">
@@ -983,7 +983,8 @@
           </li>
         </ul>
       </div>
-    </div><!-- /END .con_newsbitu -->
+    </div>
+    <!-- /END .con_newsbitu -->
 
     <div class="con_marketing">
       <div class="container">
@@ -1016,7 +1017,8 @@
           </div>
         </div>
       </div>
-    </div><!-- /END .con_marketing -->
+    </div>
+    <!-- /END .con_marketing -->
 
   </div>
 

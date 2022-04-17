@@ -3,6 +3,9 @@
 @import "mixins";
 
 
+/* -----------------------------------------------------------
+	.con-reason-speaking
+----------------------------------------------------------- */
 .con-reason-speaking {
 	padding-top: 112px;
 	.title-lg {
@@ -33,6 +36,9 @@
 	}
 	@include mq(max_sm) {
 		padding-top: 50px;
+	}
+	@include mq(max_xs) {
+		padding-top: 40px;
 	}
 	.title-lg {
 		margin-bottom: 24px;
@@ -151,13 +157,16 @@
 	.con-benefit
 ----------------------------------------------------------- */
 .con-benefit {
-	overflow: hidden;
 	padding-top: 128px;
 	@include mq(max_lg) {
 		padding-top: 100px;
 	}
 	@include mq(max_sm) {
-		padding-top: 80px;
+		padding-top: 70px;
+	}
+	@include mq(max_xs) {
+		padding-top: 50px;
+		margin-bottom: 110px;
 	}
 	.box-list {
 		.item {
@@ -196,6 +205,7 @@
 			}
 		}
 		.item-trend {
+			overflow: hidden;
 			@include mq(max_xs) {
 				background: transparent url(../images/bg-trend-sp.png) no-repeat left top;
 				background-size: 100% 100%;
@@ -290,7 +300,12 @@
 	.con-moderators
 ----------------------------------------------------------- */
 .con-moderators {
+	overflow: hidden;
 	padding-top: 70px;
+	@include mq(max_xs) {
+		background: rgba(72,187,120, 0.1);
+		padding-top: 0;
+	}
 	.box-wrapper {
 		position: relative;
 		background: rgba(72,187,120, 0.1);
@@ -303,11 +318,12 @@
 			padding: 40px;
 		}
 		@include mq(max_sm) {
-			padding: 30px;
+			padding: 35px 30px 40px;
 		}
 		@include mq(max_xs) {
+			background: none;
 			border-radius: 0;
-			padding: 30px 15px;
+			padding: 50px 0;
 		}
 		&:before {
 			content: '';
@@ -315,10 +331,16 @@
 			left: 10px;
 			top: 10px;
 			width: (309 / 1400) * 100%;
-			height: auto;
-			padding-bottom: 100%;
+			height: (309 / 1400) * 100%;
 			background: transparent url(../images/bg-ic-moderators.png) no-repeat left top;
 			background-size: contain;
+			@include mq(max_xs) {
+				right: 0;
+				left: auto;
+				width: 60%;
+				height: 25%;
+				background-position: right top;
+			}
 		}
 		> * {
 			position: relative;
@@ -326,6 +348,9 @@
 	}
 	.title-lg {
 		margin-bottom: 20px;
+		@include mq(max_xs) {
+			font-size: 24px;
+		}
 	}
 	.box-des {
 		max-width: 1100px;
@@ -334,6 +359,9 @@
 		margin: 0 auto 40px;
 		@include mq(max_sm) {
 			margin-bottom: 20px;
+		}
+		@include mq(max_xs) {
+			font-size: 18px;
 		}
 	}
 	.box-slider-pc {
@@ -404,6 +432,9 @@
 		border-radius: 16px;
 		.box-details {
 			padding: 12px 20px 20px;
+			@include mq(max_xs) {
+				padding: 8px 12px 12px;
+			}
 		}
 		.photo {
 		}
@@ -413,11 +444,18 @@
 				font-size: 24px;
 				line-height: (30 / 24);
 				margin-bottom: 8px;
+				@include mq(max_xs) {
+					font-size: 16px;
+					margin-bottom: 0;
+				}
 			}
 			ul.box-count {
 				list-style: none;
 				padding: 0;
 				margin: 0 0 8px;
+				@include mq(max_xs) {
+					margin-bottom: 5px;
+				}
 				li {
 					display: inline-block;
 					vertical-align: middle;
@@ -425,6 +463,9 @@
 					margin-right: 14px;
 					@include mq(max_lg) {
 						font-size: 16px;
+					}
+					@include mq(max_xs) {
+						margin-right: 5px;
 					}
 					&:last-child {
 						margin-right: 0 !important;
@@ -439,6 +480,9 @@
 							@include mq(max_lg) {
 								margin-right: 0;
 							}
+							@include mq(max_xs) {
+								width: 16px;
+							}
 						}
 						span {
 						}
@@ -448,6 +492,10 @@
 							margin-right: 8px;
 							@include mq(max_lg) {
 								margin-right: 0;
+							}
+							@include mq(max_xs) {
+								width: 13px;
+								height: 13px;
 							}
 						}
 						.rating {
@@ -462,11 +510,18 @@
 				font-size: 15px;
 				color: #718096;
 				margin-bottom: 8px;
+				@include mq(max_xs) {
+					font-size: 12px;
+				}
 			}
 			.btn-view-more {
 				display: inline-flex;
 				align-items: center;
+				font-size: 15px;
 				color: $primary;
+				background: none;
+				border: 0;
+				outline: 0;
 				text-decoration: none;
 				&:hover {
 					opacity: 0.7;
@@ -488,7 +543,10 @@
 		padding: 90px 0;
 	}
 	@include mq(max_sm) {
-		padding: 80px 0 50px;
+		padding: 60px 0 70px;
+	}
+	@include mq(max_xs) {
+		padding: 40px 0 50px;
 	}
 	.title-lg {
 		display: flex;
@@ -734,7 +792,10 @@
 	background: #f8f6f3;
 	padding-top: 92px;
 	@include mq(max_sm) {
-		padding: 50px 0;
+		padding: 60px 0 70px;
+	}
+	@include mq(max_xs) {
+		padding: 40px 0 50px;
 	}
 	&:before {
 		display: block;
@@ -762,6 +823,9 @@
 		margin-bottom: 40px;
 		@include mq(max_sm) {
 			margin-bottom: 30px;
+		}
+		@include mq(max_xs) {
+			margin-bottom: 20px;
 		}
 	}
 	.box-slider-wrapper {
@@ -984,7 +1048,10 @@
 	}
 	@include mq(max_sm) {
 		background: none;
-		padding: 50px 0 0;
+		padding: 70px 0 0;
+	}
+	@include mq(max_xs) {
+		padding: 30px 0 0;
 	}
 	&:before {
 		display: block;
@@ -1011,13 +1078,10 @@
 	}
 	.box-btn-advisory {
 		text-align: center;
-		margin-bottom: 55px;
+		margin-bottom: 50px;
 	}
 	.btn-advisory {
 		min-width: 259px;
-		@include mq(max_xs) {
-			min-width: 0;
-		}
 	}
 	.box-play {
 		position: relative;
