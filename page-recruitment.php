@@ -8,14 +8,14 @@
     <div class="block-recruitment-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-12">
+          <div class="col-lg-5 col-md-5 col-12">
             <div class="block1-recruitment-left">
-              <h5>Nghĩ lớn Làm nhỏ Tham vọng lớn</h5>
+              <h5>Nghĩ lớn <br /> Làm nhỏ <br /> Tham vọng lớn</h5>
               <p>nhưng hãy bắt đầu bằng cách cố gắng làm những việc nhỏ bé theo cách tuyệt vời nhất</p>
               <button type="button" class="btn btn-primary btn-contact">Gia nhập với chúng tôi</button>
             </div>
           </div>
-          <div class="col-md-7 col-12">
+          <div class="col-lg-5 col-md-7 col-12">
             <div class="block1-recruitment-right">
               <img src="/images/Mask group.jpg" alt="">
             </div>
@@ -38,7 +38,7 @@
               <ul class="ul-mission">
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon1.jpg" alt="">
+                    <img src="/images/mission-icon1.svg" alt="">
                     <p>
                       Giúp học viên ở các nước không nói tiếng Anh có thể cải thiện tốt nhất khả năng giao tiếp bằng ngôn ngữ này
                     </p>
@@ -46,7 +46,7 @@
                 </li>
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon2.jpg" alt="">
+                    <img src="/images/mission-icon2.svg" alt="">
                     <p>
                       Tạo ra một nền tảng kết nối, một MXH “kiểu mới”- nơi học viên sử dụng tiếng Anh như công cụ chính để giao lưu, kết bạn, trao đổi văn hóa
                     </p>
@@ -54,7 +54,7 @@
                 </li>
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon3.jpg" alt="">
+                    <img src="/images/mission-icon3.svg" alt="">
                     <p>
                       Phổ cập tiếng Anh cho mọi lứa tuổi, mọi tầng lớp, từ thành thị đến nông thôn, từ người nghèo cho đến người giàu đều có thể tham gia Bitu
                     </p>
@@ -95,8 +95,8 @@
             </div>
           </div>
           <div class="col-md-5 col-12">
-            <div class="suitable-left">
-              <img src="images/suitable-img.jpg" />
+            <div class="suitable-right">
+              <img src="images/suitable-img.png" />
             </div>
           </div>
         </div>
@@ -108,8 +108,8 @@
       <div class="container">
         <div class="row">
           <div class="mission-title">
-            <h2>Ai phù hợp với Bitu ?</h2>
-            <h6>Hãy cùng chúng tôi xây dựng những sản phẩm tuyệt vời</h6>
+            <h2>Các vị trí tuyển dụng</h2>
+            <p>Hãy cùng chúng tôi xây dựng những sản phẩm tuyệt vời</p>
           </div>
         </div>
         <div class="recruit-top">
@@ -117,53 +117,83 @@
             <div class="mission-title">
               <h2>Marketing</h2>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Product Manager, Integrations</h4>
-                <p>Thương lượng</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Product Manager, Integrations</h4>
+                  <p>Thương lượng</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Group Product Manager, Permissions & Federation</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Group Product Manager, Permissions & Federation</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Head of Product Design</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Head of Product Design</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Account Executive - Majors</h4>
-                <p>Up to $3k</p>
-                <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                <div class="recruit-detail">
+                  <h4>Account Executive - Majors</h4>
+                  <p>Up to $3k</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Business Development Representative</h4>
-                <p>Up to $3k</p>
-                <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                <div class="recruit-detail">
+                  <h4>Business Development Representative</h4>
+                  <p>Up to $3k</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Group Product Manager, Permissions & Federation</h4>
-                <p>Thương lượng</p>
-                <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                <div class="recruit-detail">
+                  <h4>Group Product Manager, Permissions & Federation</h4>
+                  <p>Thương lượng</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Head of Product Design</h4>
-                <p>Up to $3k</p>
-                <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                <div class="recruit-detail">
+                  <h4>Head of Product Design</h4>
+                  <p>Up to $3k</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
           </div>
@@ -174,32 +204,48 @@
             <div class="mission-title">
               <h2>IT & Design</h2>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Product Manager, Integrations</h4>
-                <p>Thương lượng</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Product Manager, Integrations</h4>
+                  <p>Thương lượng</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Group Product Manager, Permissions & Federation</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Group Product Manager, Permissions & Federation</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Head of Product Design</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Head of Product Design</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Account Executive - Majors</h4>
-                <p>Up to $3k</p>
-                <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                <div class="recruit-detail">
+                  <h4>Account Executive - Majors</h4>
+                  <p>Up to $3k</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
           </div>
@@ -210,25 +256,37 @@
             <div class="mission-title">
               <h2>Sale</h2>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Product Manager, Integrations</h4>
-                <p>Thương lượng</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Product Manager, Integrations</h4>
+                  <p>Thương lượng</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Group Product Manager, Permissions & Federation</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Group Product Manager, Permissions & Federation</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4 col-12">
               <div class="item-recruit">
-                <h4>Head of Product Design</h4>
-                <p>15.000.000-25.000.000</p>
-                <button type="button" class="btn btn-primary btn-apply">Apply</button>
+                <div class="recruit-detail">
+                  <h4>Head of Product Design</h4>
+                  <p>15.000.000-25.000.000</p>
+                </div>
+                <div class="recrit-btn">
+                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                </div>
               </div>
             </div>
           </div>
@@ -246,37 +304,37 @@
             </div>
           </div>
           <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/computer.svg" />
                     <h5>Máy tính</h5>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/interest-2.svg" />
                     <h5>Bữa trưa</h5>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/interest-3.svg" />
                     <h5>Bảo hiểm</h5>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/interest-4.svg" />
                     <h5>Thưởng những ngày lễ lớn</h5>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/interest-5.svg" />
                     <h5>Cafe & Trà miễn phí</h5>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-6">
                   <div class="item-interest">
                     <img src="images/interest-6.svg" />
                     <h5>Du lịch, team building</h5>
@@ -296,58 +354,82 @@
               </div>
             </div>
             <div class="row">
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
-                        <h4>01</h4>
-                        <h5>Xét duyệt hồ sơ</h5>
-                        <p>
-                          Đảm bảo kinh nghiệm của bạn phù hợp với công ty
-                        </p>
+                        <div class="step-number">
+                          <h4>01</h4>
+                        </div>
+                        <div class="step-body">
+                          <h5>Xét duyệt hồ sơ</h5>
+                          <p>
+                            Đảm bảo kinh nghiệm của bạn phù hợp với công ty
+                          </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
-                        <h4>02</h4>
-                        <h5>Phỏng vấn sơ tuyển</h5>
-                        <p>
-                          Chúng tôi muốn làm quen với bạn
-                        </p>
+                      <div class="step-number">
+                          <h4>02</h4>
+                      </div>
+                      <div class="step-body">
+                          <h5>Phỏng vấn sơ tuyển</h5>
+                          <p>
+                            Chúng tôi muốn làm quen với bạn
+                          </p>
+                      </div>
                     </div>
                 </div>
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
-                        <h4>03</h4>
+                      <div class="step-number">
+                          <h4>03</h4>
+                      </div>
+                      <div class="step-body">
                         <h5>Mini Project</h5>
                         <p>
                           Một bài tập nhỏ  cho vị trí mà bạn ứng tuyển
                         </p>
+                      </div>
                     </div>
                 </div>
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
+                      <div class="step-number">
                         <h4>04</h4>
-                        <h5>Phỏng vấn</h5>
-                        <p>
-                          Phỏng vấn với Team Lead
-                        </p>
+                      </div>
+                      <div class="step-body">
+                          <h5>Phỏng vấn</h5>
+                          <p>
+                            Phỏng vấn với Team Lead
+                          </p>
+                      </div>
                     </div>
                 </div>
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
-                        <h4>05</h4>
-                        <h5>Offer</h5>
-                        <p>
-                          Bitu gửi Offer đến ứng viên
-                        </p>
+                      <div class="step-number">
+                          <h4>05</h4>
+                      </div>
+                      <div class="step-body">
+                          <h5>Offer</h5>
+                          <p>
+                            Bitu gửi Offer đến ứng viên
+                          </p>
+                      </div>
                     </div>
                 </div>
-                <div class="col-md-2 item-progress">
+                <div class="col-lg-2 col-md-4 item-progress">
                     <div class="block-item-step">
-                        <h4>06</h4>
-                        <h5>Career Launch</h5>
-                        <p>
-                          Chúc mừng, bạn là một thành viên trong gia đình Bitu
-                        </p>
+                      <div class="step-number">
+                          <h4>06</h4>
+                      </div>
+                      <div class="step-body">
+                          <h5>Career Launch</h5>
+                          <p>
+                            Chúc mừng, bạn là một thành viên trong gia đình Bitu
+                          </p>
+                      </div>
                     </div>
                 </div>
             </div>

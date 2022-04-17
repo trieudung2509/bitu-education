@@ -13,27 +13,49 @@
 .mission-title {
   h2 {
     @include font-recruiment(48px, #1A202C);
-    margin-bottom: 55px;
+    @include mq(max_md) {
+      @include font-recruiment(28px, #1A202C);
+    }
   }
 }
-
+.page-recruitment {
+  margin-top: 80px;
+}
 // block: block-recruitment
 .block-recruitment-1 {
   position: relative;
   .block1-recruitment-left {
+    padding: 60px 0px;
+    @include mq(max_sm) {
+      padding: 10px 0px;
+    }
     h5 {
       @include font-recruiment(48px, $primary);
+      @include mq(max_md) {
+        @include font-recruiment(32px, $primary);
+      }
     }
+
     p {
       @include font-recruiment(48px, $black);
+      @include mq(max_sm) {
+        @include font-recruiment(32px, $black);
+      }
     }
     .btn-contact {
       @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff);
       padding: 16px 27px;
+      @include mq(max_sm) {
+        @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 18px, #fff);
+        padding: 13px 23px;
+      }
     }
   }
   .block1-recruitment-right {
     position: absolute;
+    @include mq(max_sm) {
+      position: relative;
+    }
     img {
       width: 100%;
       height: auto;
@@ -43,10 +65,16 @@
 
 // block: block-mission
 .block-mission {
-  padding: 130px 0px;
+  padding: 50px 0px;
+  .mission-title {
+    margin-bottom: 60px;
+  }
   .block-mission-left {
     ul.ul-mission {
       list-style: none;
+      @include mq(max_sm) {
+        padding-left: 0px;
+      }
       li.li-mission {
         margin-bottom: 40px;
         .item-mission {
@@ -54,15 +82,21 @@
           img {
             width: 100%;
             height: auto;
+            max-width: 109px;
           }
           p {
             @include font-recruiment(18px, #1A202C);
+            padding-left: 20px;
           }
         }
       }
     }
   }
   .mission-right {
+    padding-left: 35px;
+    @include mq(max_sm) {
+      padding-left: 0px;
+    }
     h2 {
       @include font-recruiment(48px, #2D3748);
       span {
@@ -75,47 +109,124 @@
 
 // block : block-suitable
 .block-suitable {
+  .mission-title {
+    margin-bottom: 40px;
+  }
   .suitable-left {
     button.btn {
       margin-bottom: 16px;
+
       &.btn-ambitious {
         @include background-button(#FFB700,32px, #000000);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+        @include mq(max_md) {
+          @include font-recruiment(20px, #000000);
+        }
       }
       &.btn-experiment {
         @include background-button(#FF6D03,32px, #fff);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+        @include mq(max_md) {
+          @include font-recruiment(20px, #fff);
+        }
       }
       &.btn-handle {
         @include background-button(#2971F0,32px, #fff);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+        @include mq(max_md) {
+          @include font-recruiment(20px, #fff);
+        }
       }
     }
     p {
       @include font-recruiment(20px, #4A5568);
+      padding-top: 20px;
+      @include mq(max_md) {
+        @include font-recruiment(18px, #4A5568);
+      }
+    }
+  }
+  .suitable-right {
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 100px;
+      @include mq(max_md) {
+          position: relative;
+          top: 0;
+      }
     }
   }
 }
 // block : block-recruit
 .block-recruit {
-  background: #FF6D03;
+  padding: 209px 0px;
+  position: relative;
+  @include mq(max_md) {
+    padding: 70px 0px;
+  }
+  &:before {
+    @include mq(max_sm) {
+      background: #fff;
+    }
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF6D03;
+    opacity: 0.1;
+    display: block;
+    z-index: -1;
+  }
   .mission-title {
     p {
       @include font-recruiment(20px, #4A5568);
     }
   }
   .recruit-top {
+    .mission-title {
+      margin: 35px 0px 30px;
+      @include mq(max_sm) {
+        margin: 10px 0px;
+      }
+    }
     .item-recruit {
       background: #FFFFFF;
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
       border-radius: 16px;
       padding: 32px;
+      @include mq(max_sm) {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-bottom: 12px;
+      }
       h4 {
         @include font-recruiment(20px, #1A202C);
         min-height: 75px;
+        @include mq(max_sm) {
+          @include font-recruiment(18px, #1A202C);
+          min-height: auto;
+        }
+        @include mq(max_md) {
+          @include font-recruiment(18px, #1A202C);
+        }
       }
       p {
         @include font-recruiment(20px, #FF6D03);
+        @include mq(max_md) {
+          @include font-recruiment(15px, #FF6D03);
+        }
+        @include mq(max_sm) {
+          @include font-recruiment(15px, #FF6D03);
+          margin-bottom: 0px;
+        }
       }
       .btn-apply {
         @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%),18px, #fff);
@@ -125,13 +236,25 @@
 }
 // block-interest
 .block-interest {
+  padding: 100px 0px;
+  @include mq(max_sm) {
+    padding: 0px;
+  }
+  .mission-title {
+    margin-bottom: 50px;
+  }
   .item-interest {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     h5 {
       @include font-recruiment(24px, #1A202C);
+      @include mq(max_md) {
+        @include font-recruiment(18px, #1A202C);
+        margin-bottom: 32px;
+      }
     }
     img {
       height: auto;
@@ -142,12 +265,51 @@
 // block-progress
 .block-progress {
   .block-container-progress {
+    width: 90%;
+    margin: 0 auto;
+    background: #FCF5F9;
+    border-radius: 64px;
+    padding: 70px 50px 100px;
+    @include mq(max_sm) {
+      width: 100%;
+      border-radius: 0px;
+      padding: 70px 0px;
+    }
+    .mission-title {
+      margin-bottom: 60px;
+      @include mq(max_sm) {
+        margin-bottom: 0px;
+      }
+    }
     .item-progress {
       position: relative;
       padding-top: 10px;
       .block-item-step {
           min-height: 272px;
           padding: 24px 16px;
+          @include mq(max_sm) {
+            min-height: auto;
+            margin-top: 8px !important;
+            display: flex;
+            align-items: center;
+          }
+          .step-body {
+            @include mq(max_sm) {
+              padding-left: 20px;
+            }
+          }
+      }
+      @include mq(max_md) {
+        .block-item-step {
+          margin-top: 0px !important;
+          margin-bottom: 10px;
+        }
+        &::before {
+          content: none !important;
+        }
+        &::after {
+          content: none !important;
+        }
       }
       &:last-child {
          &:after {
@@ -198,6 +360,7 @@
           }
           p {
             @include font-recruiment(18px, #fff);
+            margin-bottom: 0;
           }
         }
       }
@@ -226,6 +389,7 @@
           }
           p {
             @include font-recruiment(18px, #1A202C);
+            margin-bottom: 0;
           }
         }
       }
