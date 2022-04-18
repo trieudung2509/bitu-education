@@ -1,8 +1,11 @@
+<?php
+	$activePage = basename($_SERVER['PHP_SELF'], ".php");
+?>
 <header class="main-header">
 	<div class="container-fluid">
 		<div class="row g-0 justify-content-between align-items-center">
 			<div class="col-auto col-logo">
-				<a href="#" class="logo">
+				<a href="./" class="logo">
 					<img src="images/logo.svg" alt="Bitu" class=" d-none d-lg-block">
 					<img src="images/logo_sp.svg" alt="Bitu" class=" d-block d-lg-none">
 				</a>
@@ -10,8 +13,8 @@
 
 			<div class="col-auto col-nav">
 				<ul class="main-nav d-none d-lg-block">
-					<li><a href="#" class="active">Trang chủ</a></li>
-					<li><a href="#">Về chúng tôi</a></li>
+					<li><a href="./" class="<?php if ($activePage=="index") echo "active"; ?>">Trang chủ</a></li>
+					<li><a href="./about-us.php" class="<?php if ($activePage=="about-us") echo "active"; ?>">Về chúng tôi</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Pricing</a></li>
 					<li><a href="#">Roadmap</a></li>
@@ -46,8 +49,8 @@
 
   <div class="offcanvas-body">
 		<ul class="main-nav">
-			<li><a href="#" class="active">Trang chủ</a></li>
-			<li><a href="#">Về chúng tôi</a></li>
+			<li><a href="./" class="active">Trang chủ</a></li>
+			<li><a href="./about-us.php">Về chúng tôi</a></li>
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Pricing</a></li>
 			<li><a href="#">Roadmap</a></li>

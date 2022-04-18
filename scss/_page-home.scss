@@ -148,6 +148,15 @@
 		}
 	}
 	.box-rating {
+		.col-logo {
+			padding: 7px 8px 8px 10px;
+			border-radius: 100%;
+			background-color: white;
+			border: 1px solid #E2E8F0;
+			img {
+				max-width: 52px;
+			}
+		}
 		ul {
 			list-style: none;
 			padding: 0;
@@ -1495,7 +1504,7 @@
 				color: white;
 				font-family: "Font Awesome 5 Pro";
 				font-weight: 900;
-				font-size: 40px;
+				font-size: 26px;
 				transition: all 0.4s ease;
 				transform: translate(-50%, -50%);
 			}

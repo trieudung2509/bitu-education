@@ -46,7 +46,7 @@
           <ul class="d-inline-flex align-items-center">
             <li>
               <div class="row g-0 align-items-center">
-                <div class="col-auto"><img src="images/logo_2.svg" alt="BITU"></div>
+                <div class="col-auto col-logo"><img src="images/logo_2.svg" alt="BITU"></div>
                 <div class="col">
                   <div class="box-details">
                     <div class="d-inline-flex align-items-center rating">
