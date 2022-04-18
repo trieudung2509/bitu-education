@@ -27,7 +27,7 @@
 								<span class="text">
 									Vietnam
 									<br />
-									<a href="https://www.google.com/maps/place/Gold+Tower+275+Nguy%E1%BB%85n+Tr%C3%A3i/@20.9935547,105.8048872,17z/data=!4m9!1m2!2m1!1zVMOyYSBHb2xkIFRvd2VyLCBz4buRIDI3NSBOZ3V54buFbiBUcsOjaSwgVGhhbmggWHXDom4gVHJ1bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWku!3m5!1s0x3135ad72e2a9056f:0xfe1128ecfe0feebc!8m2!3d20.9935807!4d105.8069061!15sClRUw7JhIEdvbGQgVG93ZXIsIHPhu5EgMjc1IE5ndXnhu4VuIFRyw6NpLCBUaGFuaCBYdcOibiBUcnVuZywgVGhhbmggWHXDom4sIEjDoCBO4buZaS5aUSJPdMOyYSBnb2xkIHRvd2VyIHPhu5EgMjc1IG5ndXnhu4VuIHRyw6NpIHRoYW5oIHh1w6JuIHRydW5nIHRoYW5oIHh1w6JuIGjDoCBu4buZaZIBBWhvdGVsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU00WDNSaU5YRjNSUkFC" target="_blank">
+									<a href="https://goo.gl/maps/AvHyC8ocqMGf6n2H7" target="_blank">
 										Tầng 10, Tháp D, Tòa Gold Tower, số 275 Nguyễn Trãi, Thanh Xuân Trung, Thanh Xuân, Hà Nội.
 									</a>
 								</span>
@@ -40,7 +40,7 @@
 								<span class="text">
 									Thailand
 									<br />
-									<a href="https://www.google.com/maps/place/Phairojkijja+Tower/@13.6677848,100.6388821,17z/data=!3m1!4b1!4m5!3m4!1s0x311d5fe9f44a6049:0x934f5041e8488b3f!8m2!3d13.6677847!4d100.6410566" target="_blank">
+									<a href="https://goo.gl/maps/ZjHN69yZtWQy2LPx9" target="_blank">
 										825 Phairojkijja Building, Thanon Debaratana, Bang Na Nuea, Bang Na, Bangkok, 10260.
 									</a>
 								</span>
@@ -53,7 +53,7 @@
 								<span class="text">
 									Singapore
 									<br />
-									<a href="https://www.google.com/maps/place/68+Circular+Rd,+Unit+02-01,+Singapore+049422/@1.2864472,103.8469536,17z/data=!3m1!4b1!4m5!3m4!1s0x31da190bb5febd0b:0x3999e3ace9eb9af!8m2!3d1.2864418!4d103.8491423" target="_blank">
+									<a href="https://goo.gl/maps/2mgr3NPL3zs6zV1e7" target="_blank">
 										68 CIRCULAR ROAD #02-01 SINGAPORE
 									</a>
 								</span>
@@ -66,7 +66,7 @@
 								<span class="text">
 									Philippines
 									<br />
-									<a href="https://www.google.com/maps/place/Atlanta+Center+Building,+31+Annapolis,+San+Juan,+Metro+Manila,+Philippines/@14.6047525,121.0508948,17z/data=!3m1!4b1!4m5!3m4!1s0x3397b7de9af441e5:0x6d92bd330eba0e11!8m2!3d14.6047473!4d121.0530835" target="_blank">
+									<a href="https://goo.gl/maps/2nDTZwoUfS4ioMSr7" target="_blank">
 										Atlanta Center, 31 Annapolis Street, Greenhills, San Juan City, Metro Manila, Philippines.
 									</a>
 								</span>
