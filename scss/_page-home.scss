@@ -1194,6 +1194,7 @@
 			}
 			@include mq(max_sm) {
 				padding: 30px;
+				border-radius: 16px;
 			}
 			@include mq(max_xs) {
 				border-radius: 16px;
@@ -1470,7 +1471,7 @@
 			overflow: hidden;
 			border-radius: 8px;
 			&:hover {
-				&:before {
+				&:before, &:after {
 					opacity: 1;
 				}
 			}
@@ -1484,6 +1485,19 @@
 				height: 100%;
 				background: rgba(#000, 0.3);
 				transition: all 0.4s ease;
+			}
+			&:after {
+				opacity: 0;
+				content: '\f0c1';
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				color: white;
+				font-family: "Font Awesome 5 Pro";
+				font-weight: 900;
+				font-size: 40px;
+				transition: all 0.4s ease;
+				transform: translate(-50%, -50%);
 			}
 		}
 		.box-detail {

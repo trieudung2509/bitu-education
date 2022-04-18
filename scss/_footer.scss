@@ -130,6 +130,9 @@
 	}
 	&-download-wrapper {
 		text-align: right;
+		@include mq(max_sm) {
+			text-align: center;
+		}
 	}
 	&-download {
 		max-width: 456px;
@@ -140,7 +143,7 @@
 		margin-right: 0;
 		margin-left: auto;
 		@include mq(max_sm) {
-			margin-top: 0;
+			margin: 0 auto
 		}
 		@include mq(max_xs) {
 			border-radius: 0;
