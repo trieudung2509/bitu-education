@@ -126,7 +126,7 @@
                 <div class="box-highlight">
                   <div class="txt-md">Và bí quyết duy nhất dành cho bạn là</div>
                   <div class="txt-lg text-primary">“open your mouth <br class="d-block d-xl-none" /> and say something”.</div>
-                  <img src="images/ic-bitu-like.png" alt="open your mouth and say something" class="img-ic">
+                  <img src="images/ic-bitu-like.png" width="148" alt="open your mouth and say something" class="img-ic">
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@
                   <div class="txt-lg text-primary">
                     Bạn phải nói tiếng Anh nhiều hơn. <br class="d-block d-xl-none" /> Chấm hết.
                   </div>
-                  <img src="images/ic-bitu-fire.png" alt="Bạn phải nói tiếng Anh nhiều hơn. Chấm hết." class="img-ic">
+                  <img src="images/ic-bitu-fire.png" width="134" alt="Bạn phải nói tiếng Anh nhiều hơn. Chấm hết." class="img-ic">
                 </div>
               </div>
             </div>

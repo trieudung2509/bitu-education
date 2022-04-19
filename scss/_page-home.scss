@@ -29,6 +29,9 @@
 		height: (1030 / 1920) * 100vw;
 		background: transparent url(../images/bg-intro.png) no-repeat right top;
 		background-size: contain;
+		@media only screen and (min-width: 2000px) {
+			max-width: 980px;
+		}
 		@include mq(max_xl) {
 			top: 10vw;
 			width: 46vw;
@@ -258,6 +261,8 @@
 	.con-reason-speaking
 ----------------------------------------------------------- */
 .con-reason-speaking {
+	position: relative;
+	z-index: 2;
 	padding-top: 148px;
 	@include mq(max_lg) {
 		padding-top: 70px;
@@ -864,7 +869,6 @@
 	.box-list {
 		border-radius: 64px;
 		background: #fff0e6;
-		border: 1px solid #e5e5e5;
 		padding: 64px;
 		@include mq(max_lg) {
 			padding: 40px;
