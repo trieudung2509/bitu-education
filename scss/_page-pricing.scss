@@ -1,8 +1,8 @@
 @import "mixins";
 @import "variables";
 
-.bg-orange {
-  background: linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%),
+@mixin bg-pricing($deg, $color, $secondaryColor, $value, $secondaryValue) {
+  background: linear-gradient($deg, $color $value, $secondaryColor $secondaryValue),
     radial-gradient(
         circle at 5px 5px,
         #e9ecef 2px,
@@ -11,39 +11,19 @@
       )
       0 0 / 20px 20px;
   background-blend-mode: multiply, normal, normal, normal;
+}
+
+.bg-orange {
+  @include bg-pricing(99.06deg, #ff6d03, #ff9a03, 0%, 98.55%)
 }
 .bg-blue {
-  background: linear-gradient(99.06deg, #2971f0 0%, #29a8f0 98.55%),
-    radial-gradient(
-        circle at 5px 5px,
-        #e9ecef 2px,
-        #ffffff00 1px,
-        #ffffff00 2px
-      )
-      0 0 / 20px 20px;
-  background-blend-mode: multiply, normal, normal, normal;
+  @include bg-pricing(99.06deg, #2971f0, #29a8f0, 0%, 98.55%)
 }
 .bg-green {
-  background: linear-gradient(95.64deg, #48bb78 5.89%, #48b4bb 95.12%),
-    radial-gradient(
-        circle at 5px 5px,
-        #e9ecef 2px,
-        #ffffff00 1px,
-        #ffffff00 2px
-      )
-      0 0 / 20px 20px;
-  background-blend-mode: multiply, normal, normal, normal;
+  @include bg-pricing(95.64deg, #48bb78, #48b4bb, 5.89%, 95.12%)
 }
 .bg-yellow {
-  background: linear-gradient(99.06deg, #ff9a03 0%, #ffb803 98.55%),
-    radial-gradient(
-        circle at 5px 5px,
-        #e9ecef 2px,
-        #ffffff00 1px,
-        #ffffff00 2px
-      )
-      0 0 / 20px 20px;
-  background-blend-mode: multiply, normal, normal, normal;
+  @include bg-pricing(99.06deg, #ff9a03, #ffb803, 0%, 98.55%)
 }
 
 .btn-orange {
@@ -60,34 +40,24 @@
 }
 
 .box-tittle {
-  max-width: 1400px;
-  margin: 0 auto;
-  @include mq(max_xs) {
-    margin-top: 50px;
-  }
   .tittle {
     font-size: 48px;
     line-height: 61px;
     font-weight: 400;
-    @include mq(max_xs) {
-      margin-left: 10px;
-    }
   }
 }
 
 .box-card {
   background: #e5e5e5;
   padding: 20px;
-  @include mq(max_xs) {
-    padding: 10px;
+  @include mq(max_md) {
+    padding: 20px 0 10px;
   }
   .list-card-pricing {
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1400px;
-    @include mq(max_xs) {
+    @include mq(max_md) {
       display: block;
     }
     .card-pricing {
@@ -96,7 +66,7 @@
       text-align: center;
       width: 100%;
       margin: 0 15px;
-      @include mq(max_xs) {
+      @include mq(max_md) {
         margin: 16px 0;
         display: flex;
         justify-content: space-between;
@@ -105,7 +75,7 @@
         border-radius: 12px 12px 50% 50%;
         padding: 20px 0 10px;
         color: #ffff;
-        @include mq(max_xs) {
+        @include mq(max_md) {
           order: 1;
           // border-radius: 12px 12px 70% 12px;
           border-radius: 12px;
@@ -114,7 +84,7 @@
         }
         .card-gift-title {
           display: none;
-          @include mq(max_xs) {
+          @include mq(max_md) {
             display: block;
           }
         }
@@ -125,7 +95,7 @@
     }
     .card-pricing-content {
       padding: 20px 0;
-      @include mq(max_xs) {
+      @include mq(max_md) {
         order: 2;
         text-align: right;
         margin-right: 10px;
@@ -135,7 +105,7 @@
         .card-cost {
           text-decoration: line-through;
           color: #718096;
-          @include mq(max_xs) {
+          @include mq(max_md) {
             margin-bottom: 5px;
           }
         }
@@ -147,7 +117,7 @@
           border-radius: 5px;
           padding: 0 5px;
           float: right;
-          @include mq(max_xs) {
+          @include mq(max_md) {
             display: block;
           }
         }
@@ -163,7 +133,7 @@
       .card-gift {
         color: #10b981;
         line-height: 23px;
-        @include mq(max_xs) {
+        @include mq(max_md) {
           display: none;
         }
       }

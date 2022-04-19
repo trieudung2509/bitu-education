@@ -1,0 +1,37 @@
+@mixin year-roadmap($size, $color, $secondaryColor) {
+  font-size: $size;
+  background: linear-gradient(65.49deg, $color 31.32%, $secondaryColor 68.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roadmap-year-2021 {
+  @include year-roadmap(150px, #718096, #718096);
+  @include mq(max_md) {
+    @include year-roadmap(72px, #718096, #718096);
+  }
+}
+
+.roadmap-year-2022 {
+  @include year-roadmap(150px, #FF6D03, #FF9604);
+  @include mq(max_md) {
+    @include year-roadmap(72px, #FF6D03, #FF9604);
+  }
+}
+
+.block-roadmap-top {
+  background-image: url("../images/recruitment-top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  .block-title-roadmap {
+    margin: 0 auto;
+    .content-left {
+      .left-title {
+        color: #ffff;
+      }
+      .left-description {
+        color: #5C2E07;
+      }
+    }
+  }
+}

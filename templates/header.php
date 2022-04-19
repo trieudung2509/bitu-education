@@ -17,7 +17,7 @@
 					<li><a href="./about-us.php" class="<?php if ($activePage=="about-us") echo "active"; ?>">Về chúng tôi</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="../page-pricing.php">Pricing</a></li>
-					<li><a href="#">Roadmap</a></li>
+					<li><a href="../page-roadmap.php">Roadmap</a></li>
 					<li><a href="#">FAQs</a></li>
 					<li><a href="#">Tuyển dụng</a></li>
 					<li><a href="#">Liên hệ</a></li>
@@ -53,7 +53,7 @@
 			<li><a href="./about-us.php">Về chúng tôi</a></li>
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Pricing</a></li>
-			<li><a href="#">Roadmap</a></li>
+			<li><a href="../page-roadmap.php">Roadmap</a></li>
 			<li><a href="#">FAQs</a></li>
 			<li><a href="#">Tuyển dụng</a></li>
 			<li><a href="#">Liên hệ</a></li>
