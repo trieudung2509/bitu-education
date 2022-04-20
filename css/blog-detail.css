@@ -1,0 +1,104 @@
+.con-content-detail {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  margin-bottom: 120px;
+}
+.con-content-detail .detail-title-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1104px;
+  margin-bottom: 24px;
+}
+.con-content-detail .detail-title-wrapper img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.con-content-detail .detail-title-wrapper .title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FF6D03;
+}
+.con-content-detail .detail-image {
+  width: 100%;
+  height: auto;
+  max-width: 1104px;
+  border-radius: 16px 16px 0px 0px;
+}
+.con-content-detail .detail-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 406px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 1199px) {
+  .con-content-detail .detail-image {
+    max-width: 1104px;
+  }
+}
+.con-content-detail .detail-blog {
+  width: 100%;
+  max-width: 1104px;
+  height: auto;
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  padding: 80px 132px 120px;
+}
+@media only screen and (max-width: 1199px) {
+  .con-content-detail .detail-blog {
+    max-width: 1104px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-content-detail .detail-blog {
+    padding: 40px;
+  }
+}
+.con-content-detail .detail-blog .main-detail {
+  max-width: 840px;
+}
+.con-content-detail .detail-blog .main-detail .blog-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+  color: #1A202C;
+  margin-bottom: 20px;
+}
+.con-content-detail .detail-blog .main-detail .blog-content .line-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1A202C;
+}
+.con-content-detail .detail-blog .main-detail .blog-content .line-title {
+  font-weight: bold;
+  margin: 32px 0px;
+}
+
+.related-blog-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+  color: #1A202C;
+  margin-bottom: 32px;
+}
+
+/*# sourceMappingURL=blog-detail.css.map */
