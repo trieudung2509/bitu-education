@@ -63,7 +63,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-7 col-12">
+          <div class="col-md-7 col-12 col-mission-right">
             <div class="mission-right">
               <h2>
                 Giúp mọi người
@@ -132,7 +132,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Group Product Manager, Permissions & Federation</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <div class="recrit-btn">
@@ -145,7 +145,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Head of Product Design</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <a type="button" class="btn btn-primary btn-apply">Apply</a>
@@ -219,7 +219,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Group Product Manager, Permissions & Federation</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <a type="button" class="btn btn-primary btn-apply">Apply</a>
@@ -230,7 +230,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Head of Product Design</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <a type="button" class="btn btn-primary btn-apply">Apply</a>
@@ -271,7 +271,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Group Product Manager, Permissions & Federation</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <a type="button" class="btn btn-primary btn-apply">Apply</a>
@@ -282,7 +282,7 @@
               <div class="item-recruit">
                 <div class="recruit-detail">
                   <h4>Head of Product Design</h4>
-                  <p>15.000.000-25.000.000</p>
+                  <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
                   <a type="button" class="btn btn-primary btn-apply">Apply</a>
