@@ -41,7 +41,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -49,7 +49,7 @@
 									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
 								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-orange">Đăng ký</button>
+								<button class="btn-register btn-orange-1">Đăng ký</button>
 							</div>
 						</div>
 						<div class="card-pricing">
@@ -60,7 +60,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -79,7 +79,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -98,7 +98,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -123,7 +123,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -131,7 +131,7 @@
 									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
 								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-orange">Đăng ký</button>
+								<button class="btn-register btn-orange-1">Đăng ký</button>
 							</div>
 						</div>
 						<div class="card-pricing">
@@ -142,7 +142,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -161,7 +161,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>
@@ -180,7 +180,7 @@
 							</div>
 							<div class="card-pricing-content">
 								<div class="card-pricing-content-cost">
-									<div>
+									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
 									<p class="card-cost">3.000.000đ</p>

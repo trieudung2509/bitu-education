@@ -1,32 +1,31 @@
 @import "mixins";
 @import "variables";
 
+@mixin font-pricing($fontSize, $lineHeight, $fontWeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
 @mixin bg-pricing($deg, $color, $secondaryColor, $value, $secondaryValue) {
-  background: linear-gradient($deg, $color $value, $secondaryColor $secondaryValue),
-    radial-gradient(
-        circle at 5px 5px,
-        #e9ecef 2px,
-        #ffffff00 1px,
-        #ffffff00 2px
-      )
-      0 0 / 20px 20px;
-  background-blend-mode: multiply, normal, normal, normal;
+  background-image: url("../images/bg-dot-roadmap.svg"),
+    linear-gradient($deg, $color $value, $secondaryColor $secondaryValue);
 }
 
 .bg-orange {
-  @include bg-pricing(99.06deg, #ff6d03, #ff9a03, 0%, 98.55%)
+  @include bg-pricing(99.06deg, #ff6d03, #ff9a03, 0%, 98.55%);
 }
 .bg-blue {
-  @include bg-pricing(99.06deg, #2971f0, #29a8f0, 0%, 98.55%)
+  @include bg-pricing(99.06deg, #2971f0, #29a8f0, 0%, 98.55%);
 }
 .bg-green {
-  @include bg-pricing(95.64deg, #48bb78, #48b4bb, 5.89%, 95.12%)
+  @include bg-pricing(95.64deg, #48bb78, #48b4bb, 5.89%, 95.12%);
 }
 .bg-yellow {
-  @include bg-pricing(99.06deg, #ff9a03, #ffb803, 0%, 98.55%)
+  @include bg-pricing(99.06deg, #ff9a03, #ffb803, 0%, 98.55%);
 }
 
-.btn-orange {
+.btn-orange-1 {
   background: linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%);
 }
 .btn-blue {
@@ -41,9 +40,11 @@
 
 .box-tittle {
   .tittle {
-    font-size: 48px;
-    line-height: 61px;
-    font-weight: 400;
+    @include font-pricing(48px, 61px, 500);
+    @include mq(max_md) {
+      @include font-pricing(32px, 40px, 500);
+      margin-top: 10px;
+    }
   }
 }
 
@@ -86,10 +87,27 @@
           display: none;
           @include mq(max_md) {
             display: block;
+            @include font-pricing(16px, 20px, 400);
+            text-align: left;
+            margin-left: 15px;
           }
         }
         .card-month {
           margin-top: 0;
+          @include font-pricing(32px, 40px, 400);
+          @include mq(max_md) {
+            @include font-pricing(24px, 30px, 400);
+            margin-left: 15px;
+            text-align: left;
+          }
+        }
+        .card-numberOfDay {
+          @include font-pricing(20px, 25px, 400);
+          @include mq(max_md) {
+            @include font-pricing(16px, 20px, 400);
+            text-align: left;
+            margin-left: 15px;
+          }
         }
       }
     }
@@ -105,8 +123,10 @@
         .card-cost {
           text-decoration: line-through;
           color: #718096;
+          @include font-pricing(20px, 25px, 400);
           @include mq(max_md) {
             margin-bottom: 5px;
+            @include font-pricing(16px, 20px, 400);
           }
         }
         .discount {
@@ -119,30 +139,42 @@
           float: right;
           @include mq(max_md) {
             display: block;
+            @include font-pricing(16px, 20px, 400);
           }
         }
         .card-discount {
           font-weight: 400;
           color: #ff6d03;
           margin-top: 8px;
+          @include font-pricing(32px, 40px, 400);
+          @include mq(max_md) {
+            @include font-pricing(24px, 30px, 500);
+          }
         }
         .card-amountPerSession {
           color: #718096;
+          @include font-pricing(20px, 25px, 500);
+          @include mq(max_md) {
+            @include font-pricing(16px, 20px, 400);
+          }
         }
       }
       .card-gift {
         color: #10b981;
-        line-height: 23px;
+        @include font-pricing(18px, 23px, 400);
         @include mq(max_md) {
           display: none;
         }
       }
       .btn-register {
-        // background: linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%);
         border: none;
         color: #ffff;
         padding: 10px 20px;
         border-radius: 12px;
+        @include font-pricing(18px, 23px, 400);
+        @include mq(max_md) {
+          @include font-pricing(16px, 20px, 400);
+        }
       }
     }
   }
@@ -156,12 +188,20 @@
   border-radius: 16px;
   border: 1px solid #cbd5e0;
   background: #ffff;
+  @include mq(max_xs) {
+    padding: 8px 10px;
+  }
   .nav-description {
     color: #718096;
     margin: 5px 0;
+    @include font-pricing(15px, 19px, 400);
+    @include mq(max_md) {
+      @include font-pricing(16px, 19px, 400);
+    }
   }
   .nav-tittle {
     color: #1a202c;
+    @include font-pricing(20px, 25px, 400);
   }
 }
 
