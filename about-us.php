@@ -158,12 +158,13 @@
     <div class="container">
       <h3 class="title-lg">Milestone</h3>
       <div class="box-pc d-none d-md-block">
+
         <ul class="box-lines">
           <li class="box-item item-1">
             <div class="box-milestone c-orange milestone-1">
               <p class="date">06/2020</p>
               <p class="txt">
-                <span>Bitu thành lập với team 10 người</span>
+              <img src="images/about-us/ic-user.png" alt="User"><span>Bitu thành lập với team 10 người</span>
               </p>
             </div>
             <p class="circle circle-orange">&nbsp;</p>
@@ -172,7 +173,7 @@
             <div class="box-milestone c-blue milestone-2">
               <p class="date">09/2020</p>
               <p class="txt">
-                <span>🚀 Launch bản Beta đầu tiên với mô hình học tiếng Anh theo nhóm</span>
+              <img src="images/about-us/ic-rocket.png" alt="Rocket"><span>Launch bản Beta đầu tiên với mô hình học tiếng Anh theo nhóm</span>
               </p>
             </div>
             <p class="circle circle-blue">&nbsp;</p>
@@ -181,7 +182,7 @@
             <div class="box-milestone c-green milestone-3">
               <p class="date">04/2021</p>
               <p class="txt">
-                <span>🏢 Chuyển sang văn phòng rộng hơn với nhân sự 30 người</span>
+              <img src="images/about-us/ic-building.png" alt="Building"><span>Chuyển sang văn phòng rộng hơn với nhân sự 30 người</span>
               </p>
             </div>
             <p class="circle circle-green">&nbsp;</p>
@@ -190,7 +191,7 @@
             <div class="box-milestone c-orange milestone-4">
               <p class="date">07/2021</p>
               <p class="txt">
-                <span>💰 Có khách hàng trả phí đầu tiên</span>
+              <img src="images/about-us/ic-money.png" alt="Money"><span>Có khách hàng trả phí đầu tiên</span>
               </p>
             </div>
             <p class="circle circle-orange">&nbsp;</p>
@@ -199,7 +200,7 @@
             <div class="box-milestone c-yellow milestone-5">
               <p class="date">03/2022</p>
               <p class="txt">
-                <span>✨ Giới thiệu tính năng học 1-1</span>
+              <img src="images/about-us/ic-star.png" alt="Star"><span>Giới thiệu tính năng học 1-1</span>
               </p>
             </div>
             <p class="circle circle-yellow">&nbsp;</p>
@@ -208,7 +209,7 @@
             <div class="box-milestone c-blue milestone-6">
               <p class="date">04/2022</p>
               <p class="txt">
-                <span>🏢 Chuyển sang văn phòng mới với nhân sự 100 người</span>
+              <img src="images/about-us/ic-building.png" alt="Building"><span>Chuyển sang văn phòng mới với nhân sự 100 người</span>
               </p>
             </div>
             <p class="circle circle-blue">&nbsp;</p>
@@ -221,7 +222,7 @@
             <div class="box-milestone c-orange">
               <p class="date">06/2020</p>
               <p class="txt">
-                <span>Bitu thành lập với team 10 người</span>
+              <img src="images/about-us/ic-user.png" alt="user"><span>Bitu thành lập với team 10 người</span>
               </p>
             </div>
           </div>
@@ -229,7 +230,7 @@
             <div class="box-milestone c-blue">
               <p class="date">09/2020</p>
               <p class="txt">
-                <span>🚀 Launch bản Beta đầu tiên với mô hình học tiếng Anh theo nhóm</span>
+              <img src="images/about-us/ic-rocket.png" alt="Rocket"><span>Launch bản Beta đầu tiên với mô hình học tiếng Anh theo nhóm</span>
               </p>
             </div>
           </div>
@@ -237,7 +238,7 @@
             <div class="box-milestone c-green">
               <p class="date">04/2021</p>
               <p class="txt">
-                <span>🏢 Chuyển sang văn phòng rộng hơn với nhân sự 30 người</span>
+              <img src="images/about-us/ic-building.png" alt="Building"><span>Chuyển sang văn phòng rộng hơn với nhân sự 30 người</span>
               </p>
             </div>
           </div>
@@ -245,7 +246,7 @@
             <div class="box-milestone c-orange">
               <p class="date">07/2021</p>
               <p class="txt">
-                <span>💰 Có khách hàng trả phí đầu tiên</span>
+              <img src="images/about-us/ic-money.png" alt="Money"><span>Có khách hàng trả phí đầu tiên</span>
               </p>
             </div>
           </div>
@@ -253,7 +254,7 @@
             <div class="box-milestone c-yellow">
               <p class="date">03/2022</p>
               <p class="txt">
-                <span>✨ Giới thiệu tính năng học 1-1</span>
+              <img src="images/about-us/ic-star.png" alt="Star"><span>Giới thiệu tính năng học 1-1</span>
               </p>
             </div>
           </div>
@@ -261,7 +262,7 @@
             <div class="box-milestone c-blue">
               <p class="date">04/2022</p>
               <p class="txt">
-                <span>🏢 Chuyển sang văn phòng mới với nhân sự 100 người</span>
+              <img src="images/about-us/ic-building.png" alt="Building"><span>Chuyển sang văn phòng mới với nhân sự 100 người</span>
               </p>
             </div>
           </div>
@@ -272,13 +273,82 @@
   </div>
   <!-- /END .con-about-milestone -->
 
+  <div class="con-about-life">
+    <div class="container">
+      <h3 class="title-lg">Cuộc sống tại Bitu</h3>
+      <div class="box-pc d-none d-md-block">
+        <div class="row">
+          <div class="col col-1">
+            <div class="row align-items-end">
+              <div class="col-md-6">
+                <img src="images/about-us/img-life-1.png" alt="image 1" >
+              </div>
+              <div class="col-md-6">
+                <img src="images/about-us/img-life-2.png" alt="image 2" >
+              </div>
+            </div>
+            <div class="row mt-12 align-items-start">
+              <div class="col-md-6">
+                <img src="images/about-us/img-life-3.png" alt="image 3" >
+              </div>
+              <div class="col-md-6">
+                <img src="images/about-us/img-life-4.png" alt="image 4" >
+              </div>
+            </div>
+          </div>
+          <div class="col col-2 mt-23">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="images/about-us/img-life-5.png" alt="image 5" >
+              </div>
+            </div>
+            <div class="row mt-12 align-items-start">
+              <div class="col-md-4">
+                <img src="images/about-us/img-life-6.png" alt="image 6" >
+              </div>
+              <div class="col-md-8">
+                <img src="images/about-us/img-life-7.png" alt="image 7" >
+              </div>
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="images/about-us/img-life-8.png" alt="image 8" >
+              </div>
+            </div>  
+            <div class="row mt-12">
+              <div class="col-md-12">
+                <img src="images/about-us/img-life-9.png" alt="image 9" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-mobile d-block d-md-none">
+        <div class="box-slider">
+          <div class="slide-item">
+            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+          </div> 
+          <div class="slide-item">
+            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+          </div>
+          <div class="slide-item">
+            <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /END .con-about-life -->
+
   <?php include "templates/footer.php"; ?>
   <script>
   /* -----------------------------------------------------------
     Milestone slider
     ----------------------------------------------------------- */
     $(function() {
-      $('.con-about-milestone .box-mobile .box-slider').slick({
+      let milestoneSlider = $('.con-about-milestone .box-mobile .box-slider');
+      milestoneSlider.slick({
         speed: 600,
         autoplaySpeed: 6000,
         autoplay: true,
@@ -290,6 +360,43 @@
         slidesToShow: 2,
         slidesToScroll: 1
       });
+
+      let maxH = 0;
+
+      const setHeight = () => {
+        let item = milestoneSlider.find('.slide-item');
+        for(let i=0; i < item.length; i++){
+          let h = item[i].clientHeight;
+          if(h > maxH) maxH = h;
+        }
+        if(maxH > 100) {
+          item.css('height', maxH);
+        }
+      // console.log(maxH)
+      }
+      setHeight();
+
+      window.resize(() => {
+        setHeight();
+      });
+    });
+    /* -----------------------------------------------------------
+    Life slider
+    ----------------------------------------------------------- */
+    $(function() {
+      $('.con-about-life .box-mobile .box-slider').slick({
+        speed: 600,
+        autoplaySpeed: 6000,
+        autoplay: true,
+        infinite: true,
+        swipe: true,
+        fade: false,
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+     
     });
 
   </script>
