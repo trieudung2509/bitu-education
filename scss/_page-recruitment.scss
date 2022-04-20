@@ -1,20 +1,20 @@
-@mixin font-recruiment($size, $color) {
+@mixin font-recruiment($size, $color, $fontWeight) {
   font-size: $size;
-  font-weight: 400;
+  font-weight: $fontWeight;
   color: $color;
 }
 
-@mixin background-button($background, $fontSize, $color) {
+@mixin background-button($background, $fontSize, $color, $fontWeight) {
   background: $background;
   border-radius: 16px;
-  @include font-recruiment($fontSize, $color);
+  @include font-recruiment($fontSize, $color, $fontWeight);
   border: none;
 }
 .mission-title {
   h2 {
-    @include font-recruiment(48px, #1A202C);
+    @include font-recruiment(48px, #1A202C, 700);
     @include mq(max_md) {
-      @include font-recruiment(28px, #1A202C);
+      @include font-recruiment(28px, #1A202C, 700);
     }
   }
 }
@@ -25,29 +25,31 @@
 .block-recruitment-1 {
   position: relative;
   .block1-recruitment-left {
-    padding: 60px 0px;
+    padding: 60px 20px 60px 0px;
     @include mq(max_sm) {
       padding: 10px 0px;
     }
     h5 {
-      @include font-recruiment(48px, $primary);
+      @include font-recruiment(48px, $primary, 700);
+      line-height: 1.3;
       @include mq(max_md) {
-        @include font-recruiment(32px, $primary);
+        @include font-recruiment(32px, $primary, 700);
       }
     }
 
     p {
-      @include font-recruiment(48px, $body-color);
+      @include font-recruiment(48px, $body-color, 700);
+      line-height: 1.3;
       @include mq(max_sm) {
-        @include font-recruiment(32px, $body-color);
+        @include font-recruiment(32px, $body-color, 700);
       }
     }
     .btn-contact {
-      @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 20px, #fff);
+      @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 20px, #fff, 400);
       box-shadow: 0 10px 24px 4px rgb(255 109 3 / 30%);
       padding: 16px 27px;
       @include mq(max_sm) {
-        @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 18px, #fff);
+        @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 18px, #fff, 400);
         padding: 13px 23px;
       }
     }
@@ -86,23 +88,30 @@
             max-width: 109px;
           }
           p {
-            @include font-recruiment(18px, #1A202C);
+            @include font-recruiment(18px, #1A202C, 400);
             padding-left: 20px;
           }
         }
       }
     }
   }
-  .mission-right {
-    padding-left: 35px;
-    @include mq(max_sm) {
-      padding-left: 0px;
-    }
-    h2 {
-      @include font-recruiment(48px, #2D3748);
-      span {
-        color: $primary;
-        display: block;
+  .col-mission-right {
+    display: flex;
+    align-items: center;
+    .mission-right {
+      padding-left: 35px;
+      @include mq(max_sm) {
+        padding-left: 0px;
+      }
+      h2 {
+        @include font-recruiment(68px, #2D3748, 700);
+        @include mq(max_sm) {
+          @include font-recruiment(32px, #2D3748, 700);
+        }
+        span {
+          color: $primary;
+          display: block;
+        }
       }
     }
   }
@@ -118,33 +127,33 @@
       margin-bottom: 16px;
 
       &.btn-ambitious {
-        @include background-button(#FFB700,32px, #000000);
+        @include background-button(#FFB700,32px, #000000, 700);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
         @include mq(max_md) {
-          @include font-recruiment(20px, #000000);
+          @include font-recruiment(20px, #000000, 700);
         }
       }
       &.btn-experiment {
-        @include background-button(#FF6D03,32px, #fff);
+        @include background-button(#FF6D03,32px, #fff, 700);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
         @include mq(max_md) {
-          @include font-recruiment(20px, #fff);
+          @include font-recruiment(20px, #fff, 700);
         }
       }
       &.btn-handle {
-        @include background-button(#2971F0,32px, #fff);
+        @include background-button(#2971F0,32px, #fff, 700);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
         @include mq(max_md) {
-          @include font-recruiment(20px, #fff);
+          @include font-recruiment(20px, #fff, 700);
         }
       }
     }
     p {
-      @include font-recruiment(20px, #4A5568);
+      @include font-recruiment(20px, #4A5568, 400);
       padding-top: 20px;
       padding-bottom: 65px;
       @include mq(max_md) {
-        @include font-recruiment(18px, #4A5568);
+        @include font-recruiment(18px, #4A5568, 400);
       }
     }
   }
@@ -188,7 +197,7 @@
   }
   .mission-title {
     p {
-      @include font-recruiment(20px, #4A5568);
+      @include font-recruiment(20px, #4A5568, 400);
     }
   }
   .recruit-top {
@@ -211,7 +220,7 @@
         margin-bottom: 12px;
       }
       h4 {
-        @include font-recruiment(20px, #1A202C);
+        @include font-recruiment(20px, #1A202C, 700);
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
@@ -219,25 +228,25 @@
         text-overflow: ellipsis;
         min-height: 65px;
         @include mq(max_sm) {
-          @include font-recruiment(18px, #1A202C);
+          @include font-recruiment(18px, #1A202C, 700);
           min-height: auto;
         }
         @include mq(max_md) {
-          @include font-recruiment(18px, #1A202C);
+          @include font-recruiment(18px, #1A202C, 700);
         }
       }
       p {
-        @include font-recruiment(18px, #FF6D03);
+        @include font-recruiment(18px, #FF6D03, 400);
         @include mq(max_md) {
-          @include font-recruiment(15px, #FF6D03);
+          @include font-recruiment(15px, #FF6D03, 400);
         }
         @include mq(max_sm) {
-          @include font-recruiment(15px, #FF6D03);
+          @include font-recruiment(15px, #FF6D03, 400);
           margin-bottom: 0px;
         }
       }
       .btn-apply {
-        @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%),18px, #fff);
+        @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%),18px, #fff, 400);
       }
     }
   }
@@ -259,9 +268,9 @@
     text-align: center;
     margin-bottom: 25px;
     h5 {
-      @include font-recruiment(24px, #1A202C);
+      @include font-recruiment(24px, #1A202C, 700);
       @include mq(max_md) {
-        @include font-recruiment(18px, #1A202C);
+        @include font-recruiment(18px, #1A202C, 700);
         margin-bottom: 32px;
       }
     }
@@ -369,13 +378,13 @@
           border-radius: 16px;
           margin-top: 50px;
           h4 {
-            @include font-recruiment(40px, #fff);
+            @include font-recruiment(40px, #fff, 700);
           }
           h5 {
-            @include font-recruiment(20px, #fff);
+            @include font-recruiment(20px, #fff, 700);
           }
           p {
-            @include font-recruiment(18px, #fff);
+            @include font-recruiment(18px, #fff, 400);
             margin-bottom: 0;
           }
         }
@@ -398,13 +407,13 @@
           border-radius: 16px;
           border: 1px solid #FF6D03;
           h4 {
-            @include font-recruiment(40px, #1A202C);
+            @include font-recruiment(40px, #1A202C, 700);
           }
           h5 {
-            @include font-recruiment(20px, #1A202C);
+            @include font-recruiment(20px, #1A202C, 700);
           }
           p {
-            @include font-recruiment(18px, #1A202C);
+            @include font-recruiment(18px, #1A202C, 400);
             margin-bottom: 0;
           }
         }
@@ -421,9 +430,9 @@
   padding: 41px 0px;
   text-align: center;
   h2 {
-    @include font-recruiment(52px, #fff);
+    @include font-recruiment(52px, #fff, 400);
     @include mq(max_sm) {
-      @include font-recruiment(25px, #fff);
+      @include font-recruiment(25px, #fff, 400);
     }
   }
   .description-top {
@@ -431,10 +440,10 @@
     align-items: center;
     justify-content: center;
     span.time-des {
-      @include font-recruiment(20px, #fff);
+      @include font-recruiment(20px, #fff, 400);
       margin-left: 8px;
       @include mq(max_sm) {
-        @include font-recruiment(18px, #fff);
+        @include font-recruiment(18px, #fff, 400);
       }
     }
   }
@@ -444,20 +453,20 @@
   .block-item-recruitment {
     margin-bottom: 50px;
     h2.title-recruiment {
-      @include font-recruiment(32px, #212529);
+      @include font-recruiment(32px, #212529, 400);
       margin-bottom: 16px;
     }
     ul.ul-rules {
       li.item-rules {
         p {
-          @include font-recruiment(18px, $body-color);
+          @include font-recruiment(18px, $body-color, 400);
         }
       }
     }
   }
   .block-button {
     button.btn-apply {
-      @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff);
+      @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff, 400);
       box-shadow: 0 10px 24px 4px rgb(255 109 3 / 30%);
       padding: 15px 48px;
     }

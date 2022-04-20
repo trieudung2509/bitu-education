@@ -63,7 +63,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-7 col-12">
+          <div class="col-md-7 col-12 col-mission-right">
             <div class="mission-right">
               <h2>
                 Giúp mọi người
