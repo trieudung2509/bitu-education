@@ -40,9 +40,10 @@
 
 .box-tittle {
   .tittle {
-    @include font-pricing(48px, 61px, 500);
+    @include font-pricing(48px, 61px, 700);
+    padding: 30px 0px;
     @include mq(max_md) {
-      @include font-pricing(32px, 40px, 500);
+      @include font-pricing(32px, 40px, 700);
       margin-top: 10px;
     }
   }
@@ -142,13 +143,24 @@
             @include font-pricing(16px, 20px, 400);
           }
         }
+        .discount-desktop {
+          background: #2971f0;
+          inline-size: fit-content;
+          color: #ffff;
+          border-radius: 5px;
+          padding: 0 5px;
+          margin-left: 5px;
+          @include mq(max_md) {
+            display: none;
+            @include font-pricing(16px, 20px, 400);
+          }
+        }
         .card-discount {
-          font-weight: 400;
           color: #ff6d03;
           margin-top: 8px;
-          @include font-pricing(32px, 40px, 400);
+          @include font-pricing(32px, 40px, 700);
           @include mq(max_md) {
-            @include font-pricing(24px, 30px, 500);
+            @include font-pricing(24px, 30px, 700);
           }
         }
         .card-amountPerSession {

@@ -3029,15 +3029,11 @@ img.mfp-img {
   }
 }
 
-.page-recruitment {
-  margin-top: 80px;
-}
-
 .block-recruitment-1 {
   position: relative;
 }
 .block-recruitment-1 .block1-recruitment-left {
-  padding: 60px 20px 60px 0px;
+  padding: 60px 20px 80px 0px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruitment-1 .block1-recruitment-left {
@@ -3081,6 +3077,7 @@ img.mfp-img {
   -webkit-box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
           box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
   padding: 16px 27px;
+  margin-top: 12px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruitment-1 .block1-recruitment-left .btn-contact {
@@ -3108,7 +3105,7 @@ img.mfp-img {
 }
 
 .block-mission {
-  padding: 50px 0px;
+  padding: 80px 0px;
 }
 .block-mission .mission-title {
   margin-bottom: 60px;
@@ -3308,6 +3305,7 @@ img.mfp-img {
   border-radius: 16px;
   padding: 30px 20px;
   margin-bottom: 27px;
+  min-height: 222px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruit .recruit-top .item-recruit {
@@ -3319,6 +3317,7 @@ img.mfp-img {
             justify-content: space-between;
     padding: 20px;
     margin-bottom: 12px;
+    min-height: auto;
   }
 }
 .block-recruit .recruit-top .item-recruit h4 {
@@ -4542,4 +4541,466 @@ img.mfp-img {
 }
 .con-about-life .box-mobile .box-slider .slide-item img {
   width: 100%;
+}
+
+.bg-orange {
+  background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%);
+}
+
+.bg-blue {
+  background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(99.06deg, #2971f0 0%, #29a8f0 98.55%);
+}
+
+.bg-green {
+  background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(95.64deg, #48bb78 5.89%, #48b4bb 95.12%);
+}
+
+.bg-yellow {
+  background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(99.06deg, #ff9a03 0%, #ffb803 98.55%);
+}
+
+.btn-orange-1 {
+  background: linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%);
+}
+
+.btn-blue {
+  background: linear-gradient(99.06deg, #2971f0 0%, #29a8f0 98.55%);
+}
+
+.btn-green {
+  background: linear-gradient(95.64deg, #48bb78 5.89%, #48b4bb 95.12%);
+}
+
+.btn-yellow {
+  background: linear-gradient(99.06deg, #ff9a03 0%, #ffb803 98.55%);
+}
+
+.box-tittle .tittle {
+  font-size: 48px;
+  line-height: 61px;
+  font-weight: 700;
+  padding: 30px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .box-tittle .tittle {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+}
+
+.box-card {
+  background: #e5e5e5;
+  padding: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .box-card {
+    padding: 20px 0 10px;
+  }
+}
+.box-card .list-card-pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing {
+    display: block;
+  }
+}
+.box-card .list-card-pricing .card-pricing {
+  background: #ffff;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  margin: 0 15px;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing {
+    margin: 16px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.box-card .list-card-pricing .card-pricing .card-pricing-top {
+  border-radius: 12px 12px 50% 50%;
+  padding: 20px 0 10px;
+  color: #ffff;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing .card-pricing-top {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    border-radius: 12px;
+    max-width: 161px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+  }
+}
+.box-card .list-card-pricing .card-pricing .card-pricing-top .card-gift-title {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-gift-title {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 15px;
+  }
+}
+.box-card .list-card-pricing .card-pricing .card-pricing-top .card-month {
+  margin-top: 0;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-month {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+    text-align: left;
+  }
+}
+.box-card .list-card-pricing .card-pricing .card-pricing-top .card-numberOfDay {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-numberOfDay {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 15px;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content {
+  padding: 20px 0;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: right;
+    margin-right: 10px;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost {
+  margin-bottom: 20px;
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-cost {
+  text-decoration: line-through;
+  color: #718096;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-cost {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount {
+  background: #2971f0;
+  display: none;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 0 5px;
+  float: right;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount-desktop {
+  background: #2971f0;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount-desktop {
+    display: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-discount {
+  color: #ff6d03;
+  margin-top: 8px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-discount {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
+  color: #718096;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .card-gift {
+  color: #10b981;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .card-gift {
+    display: none;
+  }
+}
+.box-card .list-card-pricing .card-pricing-content .btn-register {
+  border: none;
+  color: #ffff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .box-card .list-card-pricing .card-pricing-content .btn-register {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+
+/* -----------------------------------------------------------
+	.custom tab
+----------------------------------------------------------- */
+.nav-pills .nav-link {
+  border-radius: 16px;
+  border: 1px solid #cbd5e0;
+  background: #ffff;
+}
+@media only screen and (max-width: 575px) {
+  .nav-pills .nav-link {
+    padding: 8px 10px;
+  }
+}
+.nav-pills .nav-link .nav-description {
+  color: #718096;
+  margin: 5px 0;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .nav-pills .nav-link .nav-description {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+}
+.nav-pills .nav-link .nav-tittle {
+  color: #1a202c;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 16px;
+  border: 1px solid #ff6d03;
+  background: #fff0e6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff6d03;
+}
+.nav-pills .nav-link.active .nav-description,
+.nav-pills .show > .nav-link .nav-description {
+  color: #ff6d03;
+}
+.nav-pills .nav-link.active .nav-tittle,
+.nav-pills .show > .nav-link .nav-tittle {
+  color: #ff6d03;
+}
+.nav-pills .nav-link.active > div,
+.nav-pills .show > .nav-link > div {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 15px;
+  position: absolute;
+  height: 15px;
+  background: #fff0e6;
+  margin-left: 50px;
+  border-bottom: 1px solid #ff6d03;
+  border-right: 1px solid #ff6d03;
+  margin-top: 1px;
+}
+
+.roadmap-year-2021 {
+  background: linear-gradient(65.49deg, #718096 31.32%, #718096 68.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  line-height: 190px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .roadmap-year-2021 {
+    background: linear-gradient(65.49deg, #718096 31.32%, #718096 68.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+    line-height: 91px;
+    font-weight: 500;
+  }
+}
+
+.roadmap-year-2022 {
+  background: linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  line-height: 190px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .roadmap-year-2022 {
+    background: linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+    line-height: 91px;
+    font-weight: 500;
+  }
+}
+
+.block-roadmap-top {
+  background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+}
+.block-roadmap-top .block-title-roadmap {
+  margin: 0 auto;
+  max-height: 300px;
+}
+.block-roadmap-top .block-title-roadmap .content-left {
+  max-height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.block-roadmap-top .block-title-roadmap .content-left .left-title {
+  color: #ffff;
+  font-size: 48px;
+  line-height: 61px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .block-roadmap-top .block-title-roadmap .content-left .left-title {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+}
+.block-roadmap-top .block-title-roadmap .content-left .left-description {
+  color: #5c2e07;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .block-roadmap-top .block-title-roadmap .content-left .left-description {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}
+
+.font-items-left {
+  color: #4A5568;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .font-items-left {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+}
+
+.font-title-right {
+  color: #1A202C;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .font-title-right {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+}
+
+.font-content-right {
+  color: #1A202C;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .font-content-right {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+  }
 }

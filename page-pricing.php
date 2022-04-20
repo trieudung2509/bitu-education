@@ -5,7 +5,9 @@
 	<div>
       <!-- Title: start -->
       <div class="box-tittle container">
+				<div class="row">
         <h1 class="tittle">Pricing</h1>
+				</div>
       </div>
       <!--Title: end -->
 
@@ -35,7 +37,7 @@
 					<div class="list-card-pricing container">
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-orange">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -44,7 +46,10 @@
 									<div class="d-flex flex-column align-items-end">
 										<p class="discount">-18%</p>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
+									<div class="d-flex justify-content-center">
+										<p class="card-cost">3.000.000đ</p>
+										<p class="discount-desktop">-18%</p>
+									</div>
 									<h3 class="card-discount">2.160.000đ</h3>
 									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
@@ -54,7 +59,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-blue">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -73,7 +78,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-green">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -92,7 +97,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-yellow">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -117,7 +122,7 @@
 					<div class="list-card-pricing container">
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-orange">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -136,7 +141,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-blue">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -155,7 +160,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-green">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
@@ -174,7 +179,7 @@
 						</div>
 						<div class="card-pricing">
 							<div class="card-pricing-top bg-yellow">
-								<h3 class="card-month">1 Tháng</h3>
+								<h3 class="card-month">1 tháng</h3>
 								<p class="card-numberOfDay">12 buổi</p>
 								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 							</div>
