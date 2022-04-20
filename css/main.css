@@ -3050,13 +3050,13 @@ img.mfp-img {
 .block-recruitment-1 .block1-recruitment-left h5 {
   font-size: 48px;
   font-weight: 400;
-  color: #1A202C;
+  color: #ff6d03;
 }
 @media only screen and (max-width: 991px) {
   .block-recruitment-1 .block1-recruitment-left h5 {
     font-size: 32px;
     font-weight: 400;
-    color: #1A202C;
+    color: #ff6d03;
   }
 }
 .block-recruitment-1 .block1-recruitment-left p {
@@ -3221,6 +3221,7 @@ img.mfp-img {
   font-weight: 400;
   color: #4A5568;
   padding-top: 20px;
+  padding-bottom: 65px;
 }
 @media only screen and (max-width: 991px) {
   .block-suitable .suitable-left p {
@@ -3291,7 +3292,8 @@ img.mfp-img {
   -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
-  padding: 32px;
+  padding: 30px 20px;
+  margin-bottom: 27px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruit .recruit-top .item-recruit {
@@ -3309,7 +3311,12 @@ img.mfp-img {
   font-size: 20px;
   font-weight: 400;
   color: #1A202C;
-  min-height: 75px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 65px;
 }
 @media only screen and (max-width: 767px) {
   .block-recruit .recruit-top .item-recruit h4 {
@@ -3327,7 +3334,7 @@ img.mfp-img {
   }
 }
 .block-recruit .recruit-top .item-recruit p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #FF6D03;
 }
@@ -3381,6 +3388,7 @@ img.mfp-img {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  margin-bottom: 25px;
 }
 .block-interest .item-interest h5 {
   font-size: 24px;
@@ -3428,6 +3436,13 @@ img.mfp-img {
 .block-progress .block-container-progress .item-progress .block-item-step {
   min-height: 272px;
   padding: 24px 16px;
+}
+.block-progress .block-container-progress .item-progress .block-item-step p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media only screen and (max-width: 767px) {
   .block-progress .block-container-progress .item-progress .block-item-step {

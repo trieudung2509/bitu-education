@@ -30,9 +30,9 @@
       padding: 10px 0px;
     }
     h5 {
-      @include font-recruiment(48px, $body-color);
+      @include font-recruiment(48px, $primary);
       @include mq(max_md) {
-        @include font-recruiment(32px, $body-color);
+        @include font-recruiment(32px, $primary);
       }
     }
 
@@ -142,6 +142,7 @@
     p {
       @include font-recruiment(20px, #4A5568);
       padding-top: 20px;
+      padding-bottom: 65px;
       @include mq(max_md) {
         @include font-recruiment(18px, #4A5568);
       }
@@ -201,7 +202,8 @@
       background: #FFFFFF;
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
       border-radius: 16px;
-      padding: 32px;
+      padding: 30px 20px;
+      margin-bottom: 27px;
       @include mq(max_sm) {
         display: flex;
         justify-content: space-between;
@@ -210,7 +212,12 @@
       }
       h4 {
         @include font-recruiment(20px, #1A202C);
-        min-height: 75px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: 65px;
         @include mq(max_sm) {
           @include font-recruiment(18px, #1A202C);
           min-height: auto;
@@ -220,7 +227,7 @@
         }
       }
       p {
-        @include font-recruiment(20px, #FF6D03);
+        @include font-recruiment(18px, #FF6D03);
         @include mq(max_md) {
           @include font-recruiment(15px, #FF6D03);
         }
@@ -250,6 +257,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 25px;
     h5 {
       @include font-recruiment(24px, #1A202C);
       @include mq(max_md) {
@@ -288,6 +296,13 @@
       .block-item-step {
           min-height: 272px;
           padding: 24px 16px;
+          p {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
           @include mq(max_sm) {
             min-height: auto;
             margin-top: 8px !important;
