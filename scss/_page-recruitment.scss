@@ -18,14 +18,12 @@
     }
   }
 }
-.page-recruitment {
-  margin-top: 80px;
-}
+
 // block: block-recruitment
 .block-recruitment-1 {
   position: relative;
   .block1-recruitment-left {
-    padding: 60px 20px 60px 0px;
+    padding: 60px 20px 80px 0px;
     @include mq(max_sm) {
       padding: 10px 0px;
     }
@@ -48,6 +46,7 @@
       @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 20px, #fff, 400);
       box-shadow: 0 10px 24px 4px rgb(255 109 3 / 30%);
       padding: 16px 27px;
+      margin-top: 12px;
       @include mq(max_sm) {
         @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 18px, #fff, 400);
         padding: 13px 23px;
@@ -68,7 +67,7 @@
 
 // block: block-mission
 .block-mission {
-  padding: 50px 0px;
+  padding: 80px 0px;
   .mission-title {
     margin-bottom: 60px;
   }
@@ -213,11 +212,13 @@
       border-radius: 16px;
       padding: 30px 20px;
       margin-bottom: 27px;
+      min-height: 222px;
       @include mq(max_sm) {
         display: flex;
         justify-content: space-between;
         padding: 20px;
         margin-bottom: 12px;
+        min-height: auto;
       }
       h4 {
         @include font-recruiment(20px, #1A202C, 700);

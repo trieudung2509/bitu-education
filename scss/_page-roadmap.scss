@@ -1,0 +1,82 @@
+@mixin year-roadmap($color, $secondaryColor) {
+  background: linear-gradient(65.49deg, $color 31.32%, $secondaryColor 68.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin font-roadmap($fontSize, $lineHeight, $fontWeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+.roadmap-year-2021 {
+  @include year-roadmap(#718096, #718096);
+  @include font-roadmap(150px, 190px, 500);
+  @include mq(max_md) {
+    @include year-roadmap(#718096, #718096);
+    @include font-roadmap(72px, 91px, 500);
+  }
+}
+
+.roadmap-year-2022 {
+  @include year-roadmap(#ff6d03, #ff9604);
+  @include font-roadmap(150px, 190px, 500);
+  @include mq(max_md) {
+    @include year-roadmap(#ff6d03, #ff9604);
+    @include font-roadmap(72px, 91px, 500);
+  }
+}
+
+.block-roadmap-top {
+  background-image: url("../images/bg-dot-roadmap.svg"),
+    linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+  .block-title-roadmap {
+    margin: 0 auto;
+    max-height: 300px;
+    .content-left {
+      max-height: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .left-title {
+        color: #ffff;
+        @include font-roadmap(48px, 61px, 500);
+        @include mq(max_md) {
+          @include font-roadmap(32px, 40px, 500);
+        }
+      }
+      .left-description {
+        color: #5c2e07;
+        @include font-roadmap(24px, 30px, 400);
+        @include mq(max_md) {
+          @include font-roadmap(20px, 25px, 400);
+        }
+      }
+    }
+  }
+}
+
+.font-items-left {
+  color: #4A5568;
+  @include font-roadmap(20px, 32px, 400);
+  @include mq(max_md) {
+    @include font-roadmap(18px, 23px, 400);
+  }
+}
+
+.font-title-right {
+  color: #1A202C;
+  @include font-roadmap(20px, 32px, 500);
+  @include mq(max_md) {
+    @include font-roadmap(18px, 23px, 500);
+  }
+}
+
+.font-content-right {
+  color: #1A202C;
+  @include font-roadmap(20px, 32px, 400);
+  @include mq(max_md) {
+    @include font-roadmap(18px, 23px, 400);
+  }
+}

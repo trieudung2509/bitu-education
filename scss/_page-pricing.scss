@@ -1,0 +1,244 @@
+@import "mixins";
+@import "variables";
+
+@mixin font-pricing($fontSize, $lineHeight, $fontWeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+@mixin bg-pricing($deg, $color, $secondaryColor, $value, $secondaryValue) {
+  background-image: url("../images/bg-dot-roadmap.svg"),
+    linear-gradient($deg, $color $value, $secondaryColor $secondaryValue);
+}
+
+.bg-orange {
+  @include bg-pricing(99.06deg, #ff6d03, #ff9a03, 0%, 98.55%);
+}
+.bg-blue {
+  @include bg-pricing(99.06deg, #2971f0, #29a8f0, 0%, 98.55%);
+}
+.bg-green {
+  @include bg-pricing(95.64deg, #48bb78, #48b4bb, 5.89%, 95.12%);
+}
+.bg-yellow {
+  @include bg-pricing(99.06deg, #ff9a03, #ffb803, 0%, 98.55%);
+}
+
+.btn-orange-1 {
+  background: linear-gradient(99.06deg, #ff6d03 0%, #ff9a03 98.55%);
+}
+.btn-blue {
+  background: linear-gradient(99.06deg, #2971f0 0%, #29a8f0 98.55%);
+}
+.btn-green {
+  background: linear-gradient(95.64deg, #48bb78 5.89%, #48b4bb 95.12%);
+}
+.btn-yellow {
+  background: linear-gradient(99.06deg, #ff9a03 0%, #ffb803 98.55%);
+}
+
+.box-tittle {
+  .tittle {
+    @include font-pricing(48px, 61px, 700);
+    padding: 30px 0px;
+    @include mq(max_md) {
+      @include font-pricing(32px, 40px, 700);
+      margin-top: 10px;
+    }
+  }
+}
+
+.box-card {
+  background: #e5e5e5;
+  padding: 20px;
+  @include mq(max_md) {
+    padding: 20px 0 10px;
+  }
+  .list-card-pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @include mq(max_md) {
+      display: block;
+    }
+    .card-pricing {
+      background: #ffff;
+      border-radius: 12px;
+      text-align: center;
+      width: 100%;
+      margin: 0 15px;
+      @include mq(max_md) {
+        margin: 16px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .card-pricing-top {
+        border-radius: 12px 12px 50% 50%;
+        padding: 20px 0 10px;
+        color: #ffff;
+        @include mq(max_md) {
+          order: 1;
+          // border-radius: 12px 12px 70% 12px;
+          border-radius: 12px;
+          max-width: 161px;
+          clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+        }
+        .card-gift-title {
+          display: none;
+          @include mq(max_md) {
+            display: block;
+            @include font-pricing(16px, 20px, 400);
+            text-align: left;
+            margin-left: 15px;
+          }
+        }
+        .card-month {
+          margin-top: 0;
+          @include font-pricing(32px, 40px, 400);
+          @include mq(max_md) {
+            @include font-pricing(24px, 30px, 400);
+            margin-left: 15px;
+            text-align: left;
+          }
+        }
+        .card-numberOfDay {
+          @include font-pricing(20px, 25px, 400);
+          @include mq(max_md) {
+            @include font-pricing(16px, 20px, 400);
+            text-align: left;
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+    .card-pricing-content {
+      padding: 20px 0;
+      @include mq(max_md) {
+        order: 2;
+        text-align: right;
+        margin-right: 10px;
+      }
+      .card-pricing-content-cost {
+        margin-bottom: 20px;
+        .card-cost {
+          text-decoration: line-through;
+          color: #718096;
+          @include font-pricing(20px, 25px, 400);
+          @include mq(max_md) {
+            margin-bottom: 5px;
+            @include font-pricing(16px, 20px, 400);
+          }
+        }
+        .discount {
+          background: #2971f0;
+          display: none;
+          inline-size: fit-content;
+          color: #ffff;
+          border-radius: 5px;
+          padding: 0 5px;
+          float: right;
+          @include mq(max_md) {
+            display: block;
+            @include font-pricing(16px, 20px, 400);
+          }
+        }
+        .discount-desktop {
+          background: #2971f0;
+          inline-size: fit-content;
+          color: #ffff;
+          border-radius: 5px;
+          padding: 0 5px;
+          margin-left: 5px;
+          @include mq(max_md) {
+            display: none;
+            @include font-pricing(16px, 20px, 400);
+          }
+        }
+        .card-discount {
+          color: #ff6d03;
+          margin-top: 8px;
+          @include font-pricing(32px, 40px, 700);
+          @include mq(max_md) {
+            @include font-pricing(24px, 30px, 700);
+          }
+        }
+        .card-amountPerSession {
+          color: #718096;
+          @include font-pricing(20px, 25px, 500);
+          @include mq(max_md) {
+            @include font-pricing(16px, 20px, 400);
+          }
+        }
+      }
+      .card-gift {
+        color: #10b981;
+        @include font-pricing(18px, 23px, 400);
+        @include mq(max_md) {
+          display: none;
+        }
+      }
+      .btn-register {
+        border: none;
+        color: #ffff;
+        padding: 10px 20px;
+        border-radius: 12px;
+        @include font-pricing(18px, 23px, 400);
+        @include mq(max_md) {
+          @include font-pricing(16px, 20px, 400);
+        }
+      }
+    }
+  }
+}
+
+/* -----------------------------------------------------------
+	.custom tab
+----------------------------------------------------------- */
+
+.nav-pills .nav-link {
+  border-radius: 16px;
+  border: 1px solid #cbd5e0;
+  background: #ffff;
+  @include mq(max_xs) {
+    padding: 8px 10px;
+  }
+  .nav-description {
+    color: #718096;
+    margin: 5px 0;
+    @include font-pricing(15px, 19px, 400);
+    @include mq(max_md) {
+      @include font-pricing(16px, 19px, 400);
+    }
+  }
+  .nav-tittle {
+    color: #1a202c;
+    @include font-pricing(20px, 25px, 400);
+  }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 16px;
+  border: 1px solid #ff6d03;
+  background: #fff0e6;
+  align-items: center;
+  color: #ff6d03;
+  .nav-description {
+    color: #ff6d03;
+  }
+  .nav-tittle {
+    color: #ff6d03;
+  }
+  & > div {
+    transform: rotate(45deg);
+    width: 15px;
+    position: absolute;
+    height: 15px;
+    background: #fff0e6;
+    margin-left: 50px;
+    border-bottom: 1px solid #ff6d03;
+    border-right: 1px solid #ff6d03;
+    margin-top: 1px;
+  }
+}
