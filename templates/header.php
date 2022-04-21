@@ -15,7 +15,7 @@
 				<ul class="main-nav d-none d-lg-block">
 					<li><a href="./" class="<?php if ($activePage=="index") echo "active"; ?>">Trang chủ</a></li>
 					<li><a href="./about-us.php" class="<?php if ($activePage=="about-us") echo "active"; ?>">Về chúng tôi</a></li>
-					<li><a href="#">Blog</a></li>
+					<li><a href="./blog.php" class="<?php if ($activePage=="blog") echo "active"; ?>">Blog</a></li>
 					<li><a href="#">Pricing</a></li>
 					<li><a href="#">Roadmap</a></li>
 					<li><a href="#">FAQs</a></li>
@@ -51,7 +51,7 @@
 		<ul class="main-nav">
 			<li><a href="./" class="active">Trang chủ</a></li>
 			<li><a href="./about-us.php">Về chúng tôi</a></li>
-			<li><a href="#">Blog</a></li>
+			<li><a href="./blog.php">Blog</a></li>
 			<li><a href="#">Pricing</a></li>
 			<li><a href="#">Roadmap</a></li>
 			<li><a href="#">FAQs</a></li>

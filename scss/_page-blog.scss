@@ -5,7 +5,7 @@
 
 .con-blog-header {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 
   @include mq(max_lg) {
@@ -14,6 +14,7 @@
 }
 
 .content-blog-header {
+   max-width: 1272px;
   .title {
     font-style: normal;
     margin: 0;
@@ -21,7 +22,17 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 61px;
-    color: #1A202C
+    color: #1A202C;
+
+    @include mq(max_lg) {
+      font-size: 48px;
+    }
+    @include mq(max_md) {
+      font-size: 38px;
+    }
+    @include mq(max_sm) {
+      font-size: 28px;
+    }
   }
 
   .blog-intro {
@@ -96,7 +107,7 @@
 
 .con-list-blog{
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
 
@@ -109,6 +120,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 1272px;
 
   .blog-item {
     background: #FFFFFF;

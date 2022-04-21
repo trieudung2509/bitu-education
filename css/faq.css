@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: rgba(237, 242, 247, 0.5);
+}
+
+.faq-header {
+  width: 100%;
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+}
+.faq-header .content {
+  width: 100%;
+  max-width: 1272px;
+  display: flex;
+  flex-direction: column;
+}
+.faq-header .content .faq-title {
+  margin-bottom: 24px;
+  text-align: left;
+}
+.faq-header .content .list-faq {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1272px;
+}
+.faq-header .content .list-faq .faq-item {
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px 16px 16px 6px;
+  border-left-width: 6px;
+  border-left-style: solid;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 30px 16px 32px 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1A202C;
+}
+.faq-header .content .list-faq .faq-item:nth-child(1) {
+  border-left-color: #FF6D03;
+}
+.faq-header .content .list-faq .faq-item:nth-child(2) {
+  border-left-color: #5A67D8;
+}
+.faq-header .content .list-faq .faq-item:nth-child(3) {
+  border-left-color: #2A82F1;
+}
+.faq-header .content .list-faq .faq-item:nth-child(4) {
+  border-left-color: #E53E3E;
+}
+.faq-header .content .list-faq .faq-item:nth-child(5) {
+  border-left-color: #48BB78;
+}
+.faq-header .content .list-faq .faq-item:nth-child(6) {
+  border-left-color: #F6AD55;
+}
+.faq-header .content .list-faq .faq-item:nth-child(7) {
+  border-left-color: #ED64A6;
+}
+.faq-header .content .list-faq .faq-item:nth-child(8) {
+  border-left-color: #38B2AC;
+}
+@media only screen and (max-width: 991px) {
+  .faq-header .content .list-faq .faq-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .faq-header .content .list-faq .faq-item {
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 6px 12px 12px 6px;
+    border-left-width: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.problem-wrapper {
+  background-color: white;
+  display: flex;
+  padding-top: 64px;
+  justify-content: center;
+}
+
+.con-problem {
+  display: flex;
+  justify-content: center;
+}
+.con-problem .main-content {
+  width: 100%;
+  max-width: 1272px;
+  border: 1px solid blue;
+}
+.con-problem .title-peroblem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 51px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .title-peroblem {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+.con-problem .list-problem {
+  border: 1px solid red;
+}
+.con-problem .list-problem .problem-item {
+  border: 1px solid green;
+}
+.con-problem .list-problem .problem-item .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.con-problem .list-problem .problem-item .active, .con-problem .list-problem .problem-item .collapsible:hover {
+  background-color: #555;
+}
+.con-problem .list-problem .problem-item .collapsible:after {
+  content: "+";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.con-problem .list-problem .problem-item .active:after {
+  content: "−";
+}
+.con-problem .list-problem .problem-item .problem-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+/*# sourceMappingURL=faq.css.map */
