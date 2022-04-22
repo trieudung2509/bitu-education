@@ -13,6 +13,7 @@
   align-items: center;
   max-width: 1104px;
   margin-bottom: 24px;
+  text-decoration: none;
 }
 .con-content-detail .detail-title-wrapper img {
   display: block;

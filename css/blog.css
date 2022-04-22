@@ -134,6 +134,9 @@
   border-radius: 8px;
   margin-bottom: 32px;
   width: calc((100% - 80px) / 3);
+  text-decoration: none;
+  cursor: pointer;
+  color: #1A202C;
 }
 .list-blog .blog-item .blog-image {
   width: 100%;
@@ -164,6 +167,11 @@
   /* number of lines to show */
   line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+@media only screen and (max-width: 767px) {
+  .list-blog .blog-item .blog-info .blog-title {
+    font-size: 20px;
+  }
 }
 .list-blog .blog-item .blog-info .blog-time {
   font-style: normal;
