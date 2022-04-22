@@ -133,6 +133,9 @@
     border-radius: 8px;
     margin-bottom: 32px;
     width: calc((100% - 80px) / 3);
+    text-decoration: none;
+    cursor: pointer;
+    color: #1A202C;
 
     .blog-image{
       width: 100%;
@@ -164,6 +167,10 @@
         -webkit-line-clamp: 3; /* number of lines to show */
                 line-clamp: 3;
         -webkit-box-orient: vertical;
+
+        @include mq(max_sm) {
+          font-size: 20px;
+        }
       }
 
       .blog-time {
