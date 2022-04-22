@@ -2,6 +2,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 44px;
+  background-image: url("../images/blog/bg-header-blog.png");
+  background-repeat: no-repeat;
+  background-position: 0% -50%;
 }
 @media only screen and (max-width: 1199px) {
   .con-blog-header {
@@ -88,6 +92,7 @@
 @media only screen and (max-width: 767px) {
   .content-blog-header .blog-intro .description {
     width: 100%;
+    padding: 24px 30px 20px;
   }
 }
 .content-blog-header .blog-intro .image {
