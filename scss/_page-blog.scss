@@ -5,8 +5,12 @@
 
 .con-blog-header {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-top: 44px;
+  background-image: url('../images/blog/bg-header-blog.png');
+  background-repeat: no-repeat;
+  background-position: 0% -50%;
 
   @include mq(max_lg) {
     max-width: 1272px;
@@ -14,6 +18,7 @@
 }
 
 .content-blog-header {
+   max-width: 1272px;
   .title {
     font-style: normal;
     margin: 0;
@@ -21,7 +26,17 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 61px;
-    color: #1A202C
+    color: #1A202C;
+
+    @include mq(max_lg) {
+      font-size: 48px;
+    }
+    @include mq(max_md) {
+      font-size: 38px;
+    }
+    @include mq(max_sm) {
+      font-size: 28px;
+    }
   }
 
   .blog-intro {
@@ -75,6 +90,7 @@
       }
       @include mq(max_sm) {
         width: 100%;
+        padding: 24px 30px 20px;
       }
     }
 
@@ -96,7 +112,7 @@
 
 .con-list-blog{
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
 
@@ -109,6 +125,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 1272px;
 
   .blog-item {
     background: #FFFFFF;

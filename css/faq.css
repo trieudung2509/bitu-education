@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: rgba(237, 242, 247, 0.5);
+}
+
+.faq-header {
+  width: 100%;
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+}
+.faq-header .content {
+  width: 100%;
+  max-width: 1272px;
+  display: flex;
+  flex-direction: column;
+}
+.faq-header .content .faq-title {
+  margin-bottom: 24px;
+  text-align: left;
+}
+.faq-header .content .list-faq {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1272px;
+}
+.faq-header .content .list-faq .faq-item {
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px 16px 16px 6px;
+  border-left-width: 6px;
+  border-left-style: solid;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 30px 16px 32px 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1A202C;
+}
+.faq-header .content .list-faq .faq-item:nth-child(1) {
+  border-left-color: #FF6D03;
+}
+.faq-header .content .list-faq .faq-item:nth-child(2) {
+  border-left-color: #5A67D8;
+}
+.faq-header .content .list-faq .faq-item:nth-child(3) {
+  border-left-color: #2A82F1;
+}
+.faq-header .content .list-faq .faq-item:nth-child(4) {
+  border-left-color: #E53E3E;
+}
+.faq-header .content .list-faq .faq-item:nth-child(5) {
+  border-left-color: #48BB78;
+}
+.faq-header .content .list-faq .faq-item:nth-child(6) {
+  border-left-color: #F6AD55;
+}
+.faq-header .content .list-faq .faq-item:nth-child(7) {
+  border-left-color: #ED64A6;
+}
+.faq-header .content .list-faq .faq-item:nth-child(8) {
+  border-left-color: #38B2AC;
+}
+@media only screen and (max-width: 991px) {
+  .faq-header .content .list-faq .faq-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .faq-header .content .list-faq .faq-item {
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 6px 12px 12px 6px;
+    border-left-width: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.problem-wrapper {
+  background-color: white;
+  display: flex;
+  padding-top: 64px;
+  justify-content: center;
+}
+
+.con-problem {
+  display: flex;
+  justify-content: center;
+}
+.con-problem .main-content {
+  width: 100%;
+  max-width: 1272px;
+  margin-bottom: 100px;
+}
+.con-problem .title-peroblem {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .title-peroblem {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+.con-problem .list-problem {
+  max-width: 840px;
+}
+.con-problem .list-problem .problem-item .collapsible {
+  background-color: #fff;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px 24px 0px;
+  border: none;
+  border-bottom: 1px solid #EDF2F7;
+}
+.con-problem .list-problem .problem-item .collapsible .collapse-title {
+  display: flex;
+  align-items: center;
+}
+.con-problem .list-problem .problem-item .collapsible .collapse-title .number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 66px;
+  text-align: center;
+  color: #E2E8F0;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .list-problem .problem-item .collapsible .collapse-title .number {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    margin-right: 16px;
+  }
+}
+.con-problem .list-problem .problem-item .collapsible .collapse-title .title {
+  margin: 0;
+  padding: 0;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1A202C;
+  max-width: 670px;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .list-problem .problem-item .collapsible .collapse-title .title {
+    max-width: 266px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+.con-problem .list-problem .problem-item .collapsible .icon-arrow {
+  display: block;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .list-problem .problem-item .collapsible .icon-arrow {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+  }
+}
+.con-problem .list-problem .problem-item .collapsible .collapse-icon .icon-arrow-up {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .list-problem .problem-item .collapsible {
+    padding: 16px 0px;
+  }
+}
+.con-problem .list-problem .problem-item .active {
+  border: none;
+  padding-bottom: 0;
+}
+.con-problem .list-problem .problem-item .problem-content {
+  max-height: 0;
+  overflow: hidden;
+  max-width: 695px;
+}
+.con-problem .list-problem .problem-item .problem-content p {
+  padding: 16px 60px 30px;
+  background-color: #fff;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .list-problem .problem-item .problem-content p {
+    padding: 16px 0px;
+    padding: 8px 40px 16px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.con-problem .break-block {
+  height: 80px;
+}
+@media only screen and (max-width: 767px) {
+  .con-problem .break-block {
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

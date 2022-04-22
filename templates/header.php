@@ -15,11 +15,11 @@
 				<ul class="main-nav d-none d-lg-block">
 					<li><a href="./" class="<?php if ($activePage=="index") echo "active"; ?>">Trang chủ</a></li>
 					<li><a href="./about-us.php" class="<?php if ($activePage=="about-us") echo "active"; ?>">Về chúng tôi</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="/page-pricing.php" class="<?php if ($activePage=="page-pricing") echo "active"; ?>">Pricing</a></li>
-					<li><a href="/page-roadmap.php" class="<?php if ($activePage=="page-roadmap") echo "active"; ?>">Roadmap</a></li>
-					<li><a href="#">FAQs</a></li>
-					<li><a href="/page-recruitment.php"  class="<?php if ($activePage=="page-recruitment") echo "active"; ?>">Tuyển dụng</a></li>
+					<li><a href="./blog.php" class="<?php if ($activePage=="blog") echo "active"; ?>">Blog</a></li>
+					<li><a href="./page-pricing.php" class="<?php if ($activePage=="page-pricing") echo "active"; ?>">Pricing</a></li>
+					<li><a href="./page-roadmap.php" class="<?php if ($activePage=="page-roadmap") echo "active"; ?>">Roadmap</a></li>
+					<li><a href="./faq.php" class="<?php if ($activePage=="faq") echo "active"; ?>">FAQs</a></li>
+					<li><a href=".//page-recruitment.php"  class="<?php if ($activePage=="page-recruitment") echo "active"; ?>">Tuyển dụng</a></li>
 					<li><a href="#">Liên hệ</a></li>
 				</ul>
 
@@ -51,10 +51,10 @@
 		<ul class="main-nav">
 			<li><a href="./" class="active">Trang chủ</a></li>
 			<li><a href="./about-us.php">Về chúng tôi</a></li>
-			<li><a href="#">Blog</a></li>
+			<li><a href="./blog.php">Blog</a></li>
 			<li><a href="#">Pricing</a></li>
 			<li><a href="../page-roadmap.php">Roadmap</a></li>
-			<li><a href="#">FAQs</a></li>
+			<li><a href="./faq.php">FAQs</a></li>
 			<li><a href="#">Tuyển dụng</a></li>
 			<li><a href="#">Liên hệ</a></li>
 		</ul>
