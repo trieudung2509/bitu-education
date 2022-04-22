@@ -2,35 +2,37 @@
 @import "variables";
 @import "mixins";
 $container: 1272px;
-$c-blue: #2971F0;
-$c-green: #48BB78;
-$c-yellow: #FFB700;
 /* -----------------------------------------------------------
 	.con-intro
 ----------------------------------------------------------- */
 .con-about-intro {
-  position: relative;
 	margin: 100px 0 0px;
+  position: relative;
+  overflow: hidden;
   @include mq(max_xl) {
     margin-top: 50px;
   }
   @include mq(max_sm) {
     margin: 25px 0 0;
   }
-  .container {
-@include mq(xxl) {
-  padding-left: 64px;
-}
+  &:before {
+    content: '';
+    position: absolute;
+    left: (178/1920) * 100vw;
+    bottom: 0;
+    width: (1565 / 1920) * 100vw;
+    height: (392 / 1920) * 100vw;
+    background: transparent url(../images/bg-intro-dots.png) repeat left top;
+    z-index: 0;
   }
-	&:before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: (1565 / 1920) * 100vw;
-		height: (392 / 1920) * 100vw;
-		background: transparent url(../images/bg-intro-dots.png) repeat left top;
-	}
+  * {
+    z-index: 2;
+  }
+  .container {
+    @include mq(xxl) {
+      padding-left: 76px;
+    }
+  }
   .title-lg {
     @include mq(xl) {
       font-size: 64px;
@@ -376,14 +378,17 @@ $c-yellow: #FFB700;
 ----------------------------------------------------------- */
 .con-about-creative {
   margin: 0 0 170px;
+  @include mq(max_xl) {
+    margin-bottom: 100px
+  }
   @include mq(max_sm) {
     background-color: rgba($primary, 0.1);
     margin-bottom: 60px;
   }
   .container {
     @include mq(max_sm) {
-     padding-left: 0; 
-     padding-right: 0; 
+     padding-left: 0;
+     padding-right: 0;
     }
   }
   .box-wrapper {
@@ -461,12 +466,32 @@ $c-yellow: #FFB700;
 -----------------------------------------------------------------*/
 .con-about-milestone {
   margin: 0 0 180px;
+  overflow: hidden;
+  @include mq(max_xl) {
+    margin-bottom: 100px
+  }
   @include mq(max_sm) {
-    margin-bottom: 60px; 
+    margin-bottom: 45px;
   }
   .container {
+    @include mq(md) {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 20px;
+        bottom: 4px;
+        width: 100%;
+        height: 74.2056074766%;
+        background: transparent url(../images/bg-intro-dots.png) repeat left top;
+      }
+    }
     @include mq(xxl) {
-      max-width: $container;
+      padding-left: 64px;
+      padding-right: 64px;
+      &:before {
+        width: calc(100% - 20px);
+      }
     }
   }
   ul {
@@ -475,7 +500,7 @@ $c-yellow: #FFB700;
   .title-lg {
     text-align: left;
     @include mq(max_sm) {
-      margin-bottom: 23px;
+      margin-bottom: 8px;
     }
   }
   .box-milestone {
@@ -487,9 +512,19 @@ $c-yellow: #FFB700;
     @include mq(md) {
       width: 249px;
     }
+    @include mq(max_xs) {
+      padding: 15px;
+    }
     .date {
       font-size: 30px;
       font-weight: 700;
+      margin-bottom: 4px;
+      @include mq(max_lg) {
+        font-size: 28px;
+      }
+      @include mq(max_md) {
+        font-size: 26px;
+      }
       @include mq(max_xs) {
         font-size: 24px;
         margin-bottom: 8px;
@@ -498,9 +533,18 @@ $c-yellow: #FFB700;
     .txt {
       font-size: 20px;
       margin-bottom: 0;
-  @include mq(max_xs) {
-    font-size: 18px;
-  }
+      @include mq(max_lg) {
+        font-size: 18px;
+      }
+      @include mq(max_md) {
+        font-size: 16px;
+      }
+      img {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 4px;
+        margin-right: 5px;
+      }
     }
     &.c-orange {
       border-left-color:  $primary;
@@ -527,24 +571,23 @@ $c-yellow: #FFB700;
       }
     }
   }
+  .box-mobile {
+    .box-milestone {
+       height: inherit;
+    }
+  }
   .slick-list {
     margin: 0 -12px;
   }
+  .slick-track {
+    padding: 15px 0;
+  }
   .slide-item {
-    padding: 0 12px;
+    padding: 0 10px;
   }
   .box-lines {
     position: relative;
     height: 539px;
-    &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: (397/535) * 100%;
-      background: transparent url(../images/bg-intro-dots.png) repeat left top;
-    }
     &:after {
       display: block;
       height: 5px;
@@ -564,7 +607,7 @@ $c-yellow: #FFB700;
       height: 26px;
       border-radius: 100%;
       margin: 0;
-      left: -13px;
+      left: -11px;
       z-index: 2;
       background: white;
       &:after {
@@ -601,43 +644,140 @@ $c-yellow: #FFB700;
       position: absolute;
       left: (51/1272) * 100%;
       bottom: 0;
-      height: (475/539) * 100%;
-      width: 3px;
-      border-left: 3px dashed $primary;
+      height: (468/539) * 100%;
+      width: 4px;
+      // border-left: 3px dashed $primary;
+      background-image: url("data:image/svg+xml, #{$lineOrange}");
+      background-position: bottom left;
+      background-repeat: repeat-y;
+      @include mq(max_md) {
+        height: 86%;
+        left: 0;
+      }
       &.item-2 {
         left: (254/1272) * 100%;
         height: (354/539) * 100%;
-        border-left-color: $c-blue;
+        // border-left-color: $c-blue;
+        background-image: url("data:image/svg+xml, #{$lineBlue}");
+        @include mq(max_lg) {
+          left: 15%;
+          height: 62%;
+        }
       }
       &.item-3 {
         left: (475/1272) * 100%;
         height: 100%;
-        border-left-color: $c-green;
+        background-image: url("data:image/svg+xml, #{$lineGreen}");
+        // border-left-color: $c-green;
+        @include mq(max_lg) {
+          left: 33%;
+        }
       }
       &.item-4 {
         left: (646/1272) * 100%;
         height: (338/539) * 100%;
-        border-left-color: $primary;
+        background-image: url("data:image/svg+xml, #{$lineOrange}");
+        // border-left-color: $primary;
+        @include mq(max_lg) {
+          left: 44%;
+        }
       }
       &.item-5 {
         left: (866/1272) * 100%;
         height: (501/539) * 100%;
-        border-left-color: $c-yellow;
+        background-image: url("data:image/svg+xml, #{$lineYellow}");
+        // border-left-color: $c-yellow;
       }
       &.item-6 {
         left: auto;
         right: (261/1272) * 100%;
         height: (354/539) * 100%;
-        border-left-color: $c-blue;
+
+        background-image: url("data:image/svg+xml, #{$lineBlue}");
+        // border-left-color: $c-blue;
+        @include mq(max_lg) {
+          right: 25%;
+        }
       }
     }
     .box-milestone {
       position: absolute;
-      left: -4px;
+      left: 0px;
       top: 0;
       z-index: 2;
+      @include mq(max_md) {
+        width: 202px;
+        padding: 10px;
+      }
       &.milestone-2, &.milestone-4 {
         z-index: 3;
+      }
+    }
+  }
+}
+/*----------------------------------------------------------------
+  .con-about-life
+-----------------------------------------------------------------*/
+.con-about-life {
+  margin: 0 0 238px;
+  @include mq(max_xl) {
+    margin-bottom: 100px
+  }
+  .container {
+    @include mq(xxl) {
+      padding-left: 76px;
+    }
+  }
+  .row {
+    margin-left: -6px;
+    margin-right: -6px;
+    & >* {
+      padding-left: 6px;
+      padding-right: 6px;
+      img {
+        width: 100%
+      }
+    }
+  }
+  .mt-23 {
+    margin-top: 23px;
+  }
+  .mt-12 {
+    margin-top: 12px;
+  }
+  .title-lg {
+    text-align: left;
+    margin-bottom: 50px;
+@include mq(max_xs) {
+  margin-bottom: 24px;
+}
+  }
+  .col {
+    &-1 {
+      width: (490/1272) * 100%;
+    }
+    &-2 {
+      width: (446/1272) * 100%;
+    }
+    &-3 {
+      width: (312/1272) * 100%;
+    }
+  }
+  .box-mobile {
+    overflow: hidden;
+    .box-slider {
+      overflow: visible;
+      width: 75vw;
+      .slick-list {
+        margin: 0 -6px;
+        overflow: visible;
+      }
+      .slide-item {
+        padding: 0 6px;
+        border-radius: 8px;
+        img {
+          width: 100%;
+        }
       }
     }
   }
