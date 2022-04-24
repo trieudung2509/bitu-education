@@ -31,9 +31,25 @@
 .block-roadmap-top {
   background-image: url("../images/bg-dot-roadmap.svg"),
     linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+    padding: 100px 0px;
+    @include mq(max_sm) {
+        padding: 50px 0px;
+    }
   .block-title-roadmap {
     margin: 0 auto;
     max-height: 300px;
+    .content-right {
+      position: relative;
+      img {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        @include mq(max_sm) {
+          position: absolute;
+          top: 50px;
+        }
+      }
+    }
     .content-left {
       max-height: inherit;
       display: flex;

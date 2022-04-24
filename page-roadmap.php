@@ -2,14 +2,18 @@
 <body>
 	<?php include "templates/header.php"; ?>
 
-	<div>
+	<div class="body-roadmap">
     <div class="block-roadmap-top">
-      <div class="block-title-roadmap container row">
-        <div class="content-left col-6 col-md-8">
-          <h1 class="left-title">Product Roadmap</h1>
-          <span class="left-description">Các tính năng mới được cập nhật hàng tuần</span>
+      <div class="block-title-roadmap container">
+        <div class="row">
+          <div class="content-left col-6 col-md-8">
+            <h1 class="left-title">Product Roadmap</h1>
+            <span class="left-description">Các tính năng mới được cập nhật hàng tuần</span>
+          </div>
+          <div class="content-right col-6 col-md-4">
+            <img src="images/supperman.svg" />
+          </div>
         </div>
-        <img class="col-6 col-md-4" src="images/supperman.svg" />
       </div>
     </div>
     <div class="container my-5">

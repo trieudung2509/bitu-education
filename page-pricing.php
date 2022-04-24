@@ -2,7 +2,7 @@
 <body>
 	<?php include "templates/header.php"; ?>
 
-	<div>
+	<div class="body-pricing">
       <!-- Title: start -->
       <div class="box-tittle container">
 				<div class="row">
@@ -10,7 +10,6 @@
 				</div>
       </div>
       <!--Title: end -->
-
       <!-- Card pricing: start -->
       <div class="box-card">
 				<!-- Pricing tab: start -->
@@ -34,166 +33,200 @@
 			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 					<!-- Card 1-to-1: start -->
-					<div class="list-card-pricing container">
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-orange">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+					<div class="list-pricing container">
+						<div class="row">
+								<div class="item-pricing col-lg-3 col-md-6 col-12">
+									<div class="card-pricing">
+										<div class="card-pricing-top bg-orange">
+											<h3 class="card-month">1 tháng</h3>
+											<p class="card-numberOfDay">12 buổi</p>
+											<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+										</div>
+										<div class="card-pricing-content">
+											<div class="card-pricing-content-cost">
+												<div class="d-flex flex-column align-items-end">
+													<p class="discount">-18%</p>
+												</div>
+												<div class="d-flex justify-content-center">
+													<p class="card-cost">3.000.000đ</p>
+													<p class="discount-desktop">-18%</p>
+												</div>
+												<h3 class="card-discount">2.160.000đ</h3>
+												<p class="card-amountPerSession">66.000đ/buổi</p>
+											</div>
+											<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+											<button class="btn-register btn-orange-1">Đăng ký</button>
+										</div>
 									</div>
-									<div class="d-flex justify-content-center">
-										<p class="card-cost">3.000.000đ</p>
-										<p class="discount-desktop">-18%</p>
-									</div>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-orange-1">Đăng ký</button>
-							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-blue">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+								<div class="item-pricing col-lg-3 col-md-6 col-12">
+									<div class="card-pricing">
+										<div class="card-pricing-top bg-blue">
+											<h3 class="card-month">1 tháng</h3>
+											<p class="card-numberOfDay">12 buổi</p>
+											<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+										</div>
+										<div class="card-pricing-content">
+											<div class="card-pricing-content-cost">
+												<div class="d-flex flex-column align-items-end">
+													<p class="discount">-18%</p>
+												</div>
+												<div class="d-flex justify-content-center">
+													<p class="card-cost">3.000.000đ</p>
+												</div>
+												<h3 class="card-discount">2.160.000đ</h3>
+												<p class="card-amountPerSession">66.000đ/buổi</p>
+											</div>
+											<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+											<button class="btn-register btn-blue">Đăng ký</button>
+										</div>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-blue">Đăng ký</button>
-							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-green">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+								<div class="item-pricing col-lg-3 col-md-6 col-12">
+									<div class="card-pricing">
+										<div class="card-pricing-top bg-green">
+											<h3 class="card-month">1 tháng</h3>
+											<p class="card-numberOfDay">12 buổi</p>
+											<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+										</div>
+										<div class="card-pricing-content">
+											<div class="card-pricing-content-cost">
+												<div class="d-flex flex-column align-items-end">
+													<p class="discount">-18%</p>
+												</div>
+												<div class="d-flex justify-content-center">
+													<p class="card-cost">3.000.000đ</p>
+												</div>
+												<h3 class="card-discount">2.160.000đ</h3>
+												<p class="card-amountPerSession">66.000đ/buổi</p>
+											</div>
+											<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+											<button class="btn-register btn-green">Đăng ký</button>
+										</div>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-green">Đăng ký</button>
-							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-yellow">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+								<div class="item-pricing col-lg-3 col-md-6 col-12">
+									<div class="card-pricing">
+										<div class="card-pricing-top bg-yellow">
+											<h3 class="card-month">1 tháng</h3>
+											<p class="card-numberOfDay">12 buổi</p>
+											<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+										</div>
+										<div class="card-pricing-content">
+											<div class="card-pricing-content-cost">
+												<div class="d-flex flex-column align-items-end">
+													<p class="discount">-18%</p>
+												</div>
+												<div class="d-flex justify-content-center">
+													<p class="card-cost">3.000.000đ</p>
+												</div>
+												<h3 class="card-discount">2.160.000đ</h3>
+												<p class="card-amountPerSession">66.000đ/buổi</p>
+											</div>
+											<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+											<button class="btn-register btn-yellow">Đăng ký</button>
+										</div>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-yellow">Đăng ký</button>
-							</div>
 						</div>
 					</div>
 					<!-- Card 1-to-1: stop -->
 				</div>
 				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 					<!-- Card 1-to-2: start -->
-					<div class="list-card-pricing container">
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-orange">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+					<div class="list-pricing container">
+						<div class="row">
+							<div class="item-pricing col-md-3 col-12">
+								<div class="card-pricing">
+									<div class="card-pricing-top bg-orange">
+										<h3 class="card-month">1 tháng</h3>
+										<p class="card-numberOfDay">12 buổi</p>
+										<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
-								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-orange-1">Đăng ký</button>
-							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-blue">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+									<div class="card-pricing-content">
+										<div class="card-pricing-content-cost">
+											<div class="d-flex flex-column align-items-end">
+												<p class="discount">-18%</p>
+											</div>
+											<div class="d-flex justify-content-center">
+												<p class="card-cost">3.000.000đ</p>
+											</div>
+											<h3 class="card-discount">2.160.000đ</h3>
+											<p class="card-amountPerSession">66.000đ/buổi</p>
+										</div>
+										<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+										<button class="btn-register btn-orange-1">Đăng ký</button>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-blue">Đăng ký</button>
 							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-green">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+							<div class="item-pricing col-md-3 col-12">
+								<div class="card-pricing">
+									<div class="card-pricing-top bg-blue">
+										<h3 class="card-month">1 tháng</h3>
+										<p class="card-numberOfDay">12 buổi</p>
+										<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
-								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-green">Đăng ký</button>
-							</div>
-						</div>
-						<div class="card-pricing">
-							<div class="card-pricing-top bg-yellow">
-								<h3 class="card-month">1 tháng</h3>
-								<p class="card-numberOfDay">12 buổi</p>
-								<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
-							</div>
-							<div class="card-pricing-content">
-								<div class="card-pricing-content-cost">
-									<div class="d-flex flex-column align-items-end">
-										<p class="discount">-18%</p>
+									<div class="card-pricing-content">
+										<div class="card-pricing-content-cost">
+											<div class="d-flex flex-column align-items-end">
+												<p class="discount">-18%</p>
+											</div>
+											<div class="d-flex justify-content-center">
+												<p class="card-cost">3.000.000đ</p>
+											</div>
+											<h3 class="card-discount">2.160.000đ</h3>
+											<p class="card-amountPerSession">66.000đ/buổi</p>
+										</div>
+										<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+										<button class="btn-register btn-blue">Đăng ký</button>
 									</div>
-									<p class="card-cost">3.000.000đ</p>
-									<h3 class="card-discount">2.160.000đ</h3>
-									<p class="card-amountPerSession">66.000đ/buổi</p>
 								</div>
-								<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
-								<button class="btn-register btn-yellow">Đăng ký</button>
+							</div>
+							<div class="item-pricing col-md-3 col-12">
+								<div class="card-pricing">
+									<div class="card-pricing-top bg-green">
+										<h3 class="card-month">1 tháng</h3>
+										<p class="card-numberOfDay">12 buổi</p>
+										<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+									</div>
+									<div class="card-pricing-content">
+										<div class="card-pricing-content-cost">
+											<div class="d-flex flex-column align-items-end">
+												<p class="discount">-18%</p>
+											</div>
+											<div class="d-flex justify-content-center">
+												<p class="card-cost">3.000.000đ</p>
+											</div>
+											<h3 class="card-discount">2.160.000đ</h3>
+											<p class="card-amountPerSession">66.000đ/buổi</p>
+										</div>
+										<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+										<button class="btn-register btn-green">Đăng ký</button>
+									</div>
+								</div>
+							</div>
+							<div class="item-pricing col-md-3 col-12">
+								<div class="card-pricing">
+									<div class="card-pricing-top bg-yellow">
+										<h3 class="card-month">1 tháng</h3>
+										<p class="card-numberOfDay">12 buổi</p>
+										<p class="card-gift-title">Tặng 5 buổi nói chuyện 1-2</p>
+									</div>
+									<div class="card-pricing-content">
+										<div class="card-pricing-content-cost">
+											<div class="d-flex flex-column align-items-end">
+												<p class="discount">-18%</p>
+											</div>
+											<div class="d-flex justify-content-center">
+												<p class="card-cost">3.000.000đ</p>
+											</div>
+											<h3 class="card-discount">2.160.000đ</h3>
+											<p class="card-amountPerSession">66.000đ/buổi</p>
+										</div>
+										<p class="card-gift">Tặng 5 buổi nói chuyện 1-2</p>
+										<button class="btn-register btn-yellow">Đăng ký</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -201,7 +234,6 @@
 				</div>
 			</div>
       </div>
-
       <!-- Card pricing: stop -->
 
 			<div class="con-classroom-model">
@@ -521,7 +553,7 @@
 				</div>
 			</div>
 			<!-- /END .con-classroom-model -->
-    </div>
+  </div>
 
 	<?php include "templates/footer.php"; ?>
 

@@ -4698,7 +4698,7 @@ img.mfp-img {
   font-size: 48px;
   line-height: 61px;
   font-weight: 700;
-  padding: 30px 0px;
+  padding: 30px 0px 30px 10px;
 }
 @media only screen and (max-width: 991px) {
   .box-tittle .tittle {
@@ -4707,6 +4707,10 @@ img.mfp-img {
     font-weight: 700;
     margin-top: 10px;
   }
+}
+
+.body-pricing .con-classroom-model {
+  margin-bottom: 100px;
 }
 
 .box-card {
@@ -4718,30 +4722,14 @@ img.mfp-img {
     padding: 20px 0 10px;
   }
 }
-.box-card .list-card-pricing {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing {
-    display: block;
-  }
-}
-.box-card .list-card-pricing .card-pricing {
+.box-card .card-pricing {
   background: #ffff;
   border-radius: 12px;
   text-align: center;
   width: 100%;
-  margin: 0 15px;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing {
+  .box-card .card-pricing {
     margin: 16px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4751,13 +4739,13 @@ img.mfp-img {
             justify-content: space-between;
   }
 }
-.box-card .list-card-pricing .card-pricing .card-pricing-top {
+.box-card .card-pricing .card-pricing-top {
   border-radius: 12px 12px 50% 50%;
   padding: 20px 0 10px;
   color: #ffff;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing .card-pricing-top {
+  .box-card .card-pricing .card-pricing-top {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -4767,11 +4755,11 @@ img.mfp-img {
             clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
   }
 }
-.box-card .list-card-pricing .card-pricing .card-pricing-top .card-gift-title {
+.box-card .card-pricing .card-pricing-top .card-gift-title {
   display: none;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-gift-title {
+  .box-card .card-pricing .card-pricing-top .card-gift-title {
     display: block;
     font-size: 16px;
     line-height: 20px;
@@ -4780,14 +4768,14 @@ img.mfp-img {
     margin-left: 15px;
   }
 }
-.box-card .list-card-pricing .card-pricing .card-pricing-top .card-month {
+.box-card .card-pricing .card-pricing-top .card-month {
   margin-top: 0;
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-month {
+  .box-card .card-pricing .card-pricing-top .card-month {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
@@ -4795,13 +4783,13 @@ img.mfp-img {
     text-align: left;
   }
 }
-.box-card .list-card-pricing .card-pricing .card-pricing-top .card-numberOfDay {
+.box-card .card-pricing .card-pricing-top .card-numberOfDay {
   font-size: 20px;
   line-height: 25px;
   font-weight: 400;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing .card-pricing-top .card-numberOfDay {
+  .box-card .card-pricing .card-pricing-top .card-numberOfDay {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
@@ -4809,11 +4797,11 @@ img.mfp-img {
     margin-left: 15px;
   }
 }
-.box-card .list-card-pricing .card-pricing-content {
+.box-card .card-pricing-content {
   padding: 20px 0;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content {
+  .box-card .card-pricing-content {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -4821,10 +4809,10 @@ img.mfp-img {
     margin-right: 10px;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost {
+.box-card .card-pricing-content .card-pricing-content-cost {
   margin-bottom: 20px;
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-cost {
+.box-card .card-pricing-content .card-pricing-content-cost .card-cost {
   text-decoration: line-through;
   color: #718096;
   font-size: 20px;
@@ -4832,14 +4820,14 @@ img.mfp-img {
   font-weight: 400;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-cost {
+  .box-card .card-pricing-content .card-pricing-content-cost .card-cost {
     margin-bottom: 5px;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount {
+.box-card .card-pricing-content .card-pricing-content-cost .discount {
   background: #2971f0;
   display: none;
   inline-size: -webkit-fit-content;
@@ -4851,14 +4839,14 @@ img.mfp-img {
   float: right;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount {
+  .box-card .card-pricing-content .card-pricing-content-cost .discount {
     display: block;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount-desktop {
+.box-card .card-pricing-content .card-pricing-content-cost .discount-desktop {
   background: #2971f0;
   inline-size: -webkit-fit-content;
   inline-size: -moz-fit-content;
@@ -4869,14 +4857,14 @@ img.mfp-img {
   margin-left: 5px;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .discount-desktop {
+  .box-card .card-pricing-content .card-pricing-content-cost .discount-desktop {
     display: none;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-discount {
+.box-card .card-pricing-content .card-pricing-content-cost .card-discount {
   color: #ff6d03;
   margin-top: 8px;
   font-size: 32px;
@@ -4884,37 +4872,37 @@ img.mfp-img {
   font-weight: 700;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-discount {
+  .box-card .card-pricing-content .card-pricing-content-cost .card-discount {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
+.box-card .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
   color: #718096;
   font-size: 20px;
   line-height: 25px;
   font-weight: 500;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
+  .box-card .card-pricing-content .card-pricing-content-cost .card-amountPerSession {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .card-gift {
+.box-card .card-pricing-content .card-gift {
   color: #10b981;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .card-gift {
+  .box-card .card-pricing-content .card-gift {
     display: none;
   }
 }
-.box-card .list-card-pricing .card-pricing-content .btn-register {
+.box-card .card-pricing-content .btn-register {
   border: none;
   color: #ffff;
   padding: 10px 20px;
@@ -4924,7 +4912,7 @@ img.mfp-img {
   font-weight: 400;
 }
 @media only screen and (max-width: 991px) {
-  .box-card .list-card-pricing .card-pricing-content .btn-register {
+  .box-card .card-pricing-content .btn-register {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
@@ -5037,10 +5025,30 @@ img.mfp-img {
 
 .block-roadmap-top {
   background-image: url("../images/bg-dot-roadmap.svg"), linear-gradient(65.49deg, #ff6d03 31.32%, #ff9604 68.68%);
+  padding: 100px 0px;
+}
+@media only screen and (max-width: 767px) {
+  .block-roadmap-top {
+    padding: 50px 0px;
+  }
 }
 .block-roadmap-top .block-title-roadmap {
   margin: 0 auto;
   max-height: 300px;
+}
+.block-roadmap-top .block-title-roadmap .content-right {
+  position: relative;
+}
+.block-roadmap-top .block-title-roadmap .content-right img {
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+@media only screen and (max-width: 767px) {
+  .block-roadmap-top .block-title-roadmap .content-right img {
+    position: absolute;
+    top: 50px;
+  }
 }
 .block-roadmap-top .block-title-roadmap .content-left {
   max-height: inherit;

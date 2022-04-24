@@ -41,11 +41,16 @@
 .box-tittle {
   .tittle {
     @include font-pricing(48px, 61px, 700);
-    padding: 30px 0px;
+    padding: 30px 0px 30px 10px;
     @include mq(max_md) {
       @include font-pricing(32px, 40px, 700);
       margin-top: 10px;
     }
+  }
+}
+.body-pricing {
+  .con-classroom-model {
+    margin-bottom: 100px;
   }
 }
 
@@ -55,19 +60,11 @@
   @include mq(max_md) {
     padding: 20px 0 10px;
   }
-  .list-card-pricing {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    @include mq(max_md) {
-      display: block;
-    }
     .card-pricing {
       background: #ffff;
       border-radius: 12px;
       text-align: center;
       width: 100%;
-      margin: 0 15px;
       @include mq(max_md) {
         margin: 16px 0;
         display: flex;
@@ -189,7 +186,6 @@
         }
       }
     }
-  }
 }
 
 /* -----------------------------------------------------------
