@@ -19,8 +19,8 @@
 					<li><a href="./page-pricing.php" class="<?php if ($activePage=="page-pricing") echo "active"; ?>">Pricing</a></li>
 					<li><a href="./page-roadmap.php" class="<?php if ($activePage=="page-roadmap") echo "active"; ?>">Roadmap</a></li>
 					<li><a href="./faq.php" class="<?php if ($activePage=="faq") echo "active"; ?>">FAQs</a></li>
-					<li><a href=".//page-recruitment.php"  class="<?php if ($activePage=="page-recruitment") echo "active"; ?>">Tuyển dụng</a></li>
-					<li><a href="#">Liên hệ</a></li>
+					<li><a href="./page-recruitment.php"  class="<?php if ($activePage=="page-recruitment") echo "active"; ?>">Tuyển dụng</a></li>
+					<li><a href="./contact.php" class="<?php if ($activePage=="contact") echo "active"; ?>">Liên hệ</a></li>
 				</ul>
 
 				<div class="box-language">
@@ -56,7 +56,7 @@
 			<li><a href="../page-roadmap.php">Roadmap</a></li>
 			<li><a href="./faq.php">FAQs</a></li>
 			<li><a href="#">Tuyển dụng</a></li>
-			<li><a href="#">Liên hệ</a></li>
+			<li><a href="./contact.php">Liên hệ</a></li>
 		</ul>
   </div>
 </div>
