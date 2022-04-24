@@ -12,12 +12,12 @@
 				<ul class="main-nav d-none d-lg-block">
 					<li><a href="index.html" class="active">Trang chủ</a></li>
 					<li><a href="about-us.html">Về chúng tôi</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<li><a href="blog.html">Blog</a></li>
 					<li><a href="page-pricing.html">Pricing</a></li>
 					<li><a href="page-roadmap.html">Roadmap</a></li>
-					<li><a href="faq.php">FAQs</a></li>
+					<li><a href="faq.html">FAQs</a></li>
 					<li><a href="page-recruitment.html">Tuyển dụng</a></li>
-					<li><a href="contact.php">Liên hệ</a></li>
+					<li><a href="contact.html">Liên hệ</a></li>
 				</ul>
 
 				<div class="box-language">
@@ -48,12 +48,12 @@
 		<ul class="main-nav">
 			<li><a href="index.html" class="active">Trang chủ</a></li>
 			<li><a href="about-us.html">Về chúng tôi</a></li>
-			<li><a href="blog.php">Blog</a></li>
+			<li><a href="blog.html">Blog</a></li>
 			<li><a href="page-pricing.html">Pricing</a></li>
 			<li><a href="page-roadmap.html">Roadmap</a></li>
-			<li><a href="faq.php">FAQs</a></li>
+			<li><a href="faq.html">FAQs</a></li>
 			<li><a href="page-recruitment.html">Tuyển dụng</a></li>
-			<li><a href="contact.php">Liên hệ</a></li>
+			<li><a href="contact.html">Liên hệ</a></li>
 		</ul>
   </div>
 </div>
