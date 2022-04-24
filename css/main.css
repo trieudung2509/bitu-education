@@ -1432,13 +1432,6 @@ img.mfp-img {
     padding: 16px;
   }
 }
-@media only screen and (max-width: 575px) {
-  .con-reason-reflex .box-list .item:first-child {
-    border: 1px solid #000;
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
-}
 @media only screen and (max-width: 991px) {
   .con-reason-reflex .box-list .col-title {
     margin-bottom: 20px;

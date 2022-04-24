@@ -329,12 +329,6 @@
 				border-radius: 8px;
 				padding: 16px;
 			}
-			&:first-child {
-				@include mq(max_xs) {
-					border: 1px solid #000;
-					box-shadow: 0 4px 4px rgba(0,0,0,0.25);
-				}
-			}
 		}
 		.col-title {
 			@include mq(max_md) {
