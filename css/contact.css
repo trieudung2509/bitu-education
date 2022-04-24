@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con-contact {
+  padding-top: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-contact {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+.main-contact .contact-title {
+  margin-bottom: 32px;
+}
+.main-contact .contact-detail {
+  width: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .main-contact .contact-detail {
+    flex-direction: column;
+  }
+}
+.main-contact .contact-detail .contact-form {
+  padding-right: 70px;
+  border-right: 1px solid #E2E8F0;
+  width: 50%;
+  max-width: 470px;
+}
+.main-contact .contact-detail .contact-form .form-textarea-message {
+  height: fit-content;
+  resize: none;
+}
+.main-contact .contact-detail .contact-form .ic-message {
+  top: 10px;
+  transform: none;
+}
+.main-contact .contact-detail .contact-form .submit-control {
+  text-align: right;
+}
+.main-contact .contact-detail .contact-form .submit-control .btn-contact-submit {
+  min-width: 106px;
+}
+@media only screen and (max-width: 767px) {
+  .main-contact .contact-detail .contact-form .submit-control {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-contact .contact-detail .contact-form {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+}
+.main-contact .contact-detail .contact-info {
+  width: 50%;
+  padding-left: 70px;
+  display: flex;
+}
+.main-contact .contact-detail .contact-info .list-contact {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-width: max-content;
+}
+.main-contact .contact-detail .contact-info .list-contact .contact-item {
+  margin-bottom: 24px;
+}
+.main-contact .contact-detail .contact-info .list-contact .contact-item .label {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #718096;
+  margin-bottom: 4px;
+}
+.main-contact .contact-detail .contact-info .list-contact .contact-item .contact-value {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 767px) {
+  .main-contact .contact-detail .contact-info .list-contact .contact-item .contact-value {
+    font-size: 18px;
+  }
+}
+.main-contact .contact-detail .contact-info .contact-image {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.main-contact .contact-detail .contact-info .contact-image img {
+  display: block;
+  width: 100%;
+  max-width: 246px;
+  max-height: 300px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 991px) {
+  .main-contact .contact-detail .contact-info .contact-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-contact .contact-detail .contact-info {
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+}
+
+.bitu-map {
+  margin-top: 84px;
+  width: 100%;
+  height: 615px;
+}
+.bitu-map iframe {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .bitu-map {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
