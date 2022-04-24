@@ -27,7 +27,7 @@
         <div class="col-md-5 box-text">
           <h3 class="title-lg">Giúp mọi người nói tiếng Anh tốt hơn bằng cách tập trung vào thực hành</h3>
           <p class="txt">Chúng tôi tin rằng, trong 4 kỹ năng Nghe, nói, đọc, viết thì kỹ năng nghe nói là quan trọng nhất. Nhưng đó lại là kỹ năng thường bị bỏ qua nhiều nhất.
-          <br />  
+          <br />
           Các mô hình lớp học tiếng Anh truyền thống chỉ cung cấp cho bạn những kiến thức cơ bản, nhưng lại thiếu môi trường thực hành.
             <br /><br />
             Bitu được tạo ra với sứ mệnh giúp người học khắp nơi trên thế giới có cơ hội được nói chuyện với người nước ngoài bằng tiếng Anh.
@@ -151,7 +151,7 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <!-- /END .con-about-creative -->
 
   <div class="con-about-milestone">
@@ -316,7 +316,7 @@
               <div class="col-md-12">
                 <img src="images/about-us/img-life-8.png" alt="image 8" >
               </div>
-            </div>  
+            </div>
             <div class="row mt-12">
               <div class="col-md-12">
                 <img src="images/about-us/img-life-9.png" alt="image 9" >
@@ -329,7 +329,7 @@
         <div class="box-slider">
           <div class="slide-item">
             <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
-          </div> 
+          </div>
           <div class="slide-item">
             <img src="images/about-us/img-life-peoples.png" alt="Cuộc sống tại Bitu">
           </div>
@@ -342,6 +342,7 @@
   </div><!-- /END .con-about-life -->
 
   <?php include "templates/footer.php"; ?>
+
   <script>
   /* -----------------------------------------------------------
     Milestone slider
@@ -396,7 +397,7 @@
         slidesToShow: 1,
         slidesToScroll: 1
       });
-     
+
     });
 
   </script>

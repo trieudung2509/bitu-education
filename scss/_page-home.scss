@@ -413,7 +413,10 @@
 	}
 	.box-btn {
 		.btn {
-			min-width: 260px;
+			min-width: 295px;
+			@include mq(max_sm) {
+				min-width: 0;
+			}
 		}
 	}
 }
@@ -826,12 +829,12 @@
 	.con-classroom-model
 ----------------------------------------------------------- */
 .con-classroom-model {
-	padding: 120px 0;
+	padding: 120px 0 0;
 	@include mq(max_lg) {
-		padding: 70px 0 80px;
+		padding: 70px 0 0;
 	}
 	@include mq(max_sm) {
-		padding: 50px 0 60px;
+		padding: 50px 0 0;
 	}
 	.title-lg {
 		display: flex;
@@ -1063,6 +1066,92 @@
 					border-bottom-left-radius: 8px;
 					border-bottom-right-radius: 8px;
 				}
+			}
+		}
+	}
+}
+
+/* -----------------------------------------------------------
+	.con-for-everyone
+----------------------------------------------------------- */
+.con-for-everyone {
+	position: relative;
+	padding: 120px 0 146px;
+	@include mq(max_lg) {
+		padding: 70px 0 80px;
+	}
+	@include mq(max_sm) {
+		padding: 50px 0 60px;
+	}
+	.title-lg {
+		margin-bottom: 80px;
+		@include mq(max_lg) {
+			margin-bottom: 50px;
+		}
+		@include mq(max_sm) {
+			margin-bottom: 30px;
+		}
+		@include mq(max_xs) {
+			margin-bottom: 20px;
+		}
+	}
+	.box-list {
+		margin-bottom: 50px;
+		@include mq(max_lg) {
+			margin-bottom: 30px;
+		}
+		@include mq(max_md) {
+			margin-bottom: 20px;
+		}
+		@include mq(max_xs) {
+			margin-bottom: 10px;
+		}
+		.list {
+		}
+		.item {
+			text-align: center;
+			margin-bottom: 40px;
+			@include mq(max_sm) {
+				display: inline-flex;
+				text-align: left;
+				margin-bottom: 30px;
+			}
+		}
+		.box-icon {
+			margin-bottom: 30px;
+			@include mq(max_lg) {
+				width: 50px;
+				margin-bottom: 20px;
+			}
+			@include mq(max_sm) {
+				width: 40px;
+				height: 40px;
+				margin-right: 10px;
+				margin-bottom: 0;
+			}
+		}
+		.box-txt {
+			.txt {
+				max-width: 280px;
+				font-size: 20px;
+				margin: auto;
+				@include mq(max_lg) {
+					max-width: 100%;
+				}
+				@include mq(max_md) {
+					font-size: 18px;
+				}
+				@include mq(max_xs) {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.box-btn {
+		.btn {
+			min-width: 295px;
+			@include mq(max_sm) {
+				min-width: 0;
 			}
 		}
 	}
