@@ -43,12 +43,12 @@
       }
     }
     .btn-contact {
-      @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 20px, #fff, 400);
+      @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff, 400);
       box-shadow: 0 10px 24px 4px rgb(255 109 3 / 30%);
       padding: 16px 27px;
       margin-top: 12px;
       @include mq(max_sm) {
-        @include background-button(linear-gradient(to right, #d95b00 0%, #ff8303 100%), 18px, #fff, 400);
+        @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 18px, #fff, 400);
         padding: 13px 23px;
       }
     }
@@ -108,8 +108,10 @@
           @include font-recruiment(32px, #2D3748, 700);
         }
         span {
-          color: $primary;
-          display: block;
+          &:nth-child(2) {
+            color: $primary;
+            display: block;
+          }
         }
       }
     }
@@ -457,7 +459,7 @@
   }
 }
 .list-recruiment {
-  padding: 50px 0px 251px;
+  padding: 50px 0px 150px;
   .block-item-recruitment {
     margin-bottom: 50px;
     h2.title-recruiment {

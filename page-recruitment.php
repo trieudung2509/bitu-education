@@ -66,9 +66,9 @@
           <div class="col-md-7 col-12 col-mission-right">
             <div class="mission-right">
               <h2>
-                Giúp mọi người
+                <span>Giúp mọi người</span>
                 <span>nói tiếng Anh tốt hơn</span>
-                bằng cách tập trung vào thực hành
+                <span>bằng cách tập trung vào thực hành</span>
               </h2>
             </div>
           </div>
@@ -124,7 +124,7 @@
                   <p>Thương lượng</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="recrit-btn">
                   <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@
                   <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@
                   <p>Up to $3k</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@
                   <p>Up to $3k</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -181,7 +181,7 @@
                   <p>Thương lượng</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -192,7 +192,7 @@
                   <p>Up to $3k</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@
                   <p>Thương lượng</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -222,7 +222,7 @@
                   <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
                   <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@
                   <p>Up to $3k</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@
                   <p>Thương lượng</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -274,7 +274,7 @@
                   <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
@@ -285,7 +285,7 @@
                   <p>15.000.000 - 25.000.000</p>
                 </div>
                 <div class="recrit-btn">
-                  <a type="button" class="btn btn-primary btn-apply">Apply</a>
+                  <a href="/recruitment-detail.html" type="button" class="btn btn-primary btn-apply">Apply</a>
                 </div>
               </div>
             </div>
