@@ -78,7 +78,7 @@
 	}
 	.box-language {
 		margin-left: 24px;
-		a {
+		.dropdown-toggle {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -89,6 +89,10 @@
 			font-size: 16px;
 			padding: 5px 12px 5px 7px;
 			font-weight: 500;
+			border: 0;
+			&:after {
+				display: none;
+			}
 			@include mq(max_md) {
 				font-size: 14px;
 				padding: 3px 10px 3px 5px;;
@@ -98,6 +102,30 @@
 			}
 			span {
 				padding-left: 5px;
+			}
+		}
+		.dropdown-menu {
+			min-width: 103px;
+			top: 40px;
+			left: -10px;
+			border-radius: 8px;
+			padding: 5px;
+			background: white;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.10);
+			li {
+				padding: 1px 0;
+				a {
+					border-radius: 8px;
+					padding: 5px;
+					line-height: 1;
+					img, span {
+						display: inline-block;
+						vertical-align: middle;
+					}
+					&:hover {
+						background: #EDF2F7;
+					}
+				}
 			}
 		}
 	}

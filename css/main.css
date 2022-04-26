@@ -291,7 +291,7 @@ button,
 .main-header .box-language {
   margin-left: 24px;
 }
-.main-header .box-language a {
+.main-header .box-language .dropdown-toggle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,18 +308,47 @@ button,
   font-size: 16px;
   padding: 5px 12px 5px 7px;
   font-weight: 500;
+  border: 0;
+}
+.main-header .box-language .dropdown-toggle:after {
+  display: none;
 }
 @media only screen and (max-width: 991px) {
-  .main-header .box-language a {
+  .main-header .box-language .dropdown-toggle {
     font-size: 14px;
     padding: 3px 10px 3px 5px;
   }
 }
-.main-header .box-language a:hover {
+.main-header .box-language .dropdown-toggle:hover {
   background: #dbe5ef;
 }
-.main-header .box-language a span {
+.main-header .box-language .dropdown-toggle span {
   padding-left: 5px;
+}
+.main-header .box-language .dropdown-menu {
+  min-width: 103px;
+  top: 40px;
+  left: -10px;
+  border-radius: 8px;
+  padding: 5px;
+  background: white;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.main-header .box-language .dropdown-menu li {
+  padding: 1px 0;
+}
+.main-header .box-language .dropdown-menu li a {
+  border-radius: 8px;
+  padding: 5px;
+  line-height: 1;
+}
+.main-header .box-language .dropdown-menu li a img, .main-header .box-language .dropdown-menu li a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-header .box-language .dropdown-menu li a:hover {
+  background: #EDF2F7;
 }
 
 .main-nav {
