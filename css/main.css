@@ -3202,8 +3202,7 @@ img.mfp-img {
   }
 }
 .block-recruitment-1 .block1-recruitment-left .btn-contact {
-  background: -webkit-gradient(linear, left top, right top, from(#d95b00), to(#ff8303));
-  background: linear-gradient(to right, #d95b00 0%, #ff8303 100%);
+  background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
   border-radius: 16px;
   font-size: 20px;
   font-weight: 400;
@@ -3216,8 +3215,7 @@ img.mfp-img {
 }
 @media only screen and (max-width: 767px) {
   .block-recruitment-1 .block1-recruitment-left .btn-contact {
-    background: -webkit-gradient(linear, left top, right top, from(#d95b00), to(#ff8303));
-    background: linear-gradient(to right, #d95b00 0%, #ff8303 100%);
+    background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
     border-radius: 16px;
     font-size: 18px;
     font-weight: 400;
@@ -3300,7 +3298,7 @@ img.mfp-img {
     color: #2D3748;
   }
 }
-.block-mission .col-mission-right .mission-right h2 span {
+.block-mission .col-mission-right .mission-right h2 span:nth-child(2) {
   color: #ff6d03;
   display: block;
 }
@@ -3763,7 +3761,7 @@ img.mfp-img {
 }
 
 .list-recruiment {
-  padding: 50px 0px 251px;
+  padding: 50px 0px 150px;
 }
 .list-recruiment .block-item-recruitment {
   margin-bottom: 50px;
@@ -4742,8 +4740,8 @@ img.mfp-img {
 }
 
 .box-card {
-  background: #e5e5e5;
-  padding: 20px;
+  background: #F6F8FB;
+  padding: 30px 0px 60px;
 }
 @media only screen and (max-width: 991px) {
   .box-card {
