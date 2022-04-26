@@ -1031,7 +1031,7 @@
       <div class="box-list">
         <div class="row list">
           <div class="col-12 col-md-4 item">
-            <img src="images/ic-check.png" alt="ic-check.png" class="box-icon">
+            <img src="images/ic-check.png" width="64" alt="ic-check.png" class="box-icon">
 
             <div class="box-txt">
               <div class="txt">Học sinh, sinh viên luyện nói để thi IELTS, TOEIC</div>
@@ -1039,7 +1039,7 @@
           </div>
 
           <div class="col-12 col-md-4 item">
-            <img src="images/ic-check.png" alt="ic-check.png" class="box-icon">
+            <img src="images/ic-check.png" width="64" alt="ic-check.png" class="box-icon">
 
             <div class="box-txt">
               <div class="txt">Người đi làm muốn nâng cao khả năng nói tiếng Anh công sở, phỏng vấn xin việc</div>
@@ -1047,7 +1047,7 @@
           </div>
 
           <div class="col-12 col-md-4 item">
-            <img src="images/ic-check.png" alt="ic-check.png" class="box-icon">
+            <img src="images/ic-check.png" width="64" alt="ic-check.png" class="box-icon">
 
             <div class="box-txt">
               <div class="txt">Luyện nói tiếng Anh để du học, ra nước ngoài sinh sống hoặc đi du lịch</div>
