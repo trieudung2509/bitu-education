@@ -107,7 +107,7 @@
   max-width: 1272px;
   margin-bottom: 100px;
 }
-.con-problem .title-peroblem {
+.con-problem .title-problem {
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -115,7 +115,7 @@
   color: #1A202C;
 }
 @media only screen and (max-width: 767px) {
-  .con-problem .title-peroblem {
+  .con-problem .title-problem {
     font-size: 28px;
     line-height: 35px;
   }
