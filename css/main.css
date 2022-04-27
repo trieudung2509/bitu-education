@@ -1623,6 +1623,20 @@ img.mfp-img {
 .con-benefit .box-list .item-press-talk .box-item {
   background: transparent url(../images/bg-press-talk.png) no-repeat left top;
   background-size: 100% 100%;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 1200px) {
+  .con-benefit .box-list .item-press-talk .box-item .col-detail {
+    width: 55.07%;
+    padding-left: 76px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .con-benefit .box-list .item-press-talk .box-item .col-image {
+    width: 43.93%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .con-benefit .box-list .item-trend {
   overflow: hidden;

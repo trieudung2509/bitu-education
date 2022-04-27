@@ -463,6 +463,20 @@
 			.box-item {
 				background: transparent url(../images/bg-press-talk.png) no-repeat left top;
 				background-size: 100% 100%;
+				padding: 10px 0;
+				.col-detail {
+					@include mq(xl) {
+						width: 55.07%;
+						padding-left: 76px;
+					}
+				}
+				.col-image {
+					@include mq(xl) {
+						width: 43.93%;
+						padding-left: 0;
+						padding-right: 0;
+					}
+				}
 			}
 		}
 		.item-trend {
