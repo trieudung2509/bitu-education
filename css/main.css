@@ -1625,10 +1625,27 @@ img.mfp-img {
   background-size: 100% 100%;
   padding: 10px 0;
 }
+.con-benefit .box-list .item-press-talk .box-item .col-detail {
+  padding: 46px 0 46px 76px;
+}
 @media only screen and (min-width: 1200px) {
   .con-benefit .box-list .item-press-talk .box-item .col-detail {
     width: 55.07%;
-    padding-left: 76px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .con-benefit .box-list .item-press-talk .box-item .col-detail {
+    padding: 40px 0 40px 62px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .con-benefit .box-list .item-press-talk .box-item .col-detail {
+    padding: 30px 0 30px 52px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-benefit .box-list .item-press-talk .box-item .col-detail {
+    padding: 20px 42px;
   }
 }
 @media only screen and (min-width: 1200px) {
