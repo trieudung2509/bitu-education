@@ -58,3 +58,9 @@ $(function() {
 		}
 	});
 });
+
+
+$(document).ready(function () {
+	$('.menu-item').removeClass('active')
+	$('a[href="' + location.pathname.split("/")[location.pathname.split("/").length-1] + '"]').addClass('active')
+});
