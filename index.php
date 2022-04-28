@@ -6,8 +6,6 @@
   <div class="con-intro">
     <div class="container">
       <div class="box-intro">
-        <img src="images/ic-cute-person.png" alt="ic-cute-person" class="ic-cute-person">
-
         <h3 class="title-lg">App luyện nói <br class="d-inline d-sm-none" />tiếng Anh với <br /> <span class="text-primary">100% người nước ngoài</span></h3>
 
         <div class="d-block d-md-none img-intro-sp">
@@ -590,7 +588,6 @@
     <div class="box-list-wrapper">
       <div class="container">
         <div class="box-list">
-
           <div class="row g-0 list d-none d-lg-flex">
             <div class="col-4 item">
               <h3 class="title-lg d-none d-lg-flex">Mô hình lớp học</h3>
@@ -1012,6 +1009,17 @@
             <!-- /row -->
           </div>
           <!-- /Mobile -->
+
+          <div class="box-bottom-btns mx-auto">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <button class="btn btn-outline-orange w-100">So sánh Bitu với mô hình học tiếng Anh qua Skype</button>
+              </div>
+              <div class="col-12 col-md-6">
+                <button class="btn btn-outline-orange w-100">So sánh Bitu với trung tâm tiếng Anh</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1100,15 +1108,17 @@
       </div>
     </div>
 
-
     <div class="box-progress">
       <div class="container">
         <div class="box-bg">
           <div class="row box-text">
             <div class="col-12 col-md-5 col-xl-6">
               <div class="box-title">
-                <h3 class="txt-title"><span>Cam kết lên <br class="d-none d-md-inline d-xl-none" /> trình độ</span> sau 36 buổi</h3>
-                <button type="button" class="btn btn-outline-orange d-none d-md-inline-block">Xem chi tiết</button>
+                <h3 class="txt-title">
+                  <span>Cam kết lên <br class="d-none d-md-inline d-xl-none" /> trình độ</span> sau 36 buổi
+                  <img src="images/ic-cerf.png" alt="ic-cerf" class="ic-cerf">
+                </h3>
+                <button type="button" class="btn btn-white d-none d-md-inline-block">Xem chi tiết</button>
               </div>
             </div>
 
@@ -1174,7 +1184,7 @@
               </div>
 
               <div class="text-center">
-                <button type="submit" class="btn btn-orange btn-advisory"><span>Đăng ký ngay </span></button>
+                <button type="submit" class="btn btn-orange btn-advisory"><span>Đăng ký học thử miễn phí</span></button>
               </div>
             </form>
           </div>
@@ -1182,7 +1192,7 @@
 
         <div class="col-12 col-lg-6 col-play">
           <div class="box-btn-advisory d-block d-md-none">
-            <a href="#" class="btn btn-orange btn-advisory"><span>Đăng ký ngay</span></a>
+            <a href="#" class="btn btn-orange btn-advisory"><span>Đăng ký học thử miễn phí</span></a>
           </div>
 
           <div class="box-play">

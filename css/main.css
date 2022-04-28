@@ -125,19 +125,40 @@ button,
   z-index: 2;
 }
 
-.btn-outline-orange {
+.btn-white {
   position: relative;
-  height: 44px;
   font-size: 18px;
   color: #ff6d03 !important;
   background: #fff;
+  border: 0;
+  text-decoration: none;
+  outline: 0;
+  border-radius: 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 8.5px 15px;
+}
+.btn-white:hover {
+  color: #fff !important;
+  background: #ff6d03;
+}
+.btn-white:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 109, 3, 0.18);
+          box-shadow: 0 0 0 0.25rem rgba(255, 109, 3, 0.18);
+}
+
+.btn-outline-orange {
+  position: relative;
+  font-size: 20px;
+  color: #ff6d03 !important;
+  background: none;
   border: 1px solid #ff6d03;
   text-decoration: none;
   outline: 0;
   border-radius: 12px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  padding: 7.5px 15px;
+  padding: 10px 15px;
 }
 .btn-outline-orange:hover {
   color: #fff !important;
@@ -1371,36 +1392,9 @@ img.mfp-img {
   position: relative;
   padding-left: 50px;
 }
-@media only screen and (max-width: 1599px) {
-  .con-intro .box-intro {
-    padding-left: 90px;
-  }
-}
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .con-intro .box-intro {
     padding-left: 0;
-  }
-}
-.con-intro .ic-cute-person {
-  position: absolute;
-  left: -90px;
-  top: 30%;
-}
-@media only screen and (max-width: 1599px) {
-  .con-intro .ic-cute-person {
-    left: -10px;
-    width: 6vw;
-  }
-}
-@media only screen and (max-width: 1399px) {
-  .con-intro .ic-cute-person {
-    left: -27px;
-    width: 110px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .con-intro .ic-cute-person {
-    display: none;
   }
 }
 .con-intro .title-lg {
@@ -1430,7 +1424,7 @@ img.mfp-img {
 }
 @media only screen and (max-width: 1199px) {
   .con-intro .register-form-common {
-    max-width: 390px;
+    max-width: 460px;
     margin-bottom: 40px;
   }
 }
@@ -2633,6 +2627,43 @@ img.mfp-img {
     border-bottom-right-radius: 8px;
   }
 }
+.con-classroom-model .box-bottom-btns {
+  max-width: 1010px;
+  margin-top: 52px;
+}
+@media only screen and (max-width: 1399px) {
+  .con-classroom-model .box-bottom-btns {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-classroom-model .box-bottom-btns {
+    margin-top: 10px;
+  }
+}
+.con-classroom-model .box-bottom-btns .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+@media only screen and (max-width: 1199px) {
+  .con-classroom-model .box-bottom-btns .btn {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-classroom-model .box-bottom-btns .btn {
+    height: auto;
+    margin-top: 20px;
+  }
+}
 
 /* -----------------------------------------------------------
 	.con-for-everyone
@@ -2938,6 +2969,8 @@ img.mfp-img {
   }
 }
 .con-effective .box-progress .box-text .box-title .txt-title {
+  display: table;
+  position: relative;
   font-weight: bold;
   font-size: 48px;
   line-height: 1.2708333333;
@@ -2950,12 +2983,48 @@ img.mfp-img {
 }
 @media only screen and (max-width: 767px) {
   .con-effective .box-progress .box-text .box-title .txt-title {
+    display: block;
     font-size: 28px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .con-effective .box-progress .box-text .box-title .txt-title {
+    padding-right: 100px;
   }
 }
 .con-effective .box-progress .box-text .box-title .txt-title span {
   display: block;
   color: #ff6d03;
+}
+.con-effective .box-progress .box-text .box-title .ic-cerf {
+  position: absolute;
+  right: 25px;
+  top: 70px;
+}
+@media only screen and (max-width: 1199px) {
+  .con-effective .box-progress .box-text .box-title .ic-cerf {
+    right: -70px;
+    top: 56px;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .con-effective .box-progress .box-text .box-title .ic-cerf {
+    right: -70px;
+    top: 26px;
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-effective .box-progress .box-text .box-title .ic-cerf {
+    right: 0;
+    top: -10px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .con-effective .box-progress .box-text .box-title .ic-cerf {
+    top: 0;
+  }
 }
 .con-effective .box-progress .box-text .txt {
   color: #4A5568;
