@@ -1116,7 +1116,7 @@
               <div class="box-title">
                 <h3 class="txt-title">
                   <span>Cam kết lên <br class="d-none d-md-inline d-xl-none" /> trình độ</span> sau 36 buổi
-                  <img src="images/ic-cerf.png" alt="ic-cerf" class="ic-cerf">
+                  <img src="images/ic-cerf.png" alt="ic-cerf" width="98" class="ic-cerf">
                 </h3>
                 <button type="button" class="btn btn-white d-none d-md-inline-block">Xem chi tiết</button>
               </div>
