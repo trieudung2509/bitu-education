@@ -17,7 +17,7 @@
           </div>
           <div class="col-lg-5 col-md-7 col-12">
             <div class="block1-recruitment-right">
-              <img src="/images/Mask group.jpg" alt="">
+              <img src="images/Mask group.jpg" alt="">
             </div>
           </div>
         </div>
@@ -33,12 +33,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5 col-12">
+          <div class="col-12 col-lg-5 col-xl-4 col-mission-left">
             <div class="block-mission-left">
               <ul class="ul-mission">
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon1.svg" alt="">
+                    <img src="images/mission-icon1.svg" alt="">
                     <p>
                       Giúp học viên ở các nước không nói tiếng Anh có thể cải thiện tốt nhất khả năng giao tiếp bằng ngôn ngữ này
                     </p>
@@ -46,7 +46,7 @@
                 </li>
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon2.svg" alt="">
+                    <img src="images/mission-icon2.svg" alt="">
                     <p>
                       Tạo ra một nền tảng kết nối, một MXH “kiểu mới”- nơi học viên sử dụng tiếng Anh như công cụ chính để giao lưu, kết bạn, trao đổi văn hóa
                     </p>
@@ -54,7 +54,7 @@
                 </li>
                 <li class="li-mission">
                   <div class="item-mission">
-                    <img src="/images/mission-icon3.svg" alt="">
+                    <img src="images/mission-icon3.svg" alt="">
                     <p>
                       Phổ cập tiếng Anh cho mọi lứa tuổi, mọi tầng lớp, từ thành thị đến nông thôn, từ người nghèo cho đến người giàu đều có thể tham gia Bitu
                     </p>
@@ -63,12 +63,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-7 col-12 col-mission-right">
+
+          <div class="col-12 col-lg-7 col-xl-8 col-mission-right">
             <div class="mission-right">
               <h2>
-                <span>Giúp mọi người</span>
-                <span>nói tiếng Anh tốt hơn</span>
-                <span>bằng cách tập trung vào thực hành</span>
+                Giúp mọi người <br />
+                <span class="text-primary">nói tiếng Anh tốt hơn</span> <br />
+                bằng cách tập trung  <br />
+                vào thực hành
               </h2>
             </div>
           </div>
@@ -631,42 +633,6 @@
 
   <script>
     $(function() {
-      // ======================> benefit <======================
-      // $(function() {
-      // 	var benafitSlider= $('.con-benefit .box-slider').slick({
-      // 		speed: 600,
-      // 		autoplaySpeed: 6000,
-      // 		autoplay: true,
-      // 		infinite: true,
-      // 		swipe: true,
-      // 		fade: false,
-      // 		dots: false,
-      // 		arrows: false,
-      // 		slidesToShow: 3,
-      // 		slidesToScroll: 1,
-      // 		responsive: [
-      // 			{
-      // 				breakpoint: 992,
-      // 				settings: {
-      // 					slidesToShow: 2
-      // 				}
-      // 			},
-      // 			{
-      // 				breakpoint: 768,
-      // 				settings: {
-      // 					slidesToShow: 1
-      // 				}
-      // 			}
-      // 		]
-      // 	});
-
-      // 	$('.con-benefit .slick-prev').on('click', function() {
-      // 		benafitSlider.slick('prev');
-      // 	});
-      // 	$('.con-benefit .slick-next').on('click', function() {
-      // 		benafitSlider.slick('next');
-      // 	});
-      // });
     });
   </script>
 

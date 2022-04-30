@@ -74,17 +74,27 @@
   .block-mission-left {
     ul.ul-mission {
       list-style: none;
-      @include mq(max_sm) {
+      @include mq(max_xl) {
         padding-left: 0px;
       }
       li.li-mission {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        @include mq(max_xs) {
+          margin-bottom: 20px;
+        }
         .item-mission {
           display: flex;
           img {
             width: 100%;
             height: auto;
             max-width: 109px;
+            @include mq(max_md) {
+              max-width: 80px;
+            }
+            @include mq(max_xs) {
+              max-width: 60px;
+              margin-top: -20px;
+            }
           }
           p {
             @include font-recruiment(18px, #1A202C, 400);
@@ -94,30 +104,53 @@
       }
     }
   }
+  .col-mission-left {
+    @include mq(xl) {
+      width: 34%;
+    }
+  }
   .col-mission-right {
-    display: flex;
-    align-items: center;
+    @include mq(xl) {
+      width: 66%;
+    }
+    @include mq(max_xl) {
+      align-self: center;
+    }
     .mission-right {
-      background: url(../images/subtract.png) no-repeat;
-      background-size: cover;
-      padding: 50px 0px 50px 35px;
-      width: 100%;
-      @include mq(max_sm) {
-        padding: 30px 0px 30px 30px;
+      @include mq(max_xs) {
+        display: table;
+        margin: 0 auto;
       }
       h2 {
-        @include font-recruiment(54px, #2D3748, 700);
-        padding-left: 25px;
+        display: table;
+        line-height: (86 / 68);
+        background: transparent url(../images/subtract.png) no-repeat left center;
+        background-size: 100% 100%;
+        @include font-recruiment(68px, #2D3748, 700);
+        padding: 60px 100px 90px 90px;
+        margin: -37px 0 0 auto;
+        @include mq(max_xl) {
+          font-size: 54px;
+          margin-top: 0;
+        }
+        @include mq(max_lg) {
+          font-size: 40px;
+          padding: 50px 70px 70px;
+        }
+        @include mq(max_md) {
+          margin: -20px auto 0;
+        }
         @include mq(max_sm) {
-          @include font-recruiment(32px, #2D3748, 700);
-          padding-left: 10px;
-          line-height: 1.3;
+          font-size: 37px;
+        }
+        @include mq(max_xs) {
+          font-size: 30px;
+          padding: 40px 34px 50px;
+          margin-left: -12px;
+          margin-right: -12px;
         }
         span {
-          &:nth-child(2) {
-            color: $primary;
-            display: block;
-          }
+          font-weight: 900;
         }
       }
     }
