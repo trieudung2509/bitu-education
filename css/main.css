@@ -3502,6 +3502,11 @@ img.mfp-img {
     padding: 10px 0px;
   }
 }
+@media only screen and (max-width: 575px) {
+  .block-recruitment-1 .block1-recruitment-left {
+    padding: 30px 0px;
+  }
+}
 .block-recruitment-1 .block1-recruitment-left h5 {
   font-size: 48px;
   font-weight: 700;
@@ -3566,6 +3571,11 @@ img.mfp-img {
 
 .block-mission {
   padding: 80px 0px;
+}
+@media screen and (min-width: 2550px) {
+  .block-mission {
+    padding: 250px 0px 80px;
+  }
 }
 .block-mission .mission-title {
   margin-bottom: 60px;
