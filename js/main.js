@@ -63,4 +63,10 @@ $(function() {
 $(document).ready(function () {
 	$('.menu-item').removeClass('active')
 	$('a[href="' + location.pathname.split("/")[location.pathname.split("/").length-1] + '"]').addClass('active')
+
+	$("#apply-recruitment").on("click", function() {
+			$('html, body').animate({
+        scrollTop: $("#block-recruit").offset().top
+    }, 500);
+	});
 });
