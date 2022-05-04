@@ -3493,8 +3493,24 @@ img.mfp-img {
 
 .block-recruitment-1 {
   position: relative;
-  background: url("../images/bg-one.png");
-  background-size: cover;
+}
+.block-recruitment-1::before {
+  content: "";
+  background-image: url(../images/bg-one.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: 40%;
+  background-size: contain;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  z-index: -1;
+}
+@media only screen and (max-width: 991px) {
+  .block-recruitment-1::before {
+    content: none;
+  }
 }
 .block-recruitment-1 .block1-recruitment-left {
   padding: 60px 20px 80px 0px;
@@ -3559,7 +3575,7 @@ img.mfp-img {
   }
 }
 .block-recruitment-1 .block1-recruitment-right {
-  position: absolute;
+  width: 100%;
 }
 @media only screen and (max-width: 767px) {
   .block-recruitment-1 .block1-recruitment-right {
@@ -3567,16 +3583,25 @@ img.mfp-img {
   }
 }
 .block-recruitment-1 .block1-recruitment-right img {
-  width: 100%;
+  width: 50%;
   height: auto;
+  position: absolute;
+  right: 0;
+}
+@media only screen and (max-width: 767px) {
+  .block-recruitment-1 .block1-recruitment-right img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .block-mission {
   padding: 80px 0px;
 }
-@media screen and (min-width: 2550px) {
+@media screen and (min-width: 1441px) {
   .block-mission {
-    padding: 250px 0px 80px;
+    padding: 450px 0px 80px;
   }
 }
 .block-mission .mission-title {
@@ -4256,6 +4281,7 @@ img.mfp-img {
 }
 .con-about-intro .description {
   margin-bottom: 40px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 767px) {
   .con-about-intro .description {

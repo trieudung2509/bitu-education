@@ -22,8 +22,22 @@
 // block: block-recruitment
 .block-recruitment-1 {
   position: relative;
-  background: url('../images/bg-one.png');
-  background-size: cover;
+  &::before {
+    content: "";
+    background-image: url(../images/bg-one.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    top: 40%;
+    background-size: contain;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    z-index: -1;
+    @include mq(max_md) {
+      content: none;
+    }
+  }
 
   .block1-recruitment-left {
     padding: 60px 20px 80px 0px;
@@ -60,13 +74,20 @@
     }
   }
   .block1-recruitment-right {
-    position: absolute;
+    width: 100%;
     @include mq(max_sm) {
       position: relative;
     }
     img {
-      width: 100%;
+      width: 50%;
       height: auto;
+      position: absolute;
+      right: 0;
+      @include mq(max_sm) {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
@@ -74,8 +95,8 @@
 // block: block-mission
 .block-mission {
   padding: 80px 0px;
-  @media screen and (min-width: 2550px) {
-    padding: 250px 0px 80px;
+  @media screen and (min-width: 1441px) {
+    padding: 450px 0px 80px;
   }
   .mission-title {
     margin-bottom: 60px;

@@ -63,6 +63,7 @@ $container: 1272px;
   }
   .description {
     margin-bottom: 40px;
+    font-size: 20px;
     @include mq(max_sm) {
       text-align: center;
       margin-bottom: 24px;
