@@ -17,7 +17,7 @@
           </div>
           <div class="col-lg-5 col-md-7 col-12">
             <div class="block1-recruitment-right">
-              <img src="images/Mask group.jpg" alt="">
+              <img src="images/block-recruitment-1.png" alt="block-recruitment-1" width="736">
             </div>
           </div>
         </div>

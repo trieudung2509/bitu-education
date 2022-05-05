@@ -22,6 +22,14 @@
 // block: block-recruitment
 .block-recruitment-1 {
   position: relative;
+  overflow: hidden;
+  padding: 85px 0 164px;
+  @include mq(max_xl) {
+    padding: 85px 0;
+  }
+  @include mq(max_xs) {
+    padding: 40px 0;
+  }
   &::before {
     content: "";
     background-image: url(../images/bg-one.png);
@@ -35,17 +43,54 @@
     height: 100%;
     z-index: -1;
     @include mq(max_md) {
-      content: none;
+      display: none;
+    }
+  }
+  &::after {
+    display: block;
+    content: "";
+    background: transparent url(../images/bg-block-recruitment-1.png) no-repeat left top;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    width: 1079px;
+    height: 765px;
+    z-index: -1;
+    @include mq(max_xl) {
+      width: 830px;
+      height: 666px;
+    }
+    @include mq(max_lg) {
+      width: 700px;
+      height: 555px;
+    }
+    @include mq(max_md) {
+      width: 550px;
+      height: 444px;
+    }
+    @include mq(max_sm) {
+      left: 22%;
+      width: 680px;
+      height: 534px;
+    }
+    @include mq(max_xs) {
+      width: 110vw;
+      height: 87vw;
     }
   }
 
   .block1-recruitment-left {
     padding: 60px 20px 80px 0px;
+    @include mq(max_lg) {
+      padding: 0 20px 0 0;
+    }
     @include mq(max_sm) {
       padding: 10px 0px;
+      margin-bottom: 30px;
     }
     @include mq(max_xs) {
-      padding: 30px 0px;
+      padding: 0;
     }
     h5 {
       @include font-recruiment(64px, $primary, 700);
@@ -68,36 +113,20 @@
       padding: 15px 70px;
       margin-top: 12px;
       @include mq(max_sm) {
+        min-width: 228px;
         @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 18px, #fff, 400);
         padding: 13px 23px;
       }
     }
   }
   .block1-recruitment-right {
-    width: 100%;
-    @include mq(max_sm) {
-      position: relative;
-    }
-    img {
-      width: 50%;
-      height: auto;
-      position: absolute;
-      right: 0;
-      @include mq(max_sm) {
-        position: relative;
-        width: 100%;
-        height: auto;
-      }
-    }
+    text-align: right;
   }
 }
 
 // block: block-mission
 .block-mission {
-  padding: 80px 0px;
-  @media screen and (min-width: 1441px) {
-    padding: 450px 0px 80px;
-  }
+  padding: 30px 0px 80px;
   .mission-title {
     margin-bottom: 60px;
   }
