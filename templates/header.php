@@ -82,4 +82,4 @@
 		</ul>
   </div>
 </div>
-<!-- /END .main-header -->
+<!-- /END .offcanvas -->
