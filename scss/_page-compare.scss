@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+/* -----------------------------------------------------------
+	.con-compare-intro
+----------------------------------------------------------- */
+.con-compare-intro {
+	position: relative;
+	padding: 166px 0 140px;
+	@media only screen and (max-width: 1599px) {
+		padding: 100px 0;
+	}
+	&:before {
+		display: block;
+		content: '';
+		position: absolute;
+		left: 50%;
+		top: 37%;
+		transform: translate(-50%, -50%);
+		width: (1565 / 1920) * 100vw;
+		height: 592px;
+		background: transparent url(../images/bg-compare-intro.png) repeat left top;
+		z-index: -1;
+		@include mq(max_sm) {
+			display: none;
+		}
+	}
+	.title-lg {
+		text-align: left;
+		margin-bottom: 16px;
+	}
+	.txt {
+		font-size: 20px;
+		color: #4a5568;
+		margin-bottom: 40px;
+	}
+	.box-btn {
+	}
+	.img-compare-intro {
+		position: absolute;
+		left: 50%;
+		right: auto;
+		top: 0;
+		width: 47vw;
+		max-width: 807px;
+		@include mq(max_xl) {
+			top: 10%;
+		}
+		@include mq(max_sm) {
+			position: static;
+			left: auto;
+			top: auto;
+			max-width: 100%;
+			width: 100%;
+		}
+	}
+}
+
+/* -----------------------------------------------------------
+	.con-compare-table
+----------------------------------------------------------- */
+.con-compare-table {
+	padding: 0 0 200px;
+	@include mq(max_lg) {
+		padding-bottom: 100px;
+	}
+	.box-list {
+		.item {
+			font-size: 18px;
+			color: #1a202c;
+			border-radius: 16px;
+			padding: 0 20px;
+			@include mq(max_lg) {
+				font-size: 16px;
+			}
+			@include mq(max_sm) {
+				min-height: 60px;
+				font-size: 14px;
+			}
+			@include mq(max_xs) {
+				min-height: 0;
+				border-radius: 0;
+			}
+			&:nth-child(odd) {
+				background: #f2f6f9;
+			}
+		}
+		.row {
+			align-items: center;
+			min-height: 80px;
+		}
+		.col-title,
+		.col-description {
+			padding-top: 13px;
+			padding-bottom: 13px;
+			@include mq(max_sm) {
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+		}
+		.col-title {
+			width: 23%;
+			font-weight: 500;
+		}
+		.col-description {
+			width: (100% - 23%) / 2;
+			text-align: center;
+		}
+		.txt-title {
+			font-weight: 500;
+			font-size: 18px;
+			background: $primary;
+			color: #fff;
+			border-radius: 8px;
+			padding: 8px 17px;
+			margin-top: 16px;
+		}
+	}
+}
