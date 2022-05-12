@@ -129,10 +129,10 @@ ul.ul-level {
       @include mq(max_xs) {
         display: flex;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 10px;
       }
       img {
-        width: 50%;
+        width: 65%;
         margin: 0 auto;
         display: block;
         @include mq(max_xs) {

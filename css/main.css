@@ -6042,11 +6042,11 @@ ul.ul-level li::before {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 .block-level .block-item .item-img img {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
   display: block;
 }
