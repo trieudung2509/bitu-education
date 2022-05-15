@@ -6246,3 +6246,9 @@ ul.ul-level li::before {
   display: inline-block;
   padding: 5px 18px;
 }
+
+.btn-compare, .btn-level-detail {
+  display: block;
+  text-decoration: none;
+  min-width: max-content;
+}
