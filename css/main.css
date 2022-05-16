@@ -3491,6 +3491,14 @@ img.mfp-img {
   }
 }
 
+.btn-compare, .btn-level-detail {
+  display: block;
+  text-decoration: none;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
 .mission-title h2 {
   font-size: 48px;
   font-weight: 700;
@@ -5975,12 +5983,19 @@ ul.ul-level li {
   color: #1A202C;
   font-weight: 400;
   margin-bottom: 12px;
+  position: relative;
+  padding-left: 20px;
 }
 ul.ul-level li::before {
-  content: "•";
-  color: #A0AEC0;
-  display: inline-block;
-  width: 1em;
+  content: "";
+  background: #A0AEC0;
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: 13px;
+  left: 0;
 }
 
 .block-item-one {
@@ -5997,6 +6012,18 @@ ul.ul-level li::before {
   left: 21px;
   bottom: 315px;
 }
+@media only screen and (max-width: 991px) {
+  .block-item-one::before {
+    top: 70px;
+    bottom: 410px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .block-item-one::before {
+    bottom: 462px;
+    top: 90px;
+  }
+}
 @media only screen and (max-width: 575px) {
   .block-item-one {
     padding-bottom: 50px;
@@ -6012,6 +6039,9 @@ ul.ul-level li::before {
     padding: 40px 0px 0px;
   }
 }
+.block-level .block-item [class*=col-md-9] {
+  padding: 0px;
+}
 .block-level .block-item:last-child::before {
   content: "";
   width: 21px;
@@ -6023,6 +6053,21 @@ ul.ul-level li::before {
   left: 0px;
   background: #E2E8F0;
 }
+@media only screen and (max-width: 991px) {
+  .block-level .block-item:last-child::before {
+    bottom: 406px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .block-level .block-item:last-child::before {
+    bottom: 350px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .block-level .block-item:last-child::before {
+    bottom: 410px;
+  }
+}
 .block-level .block-item:not(:last-child)::before {
   content: "";
   width: 21px;
@@ -6033,6 +6078,16 @@ ul.ul-level li::before {
   top: 100px;
   left: 0px;
   background: #E2E8F0;
+}
+@media only screen and (max-width: 991px) {
+  .block-level .block-item:not(:last-child)::before {
+    top: 60px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .block-level .block-item:not(:last-child)::before {
+    top: 75px;
+  }
 }
 @media only screen and (max-width: 575px) {
   .block-level .block-item .item-img {
@@ -6245,10 +6300,4 @@ ul.ul-level li::before {
   text-align: center;
   display: inline-block;
   padding: 5px 18px;
-}
-
-.btn-compare, .btn-level-detail {
-  display: block;
-  text-decoration: none;
-  min-width: max-content;
 }

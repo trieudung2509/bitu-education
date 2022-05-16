@@ -64,11 +64,18 @@ ul.ul-level {
   li {
     @include level-description;
     margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
     &::before {
-      content: "\2022";
-      color: #A0AEC0;
-      display: inline-block;
-      width: 1em;
+      content: "";
+      background: #A0AEC0;
+      width: 6px;
+      height: 6px;
+      display: block;
+      position: absolute;
+      border-radius: 50%;
+      top: 13px;
+      left: 0;
     }
   }
 }
@@ -85,6 +92,14 @@ ul.ul-level {
     top: 100px;
     left: 21px;
     bottom: 315px;
+    @include mq(max_md) {
+      top: 70px;
+      bottom: 410px;
+    }
+    @media only screen and (max-width: 376px) {
+      bottom: 462px;
+      top: 90px;
+    }
   }
   @include mq(max_xs) {
     padding-bottom: 50px;
@@ -98,6 +113,9 @@ ul.ul-level {
     @include mq(max_xs) {
       padding: 40px 0px 0px;
     }
+    [class*="col-md-9"] {
+      padding: 0px;
+    }
     &:last-child {
       &::before {
         content: "";
@@ -109,6 +127,15 @@ ul.ul-level {
         bottom: 300px;
         left: 0px;
         background: #E2E8F0;
+        @include mq(max_md) {
+          bottom: 406px;
+        }
+        @include mq(max_xs) {
+          bottom: 350px;
+        }
+        @media only screen and (max-width: 376px) {
+          bottom: 410px;
+        }
       }
     }
     &:not(:last-child) {
@@ -122,6 +149,12 @@ ul.ul-level {
         top: 100px;
         left: 0px;
         background: #E2E8F0;
+        @include mq(max_md) {
+          top: 60px;
+        }
+        @media only screen and (max-width: 376px) {
+          top: 75px;
+        }
       }
     }
 
