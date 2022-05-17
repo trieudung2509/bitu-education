@@ -107,6 +107,10 @@ ul.ul-level {
 }
 
 .block-level {
+  padding-bottom: 100px;
+  @include mq(max_xs) {
+    padding-bottom: 30px;
+  }
   .block-item {
     padding: 40px 0px 60px;
     position: relative;

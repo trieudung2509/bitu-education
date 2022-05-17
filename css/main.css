@@ -6030,6 +6030,14 @@ ul.ul-level li::before {
   }
 }
 
+.block-level {
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 575px) {
+  .block-level {
+    padding-bottom: 30px;
+  }
+}
 .block-level .block-item {
   padding: 40px 0px 60px;
   position: relative;
