@@ -4264,6 +4264,20 @@ img.mfp-img {
   padding: 15px 48px;
 }
 
+.con-about-life.recruitment {
+  padding-top: 160px;
+}
+@media only screen and (max-width: 1399px) {
+  .con-about-life.recruitment {
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .con-about-life.recruitment {
+    padding-top: 50px;
+  }
+}
+
 /* -----------------------------------------------------------
 	.con-intro
 ----------------------------------------------------------- */

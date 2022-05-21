@@ -580,3 +580,12 @@
     }
   }
 }
+.con-about-life.recruitment {
+  padding-top: 160px;
+  @include mq(max_xl) {
+    padding-top: 80px;
+  }
+  @include mq(max_sm) {
+    padding-top: 50px;
+  }
+}
