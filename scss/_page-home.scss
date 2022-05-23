@@ -66,6 +66,11 @@
 		@include mq(max_sm) {
 			margin-bottom: 10px;
 		}
+		.text-primary {
+			background: linear-gradient(to right, #ff7003 0%, #ff9703 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+		}
 	}
 	.register-form-common {
 		box-shadow: 0 7px 16px 2px rgba(0, 0, 0, 0.10);
