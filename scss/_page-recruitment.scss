@@ -579,6 +579,14 @@
       padding: 15px 48px;
     }
   }
+  .block-button {
+    a.btn-apply {
+      @include background-button(linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%), 20px, #fff, 400);
+      box-shadow: 0 10px 24px 4px rgb(255 109 3 / 30%);
+      padding: 15px 48px;
+      text-decoration: none;
+    }
+  }
 }
 .con-about-life.recruitment {
   padding-top: 160px;

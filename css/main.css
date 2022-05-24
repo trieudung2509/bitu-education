@@ -4269,6 +4269,18 @@ img.mfp-img {
           box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
   padding: 15px 48px;
 }
+.list-recruiment .block-button a.btn-apply {
+  background: linear-gradient(99.06deg, #FF6D03 0%, #FF9A03 98.55%);
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
+          box-shadow: 0 10px 24px 4px rgba(255, 109, 3, 0.3);
+  padding: 15px 48px;
+  text-decoration: none;
+}
 
 .con-about-life.recruitment {
   padding-top: 160px;
